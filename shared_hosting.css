@@ -1,0 +1,45 @@
+/* Design First Section */
+
+.sharedHosting__HeaderContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.sharedHosting__HeaderTxt
+{
+    width: 50%;
+}
+
+.sharedHosting__SimpleHighlighter
+{
+    background: hsla(0, 0%, 100%, .1);
+    width: 30%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.sharedHosting__SimpleHighlighter p 
+{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.sharedHosting__H3
+{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4rem;
+    margin: 1rem 0;
+}
+
+.sharehHosting__Desc
+{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
