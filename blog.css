@@ -1,0 +1,248 @@
+/*================================= DESIGN FRAME2 ===============================*/
+.blog__FrameTwo
+{
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : center;
+    margin : 5rem 0;
+    padding : 5rem 1rem;
+    overflow: hidden;
+}
+
+.blog__FrameTwoTxtContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.blog__FrameTwoImgContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : row;
+    align-items: flex-start;
+    justify-content : center;
+    position : relative;
+}
+
+.blog__FrameSmTagTxt
+{
+    margin-bottom : 0.3rem;
+}
+
+.blog__FrameSmTagTxt p 
+{
+    width : fit-content;
+    background: hsla(0, 0%, 100%, .1);
+    padding : 0.5rem 1rem;
+    border-radius : 0.3rem;
+    font-size : 0.9rem;
+    font-weight : 500;
+}
+
+.blog__FrameTwoTxtContainer h3 
+{
+    font-size : 3.2rem;
+    font-weight : bold;
+}
+
+.blog__FrameSmallTxt
+{
+    font-size : 1rem;
+    font-weight: 500;
+    max-width : 90%;   
+    margin-bottom : 1rem;
+}
+
+.blog__FrameBtn
+{
+    background : #ffc107;
+    color : #4c5671;
+    padding : 0.9rem 1.5rem;
+    border-radius : 0.5rem;
+    font-size: 1rem;
+    font-weight : bolder;
+    cursor : pointer;
+}
+
+.about__BlogFirstImg
+{
+    position : relative;
+    vertical-align : middel;
+}
+
+.about__BlogSecImg
+{
+    position : absolute;
+    bottom : 90px;
+    right : 90px;
+}
+
+.about__LeftToRight
+{
+    position : absolute;
+    top : -80px;
+    right : 10px;
+    animation: moveLeftToRight 15s linear infinite;
+}
+
+@keyframes moveLeftToRight {
+    0% {
+        transform: translateX(-50px);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(-50px);
+    }
+}
+
+
+/* ================================== Design Frame Three ================================*/
+.Blog__FrameThree
+{
+    margin : 5rem 1rem;
+    padding : 5rem 1rem;
+}
+
+.Blog__CardBigContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 1rem;
+}
+
+.blog__CardOne
+{
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : space-between;
+    margin-bottom : 6rem;
+    gap : 2rem;
+}
+
+.blog__CardImgContainer
+{
+    width : 40%;
+    height : 272px;
+}
+
+.blog__CardImgContainer img 
+{
+    width : 100%;
+    height : 100%;
+}
+
+.blog__CardTxtContainer
+{
+    width : 70%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.blog__CardSmTxtTag
+{
+    padding : 0.3rem 0.7rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 0.5rem;
+    background: #fff;
+    box-shadow: 0 4px 10px 3px rgba(0, 0, 0, .06);
+}
+
+.blog__CardSmTxtTag h4 
+{
+    font-weight: bolder;
+    color : #4c5671;
+}
+
+.blog__CardTxt__Round 
+{
+    width: 6px;
+    height: 6px;
+    line-height: 6px;
+    border-radius: 50%;
+    background: #d9d9d9;
+}
+
+.blog__CardTxt__date
+{
+    color : #4c5671;
+}
+
+.blog__CardSmTxth4 h4 
+{
+    font-size : 1.3rem;
+    font-weight : bolder;
+    color : #2d3c58;
+    transition : all 0.3s ease;
+}
+
+.blog__CardSmTxth4:hover h4 
+{
+    text-decoration: underline;
+}
+
+.blog__CardSmTxtp p 
+{
+    width : 90%;
+    font-size : 1rem;
+    font-weight : 500;
+    color : #2d3c58;
+}
+
+.blog__CardSmTxtBtn button 
+{
+    font-size: 1.1rem;
+    font-weight : 600;
+    color : #4c5671;
+}
+
+.Blog__CardNavigationContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.Blog__CardNavigationOne
+{
+    font-size : 1.2rem;
+    width : 30px;
+    height : 30px;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    transition : all 0.3s ease; 
+}
+
+.Blog__CardNavigationOne:hover 
+{
+    color : #fff;
+    background: #007BFF;
+    border-radius : 50%;
+}
+
+.Blog__NavigationActive
+{
+    color : #fff;
+    background: #007BFF;
+    border-radius : 50%;
+}
