@@ -346,3 +346,331 @@
 {
     font-size : 0.7rem;
 }
+
+/* ============================== Style Frame4 =====================================*/
+.about__Frame4
+{
+    background: linear-gradient(180deg, #033aa7, #0051f0);
+    padding : 3rem 5rem;
+    margin : 3rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.about__NumbericBanner
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+}
+
+.about__NumItemOne
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : center;
+}
+
+.about__NumItemOne h3 
+{
+    font-size : 1.8rem;
+    font-weight : bold;
+    color : #fff;
+    margin : 1rem 0;
+}
+
+.about__NumItemOne p 
+{
+    color : #fff;
+}
+
+
+/* ============================== Style Frame5 =====================================*/
+.about__Frame5
+{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin : 10rem 2rem;
+}
+
+.about__TeamContainer
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.about__TeamHeader
+{
+    margin : 3rem 0;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.about__TeamHeader h3 
+{
+    font-size : 3.5rem;
+    font-weight : 600;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.about__TeamHeader p 
+{
+    max-width : 60%;
+    font-size: 1.1rem;
+    text-align: center;
+    margin : 1rem 0;
+}
+
+.about__TeamImgContainer
+{
+    margin-top : 1rem;
+}
+
+.about__TeamImgCards
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    flex-wrap : wrap;
+}
+
+.about__TeamImgCard
+{
+    margin-bottom: 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 0rem;
+    background : #fff;
+}
+
+.about__TeamImgCardImg
+{
+    width : 400px;
+    height : 400px;
+}
+
+.about__TeamImgCardImg img 
+{
+    width : 100%;
+    height : 100%;
+}
+
+.about__TeamImgCardTxt
+{
+    width : 100%;
+    padding : 2rem 0;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content: center;
+    background-color : #fff;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .05);
+}
+
+.about__TeamImgCardTxt h3 
+{
+    font-size : 2rem;
+    font-weight : bold;
+    color : #4c5671;
+}
+
+.about__TeamImgCardTxt p 
+{
+    font-size : 1.2rem;
+    font-weight : 500;
+    color : #4c5671;
+}
+
+/* ================================ Design Frame6 ================================= */
+.about__Frame6
+{
+    background-color : #f4f9ff;
+    padding : 5rem 1rem;
+    display: flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    overflow : hidden;
+}
+
+.about__ClientFeedBackHeader
+{
+    margin-bottom : 3rem;
+}
+
+.about__ClientFeedBackTxtContainer
+{
+    width : 100%;
+    display: flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.about__ClientFeedBackTxtContainer h3 
+{
+    font-size : 3rem;
+    font-weight : bold;
+    text-transform : capitalize;
+    color : #2d3c58;
+}
+
+.about__ClientFeedBackTxtContainer p 
+{
+    color : #2d3c58;
+    width : 70%;
+    text-align : center;
+    font-size : 1.1rem;
+    margin : 1rem auto;
+}
+
+.about__ClientFeedBackCardContainer
+{
+    width : auto;
+    margin : 2rem auto;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : nowrap;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 2rem;
+    overflow : hidden;
+}
+
+.about__ClientCardOne
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content: flex-start;
+    gap : 1rem;
+    width : 410px;
+    height : 350px;
+    padding : 2rem;
+    background-color : #eaf1ff;
+    border-radius: 0.5rem;
+    transition : all 0.3s ease;
+}
+
+.about__ClientCardOne:hover 
+{
+    background-color : #0051f0;
+}
+
+.about__ClientCardOne:hover .about__ClientCardOneIcon svg path
+{
+    fill : #fff;
+}
+
+.about__ClientCardSmTxt
+{
+    margin : 0.5rem 0;
+    padding : 1rem 0;
+} 
+
+.about__ClientCardOne:hover .about__ClientCardSmTxt p
+{
+    color : #fff;
+}
+
+.about__ClientCardSmTxt p 
+{
+    font-size : 1.1rem;
+    color : #2d3c58;
+    font-weight : 500;
+}
+
+.about__ClientCardProfileContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 1rem;
+}
+ 
+.about__ClientProfileTxt h4 
+{
+    font-size : 1.3rem;
+    font-weight : bold;
+    color : #4c5671;
+}
+
+.about__ClientCardOne:hover .about__ClientProfileTxt h4
+{
+    color : #fff;
+}
+
+.about__ClientProfileTxt span 
+{
+    color : #4c5671;
+}
+
+.about__ClientCardOne:hover .about__ClientProfileTxt span 
+{
+    color : #fff;
+}
+
+/*================================ Design Frame 7 =================================*/
+.about__Frame7
+{
+    margin : 5rem auto;
+    padding : 58px 48px;
+    width : 98%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    background : linear-gradient(92deg, #3990ff 3.85%, #2c73fe 101.14%);
+    border-radius : 1rem;
+    overflow : hidden;
+}
+
+.about__smPlanContainer
+{
+    width : 100%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+}
+
+.about__SmPlanTxtContainer
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+}
+
+.about__smPlanHighLightTxt p 
+{
+    width : fit-content;
+    margin-bottom : 1rem;
+    padding : 0.3rem 0.5rem;
+    color : #fff;
+    background: hsla(0, 0%, 100%, .1);
+    border-radius : 0.3rem;
+    font-size : 1.2rem;
+    font-weight : bold;
+}
+
+.about__smPlanHighLightTxt h3 
+{
+    font-size : 2.3rem;
+    font-weight : bolder;
+    color: #fff;
+    text-transform : capitalize;
+}
