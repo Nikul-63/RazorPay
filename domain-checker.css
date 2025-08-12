@@ -251,6 +251,140 @@
     font-weight : 600;
 }
 
+
+/*================================= Design Frame 3 ==================================*/
+.domain__Frame3
+{
+    margin : 3rem 0rem 0rem;
+    padding : 5rem 3rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    background-color : #f4f9ff;
+}
+
+.domain__PriceListContainer
+{
+    width : 100%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.domain__PriceListTxt
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.domain__PriceListTxt h3 
+{
+    font-size : 3rem;
+    font-weight : 700;
+    color : #2d3c58;
+}
+
+.domain__PriceListTxt p 
+{
+    width : 60%;
+    font-size : 1rem;
+    font-weight : 400;
+    text-align : center;
+    color : #2d3c58;
+}
+
+.domain__PriceTagContainer
+{
+    margin-top : 2rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.domain__PriceOne
+{
+    padding : 0.3rem 1rem;
+    border-radius: 1rem;
+    color : #2d3c58;
+    transition : all 0.3s ease;
+    cursor : pointer;
+}
+
+.domain__PriceOne:hover 
+{
+    background : #0774ff;
+    color : #fff;
+}
+
+.domain__PriceOne.domain__PriceOneActive
+{
+    background : #0774ff;
+    padding : 0.3rem 1rem;
+    border-radius: 1rem;
+    color : #fff;
+}
+
+.domain__PriceListMenu
+{
+    margin : 3rem auto;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.special__PriceListMenuTag
+{
+    width : 70vw;
+    padding :1.5rem 2rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 1rem;
+    background-color : #0774ff;
+    color : #fff;
+}
+
+.special__PriceListMenuTag li 
+{
+    font-size : 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.normal__PriceListMenuTag
+{
+    width : 70vw;
+    padding : 1.5rem 2rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    border: 1px solid #d4dcff;
+    border-top : none;
+}
+
+.normal__PriceListMenuTag:hover 
+{
+    background-color: rgba(0, 0, 0, .075);
+}
+/* .normal__PriceListMenuTag li 
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content: center;
+} */
+
 /*============================= Design Frame4 Css =========================*/
 .domain__Frame4
 {
