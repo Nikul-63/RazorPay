@@ -1,0 +1,264 @@
+.wordpress__SmTxtTag
+{
+    width : 25%;
+}
+
+.about__HeaderImgContainer
+{
+    position : relative;
+    z-index : 1;
+}
+
+.wordPressSearchContainer
+{
+    width : 80px;
+    height : 80px;
+    position : absolute;
+    top : -25px;
+    right : 32%;
+    left : unset;
+    z-index : 1;
+}
+
+.wordpress__Search
+{
+    width : 100%;
+    height : 100%;
+    animation : moveTopToBottom 15s linear infinite;
+}
+
+@keyframes moveTopToBottom {
+    0% 
+    {
+        transform : translateY(-20%);
+    }
+    50% 
+    {
+        transform : translateY(20%);
+    }
+    100%
+    {
+        transform : translateY(-20%);
+    }
+}
+
+.wordPress__SmImg1
+{
+    position : absolute;
+    top : 25%;
+    right : unset;
+    left : 15px;
+    bottom : unset;
+    z-index : 1;
+    animation : pulsing 3s linear infinite;
+}
+
+.wordPress__SmImg2
+{
+    position : absolute;
+    bottom : 12%;
+    right : 10px;
+    left : unset;
+    top : unset;
+    z-index : 1;
+    animation : pulsing 3s linear infinite;
+}
+
+.wordpress__Frame1
+{
+    margin : 3rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.wordpress__Frame1Txt
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.wordpress__Frame1Txt h3 
+{
+    margin-bottom : 1rem;
+    font-size : 3rem;
+    font-weight : 700;
+    line-height : 3.4rem;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.wordpress__Frame1Txt p 
+{
+    width : 80%;
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.wordpress__SmFeatures
+{
+    width : 100%;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.wordpress__SmFeaturesLeftContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+}
+
+.wordpress__SmFeaturesLeftContainer h4
+{
+    color : #2d3c58;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #2d3c58;
+    font-size : 64px;
+    font-weight : 800;
+    line-height : 60px;
+    margin-bottom: 0.8rem;
+}
+
+
+
+.wordpress__SmFeaturesRightContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.wordpress__BadgeTag
+{
+    width : 100%;
+    border : 1px solid #dfeaff;
+    border-radius : 0.3rem;
+    padding : 1rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.wordpress__BadgeTagTxt h5 
+{
+    font-size : 1.1rem;
+    font-weight : 700;
+    color : #4c5671;
+    text-transform : capitalize;
+}
+
+.wordpress__BadgeTagTxt p 
+{
+    width : 100%;
+    color : #4c5671;
+}
+
+.wordpress__Frame1Img
+{
+    position : relative;
+    z-index : 1;
+    border-radius : 0.8rem;
+    overflow : hidden;
+}
+
+.wordpressLogo
+{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+}
+
+/* ======================== Design Second Frame =========================*/
+.wordpress__Frame2
+{
+    margin : 3rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 2rem; 
+}
+
+.wordpressPluginContainerTxt
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.wordpressPluginContainerTxt h3 
+{
+    font-size : 2.3rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.wordpressPluginContainerTxt p 
+{
+    width : 70%;
+    text-align: center;
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.wordpressPluginContainerCards
+{
+    width : 100%;
+    margin : 3rem 0rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.wordpressFrame2__Card
+{
+    padding : 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+    border : 1px solid #dfeaff;
+    border-radius : 10px;
+}
+
+.wordpressFrame2__Card h3 
+{
+    font-size : 1.2rem;
+    font-weight : 700;
+    color : #2d3c58;
+}
+
+.wordpressFrame2__Card p 
+{
+    text-align : center;
+    color : #4c5671;
+}

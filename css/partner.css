@@ -1,0 +1,271 @@
+/*====================== Design Frame 1 ==========================*/
+.partner__Frame1Container
+{
+    margin : 1rem 0rem;
+    padding : 4rem 2rem;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.partner__Frame1TxtContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.partner_Frame1SmTag
+{
+    padding : 0.5rem 1rem;
+    border-radius : 0.3rem;
+    background : hsla(0, 0%, 100%, .1);
+}
+
+.partner__Frame1TxtContainer h3 
+{
+    font-size : 55px;
+    font-weight : 700;
+    line-height : 3.5rem;
+    text-transform : capitalize;
+}
+
+.partner__Frame1SmDesc
+{
+    margin : 1rem 0;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 0.5rem;
+}
+
+.partner__Frame1Desc1
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.partner__Frame1DescIcon 
+{
+    width : 15px;
+    height : 15px;
+    background-color : #ffc107;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    border-radius : 50%;
+}
+
+.partner__Frame1DescIcon i 
+{
+    font-size : 0.5rem;
+    margin : 0 auto;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    color : #0774ff;
+}
+
+.partner__Frame1DescTxt h5
+{
+    font-weight : 400;
+}
+
+.partner__secondBanner__Btn
+{
+    margin-top : 2rem;
+}
+
+.partner__Frame1ImgContainer
+{
+    position : relative;
+    z-index : 1;
+}
+
+.partner__fram1SmImg1
+{
+    position : absolute;
+    top : 4%;
+    bottom : 0;
+    left : 37%;
+    right : 0;
+    animation : moveLeftToRight2 15s linear infinite;
+}
+
+@keyframes moveLeftToRight2 {
+    0% 
+    {
+        transform : translateX(-20px);
+    }
+
+    50% 
+    {
+        transform : translateX(20px);
+    }
+
+    100% 
+    {
+        transform : translateX(-20px);
+    }
+}
+
+.partner__fram1SmImg2
+{
+    position : absolute;
+    top : 4%;
+    right : 0;
+    animation : moveLeftToRight2 15s linear infinite;
+}
+
+.partner__fram1SmImg3
+{
+    position : absolute;
+    top : 3%;
+    right : 28%;
+}
+
+.partner__fram1SmImg4
+{
+    position : absolute;
+    top : 0;
+    left : 10%;
+    animation : rotateSetting 20s linear infinite;
+}
+
+@keyframes rotateSetting 
+{
+    100% 
+    {
+        transform : rotate(1turn);
+    }
+}
+
+.partner__fram1SmImg5
+{
+    position : absolute;
+    top : 12%;
+    left : 0;
+    animation : rotateSetting 20s linear infinite;
+}
+
+
+/*=========================== Design Second Frame ======================*/
+.partner__Frame2Container
+{
+    margin : 3rem 0rem;
+    padding : 3rem 2rem;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.partner__Frame2TxtContainer
+{
+    width : 40%;
+    display : flex;
+    flex-direction :column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 0.5rem;
+}
+
+.partner__Frame2TxtContainer h3 
+{
+    font-size : 3rem;
+    font-weight : 700;
+    line-height : 3.2rem;
+    margin-bottom : 1rem;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.partner__Frame2TagContainer
+{
+    width : 80%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 0.5rem;
+    margin: 2rem 0rem;
+}
+
+.partner__Frame2Tag
+{
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.partner__Frame2TagIcon i 
+{
+    color : #0774ff;
+}
+
+.partner__Frame2TagTxt h5 
+{
+    color : #2d3c58;
+}
+
+.partner__Frame2ImgContainer 
+{
+    width : 60%;
+}
+
+.partner__Frame2ImgContainer img 
+{
+    width : 100%;
+}
+
+/*===================== Design Partner 3 Website ==================*/
+.partner__Frame3
+{
+    margin-top : 3rem;
+    padding : 3rem 1rem; 
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.partner__Frame3ImgContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : flex-start;
+}
+
+.partner__Frame3TxtContainer
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+}
+
+.partner__Frame3TxtContainer h3 
+{
+    font-size : 2.8rem;
+    font-weight : 700;
+    color : #2d3c58;
+    line-height : 3rem;
+    text-transform : capitalize;
+}

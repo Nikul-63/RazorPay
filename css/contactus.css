@@ -1,0 +1,43 @@
+.contactus__FrameSmallTxt
+{
+    width : 75%;
+}
+
+.blog__FrameTwoImgContainer
+{
+    position : relative;
+    z-index : 1;
+}
+
+.blog__FrameTwoImgContainer img 
+{
+    border : 0;
+    vertical-align: middle;
+    max-width : 100%;
+    height : auto;
+}
+
+.contact__BannerImg3, .contact__BannerImg4
+{
+    position : absolute;
+}
+
+.contact__BannerImg1
+{
+    top : 15%;
+    left : 45%;
+}
+
+.contact__Banner5
+{
+    position : absolute;
+    top : -55px;
+    left : 10%;
+    z-index : -1;
+}
+
+.contact__BannerImg3
+{
+    top : 1%;
+    left : 25%;
+}

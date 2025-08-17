@@ -1,0 +1,220 @@
+.reseller__SmTxtTag
+{
+    width : 22%;
+}
+
+.reseller__BigIcon
+{
+    width : 400px;
+    height : 400px;
+}
+
+.reseller__HeaderContainer
+{
+    align-items : flex-start;
+}
+
+.reseller__HeaderImgContainer
+{
+    position : relative;
+    z-index : 1;
+}
+
+.reseller__SmIconContainer
+{
+    width : 70px;
+    height : 70px;
+    position : absolute;
+    top : 0;
+    left : 30px;
+    right : unset;
+    z-index : -1;
+}
+
+.reseller__SmIconContainer .reseller__SmIcon1
+{
+    width : 100%;
+    height : 100%;
+    animation : shake--br 12s linear infinite;
+}
+
+@keyframes shake--br 
+{
+    0%, 100% 
+    {
+        transform : rotate(0deg);
+        transform-origin : 100% 100%;
+    }    
+
+    10% 
+    {
+        transform : rotate(2deg);
+    }
+
+    20%, 40%, 60% 
+    {
+        transform : rotate(4deg);
+    }
+
+    30%, 50%, 70% 
+    {
+        transform : rotate(4deg);
+    }
+
+    80%
+    {
+        transform : rotate(-2deg);
+    }
+
+    90% 
+    {
+        transform : rotate(2deg);
+    }
+}
+
+.reseller__SmIconContainer2
+{
+    width : 40px;
+    height : 40px;
+    position : absolute;
+    top : 50px;
+    right : unset;
+    left : 100px;
+    bottom : unset;
+    z-index : 1; 
+}
+
+.reseller__SmIconContainer2 img 
+{
+    width : 100%;
+    height : 100%;
+    animation : shake-tl 12s linear infinite;
+}
+
+@keyframes shake-tl 
+{
+    0%, 100% 
+    {
+        transform : rotate(0deg);
+        transform-origin : 0 0;
+    }
+
+    10% 
+    {
+        transform : rotate(2deg);
+    }
+
+    20%, 40%, 60% 
+    {
+        transform : rotate(-4deg);
+    }
+
+    30%, 50%, 70% 
+    {
+        transform : rotate(4deg);
+    }
+
+    80% 
+    {
+        transform : rotate(-2deg);
+    }
+
+    90%
+    {
+        transform : rotate(2deg);
+    }
+}
+
+.reseller__SmIconContainer3
+{
+    width : 120px;
+    height : 80px;
+    position : absolute;
+    bottom : 12%;
+    right : 40%;
+    left : unset;
+    top : unset;
+    z-index : -1;
+}
+
+.resller__HeroImg3
+{
+    width : 100%;
+    height : 100%;
+    animation : pulsing 3s linear infinite;
+}
+
+@keyframes pulsing {
+    0% 
+    {
+        transform : scale(1);
+    }
+
+    50% 
+    {
+        transform : scale(.8);
+    }
+
+    100% 
+    {
+        transform : scale(1);
+    }
+}
+
+/* ===================== Design Reseller Hosting ===================*/
+.reseller__HostingFeatureContainer
+{
+    margin : 3rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.reseller__HostingFeatureContainer h3 
+{
+    font-size : 3rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.reseller__HostingCards
+{
+    margin : 2rem 0rem 1rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.reseller__HostingCardOne
+{
+    padding : 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+    background : rgb(244, 249, 255);
+    border-radius : 10px;
+}
+
+.reseller__HostingCardOne h4 
+{
+    font-size : 1.3rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.reseller__HostingCardOne p 
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+    margin-bottom : 1rem;
+}

@@ -1,0 +1,331 @@
+.payment__HeaderContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content: space-between;
+}
+
+.payment__SmTxtTag
+{
+    width : 25%;
+}
+
+.payment__BannerImgContainer
+{
+    position : relative;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+}
+
+.payment__BannerImgOne
+{
+    width : 60px;
+    position : absolute;
+    bottom : 1rem;
+}
+
+.paymentMethod__ImgTwo
+{
+    width : 400px;
+    height : 400px;
+}
+
+.paymentMethod__SingleDollar
+{
+    position : absolute;
+    top : 3rem;
+    right : 5rem;
+    animation : moveToTopBottom 15s linear infinite;
+}
+
+@keyframes moveToTopBottom
+{
+    0% 
+    {
+        transform : translateY(-20%);
+    }
+
+    50% 
+    {
+        transform : translateY(20%);
+    }
+
+    100% 
+    {
+        transform : translateY(-20%);
+    }    
+}
+
+.paymentMethod__MultiDollar
+{
+    position : absolute;
+    right : 3rem;
+    bottom : -1rem;
+    animation : moveToTopBottom 15s linear infinite;
+}
+
+
+/*======================== Payment Frame 1 ==========================*/
+.Payment__Frame1
+{
+    margin : 4rem 0;
+    padding : 4rem 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.Payment__Frame1Header
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.Payment__Frame1Header h3 
+{
+    font-size : 3rem;
+    font-weight : 600;
+    color : #2d3c58;
+}
+
+.Payment__Frame1Header p 
+{
+    color : #4c5671;
+    width : 70%;
+    text-align : center;
+    margin : 1rem auto;
+}
+
+.Payment__Frame1ImgContainer
+{
+    width : 100%;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.Payment__CreditImgContainer
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    width : 50%;
+    height : 300px;
+    padding : 2.4rem;
+    border : 1px solid #d4dcff;
+}
+
+.Payment__CreditTxt
+{
+    margin : 1rem auto;
+}
+
+.Payment__CreditTxt h3 
+{
+    color : #2d3c58;
+    font-size : 1.8rem;
+    font-weight: 700;
+    text-transform : capitalize;
+}
+
+.Payment__CreditImg
+{
+    margin-top : 2rem;
+    width : 100%;
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 1rem;
+}
+
+.Payment__E__WalletContainer
+{
+    width : 50%;
+    padding : 2.3rem;
+    border : 1px solid #d4dcff;
+    border-radius : 0.3rem;
+}
+
+.Payment__EWalletTxtContainer
+{
+    margin : 0.5rem auto;
+}
+
+.Payment__EWalletTxtContainer h3 
+{
+    font-size : 1.8rem;
+    font-weight: 700;
+    color : #2d3c58;
+    text-align: center;
+}
+
+.Payment__EWalletImgContainer
+{
+    margin-top : 2rem;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.Crypto__ImgContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    border : 1px solid #d4dcff;
+    border-radius : 0.2rem;
+    padding : 2.3rem;
+}
+
+.Crypto__ImgTxtContainer
+{
+    margin : 0.5rem auto;
+}
+
+.Crypto__ImgTxtContainer h3 
+{
+    font-size : 1.8rem;
+    font-weight : 700;
+    color : #4c5671;
+}
+
+.Crypto__SmImgContainer
+{
+    margin-top : 2rem;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+/*=============== Generate CSS for Second Payment Frame =============*/
+.Payment__Frame2
+{
+    margin : 3rem 0rem;
+    padding : 4rem 2rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 2rem;
+    background-color : #f4f9ff;
+}
+
+.Payment__Frame2TxtContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.Payment__Frame2TxtContainer h3 
+{
+    font-size : 2.1rem;
+    font-weight : 700;
+    color : #2d3c58;
+}
+
+.Payment__Frame2TxtContainer p 
+{
+    max-width : 440px;
+    color : #4c5671;
+    font-weight : 400;
+}
+
+.Payment__SmTxtContainer 
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+}
+.Payment__SmPOne
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.Payment__SmPOneI
+{
+    width: 15px;
+    height : 15px;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    border-radius : 50%;
+    background-color : #0774ff;
+}
+
+.Payment__SmPOneI i 
+{
+    font-size : 0.5rem;
+    color : #fff;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+}
+
+.Payment__SmPOneh4
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.Payment__SmBtnContainer
+{
+    margin-top : 2rem;
+    padding : 0.8rem 1.8rem;
+    border : none;
+    outline : none;
+    border-radius : 0.2rem;
+    background-color : #0774ff;
+    cursor : pointer;
+    transition : all 0.3s ease;
+}
+
+.Payment__SmBtnContainer a, i 
+{
+    font-weight : 400;
+    color : #fff;
+}
+
+.Payment__SmBtnContainer:hover 
+{
+    background-color : #ffc107;
+}
+
+.Payment__SmBtnContainer:hover a
+{
+    color : #2d3c58;
+    font-weight : 400;
+}
+
+.Payment__SmBtnContainer:hover i 
+{
+    color : #2d3c58;
+}

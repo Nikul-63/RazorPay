@@ -1,0 +1,513 @@
+.Support__FrameBtn a
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 1rem;
+}
+
+.support__ImgContainer
+{
+    justify-content: flex-end;
+}
+
+.support__ArrowUp, .support__ArrowDown, .support__SettingDark, .support__SettingYellow 
+{
+    position : absolute;
+}
+
+.support__ArrowDown
+{
+    top : -70px;
+    left : 200px;
+    animation : shakeArrowUp 20s linear infinite;
+}
+
+@keyframes shakeArrowUp 
+{
+    0%, 100% 
+    {
+        transform : rotate(0deg);
+        transform-origin : 100% 100%;
+    }    
+
+    10% 
+    {
+        transform : rotate(2deg);
+    }
+
+    20%, 40%, 60% 
+    {
+        transform : rotate(-4deg);
+    }
+
+    30%, 50%, 70% 
+    {
+        transform : rotate(4deg);
+    }
+
+    80% 
+    {
+        transform : rotate(-2deg);
+    }
+
+    90% 
+    {
+        transform : rotate(2deg);
+    }
+}
+
+.support__ArrowUp
+{
+    bottom : -80px;
+    right : 30px;
+    animation : shakearrowdown 20s linear infinite;
+}
+
+@keyframes shakearrowdown 
+{
+    0%, 100% 
+    {
+        transform : rotate(0deg);
+        transform-origin : 0 0;
+    }
+
+    10% 
+    {
+        transform : rotate(10deg);
+    }
+    
+    20%, 40%, 60% 
+    {
+        transform : rotate(-4deg);
+    }
+
+    30%, 50%, 70% 
+    {
+        transform : rotate(4deg);
+    }
+
+    80% 
+    {
+        transform : rotate(-2deg);
+    }
+
+    90% 
+    {
+        transform : rotate(2deg);
+    }
+}
+
+.support__SettingDark
+{
+    bottom : -5px;
+    left : 200px;
+    animation : rotateSetting 10s linear infinite;
+}
+
+.support__SettingYellow
+{
+    bottom : -60px;
+    left : 250px;
+    animation : rotateSetting 20s linear infinite;
+}
+
+@keyframes rotateSetting 
+{
+    100% 
+    {
+        transform : rotate(1turn);
+    }    
+}
+
+.Support__MsgIcon
+{
+    position : absolute;
+    top : -70px;
+    right : 100px;
+}
+
+.Support__SettingIcon
+{
+    animation : rotateSetting 10s linear infinite;
+}
+
+.Support__PhoneIcon
+{
+    position : absolute;
+    top : -40px;
+    right : 45px;
+}
+
+
+/*==================================== DESING FRAME 2 ==================================*/
+.support__FrameTwo
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 2rem;
+    padding : 5rem 1rem;
+    margin : 5rem 0rem;
+    background-color : #f4f9ff;
+}
+
+.support__FrameTwoTxtContainer
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.support__FrameTwoTxtContainer h4 
+{
+    font-size : 2rem;
+    font-weight : 700;
+    color : #2d3c58;
+    margin-bottom : 1rem;
+}
+
+.support__FrameTwoTxtContainer p 
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+    text-align: center;
+    width : 80%;
+}
+
+.support__FrameTwo__CardContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    margin: 4rem auto;
+}
+
+.support__FrameTwoCard
+{
+    margin : 1rem;
+    padding: 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    border: 1px solid #d4dcff;
+    border-radius : 0.5rem;
+    transition : all 0.3s ease;
+}
+
+.support__FrameTwoCard:hover 
+{
+    background-color : #007BFF;
+    color : #fff;
+}
+
+.support__FrameTwoCard:hover svg path
+{
+    fill : #fff;
+}
+
+.support__FrameTwoCard:hover .support__CardTxtSmContainer h4 
+{
+    color : #fff;
+}
+
+.support__FrameTwoCard:hover .support__CardTxtSmContainer p 
+{
+    color : #fff;
+}
+
+.support__CardImgSmContainer
+{
+    margin-bottom : 1rem;
+}
+
+.support__CardTxtSmContainer
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.support__CardTxtSmContainer h4 
+{
+    font-size : 1.2rem;
+    font-weight : bold;
+    color : #2d3c58;
+    margin : 1rem 0;
+}
+
+.support__CardTxtSmContainer p 
+{
+    text-align: center;
+    color : #4c5671;
+    font-size : 0.9rem;
+}
+
+/*========================= Design Frame Three =======================*/
+.support__FrameThree
+{
+    margin : 5rem auto;
+    padding : 3rem 1rem;
+}
+
+.support__FAQs
+{
+    width : 70%;
+    margin : 0 auto;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.support__FAQHeader
+{
+    margin : 1rem auto 6rem;
+}
+
+.support__FAQHeader h3 
+{
+    font-size : 3rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform: capitalize;
+}
+
+.support__FAQsContainer
+{
+    display : flex;
+    flex-direction : column;
+    align-items: flex-start;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.support__FAQ1
+{
+    margin: 1rem auto;
+    background-color: #f4f9ff;
+    padding : 1rem 2rem;
+    border-radius: 0.5rem;
+    border-bottom : 2px solid #d4dcff;
+}
+
+.support__Que
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    width: 70vw;
+    cursor: pointer;
+}
+
+.support__Que h4 
+{
+    font-size : 1.3rem;
+    font-weight : 700;
+    color : #2d3c58;
+}
+
+.support__Ans1 p 
+{
+    color : #2d3c58;
+    margin-bottom: 0.5rem;
+    display : none;
+}
+
+.support__Ans1Active p 
+{
+    display : block;
+}
+
+
+/*============================== Design Frame Four ========================*/
+.FrameFour
+{
+    margin : 3rem 0rem;
+    padding : 5rem 4rem;
+    background : #f4f9ff;
+}
+
+.support__SendMsgContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : space-between;
+}
+
+.support__MsgImgContainer, 
+.support__MsgFormContainer
+{
+    width : 50%;
+
+}
+
+.support__MsgImg
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    margin-bottom : 1rem;
+}
+
+.support__MsgTxt
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+    position : relative;
+}
+
+.support__MsgTxt h1 
+{
+    margin-top : 3rem;
+    font-size : 5rem;
+    font-weight : 700;
+    line-height : 6rem;
+    display : flex;
+    flex-direction : row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color : #2d3c58;
+}
+
+.support__MsgTxt p 
+{
+    width : 60%;
+    font-size : 1.1rem;
+    line-height : 1.8rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.support__MsgTxt img 
+{
+    position : absolute;
+    top : 5%;
+    right : 10%;
+}
+
+.support__MsgFormContainer
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.support__MsgFormContainer h4 
+{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color : #2d3c58;
+}
+
+.support__MsgFormContainer form 
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : center;
+    width : 80%;
+    margin : 1.1rem 0;
+    padding : 2rem;
+    border: 1px solid #d4dcff;
+    border-radius : 0.3rem;
+}
+
+.supportInputOne
+{
+    width : 100%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 1rem;
+    margin : 0.5rem 0 1rem;
+}
+
+.supportInputOne input 
+{
+    border: none;
+    outline : none;
+    border-bottom : 1px solid #d4dcff;
+    margin : 0.5rem 0;
+    padding-bottom : 0.5rem;
+    width : 50%;
+}
+
+.supportInputOne select 
+{
+    border: none;
+    outline : none;
+    border-bottom : 1px solid #d4dcff;
+    color : #4c5671;
+    margin : 0.5rem 0;
+    padding-bottom : 0.5rem;
+    width : 50%;
+}
+
+#SupportTextArea
+{
+    width: 100%;
+    height : 100px;
+    border: none;
+    outline : none;
+    border-bottom : 1px solid #d4dcff;
+    resize : none;
+}
+
+.supportInputTwo
+{
+    align-items : flex-start;
+}
+
+.supportInputOne__Icon input 
+{
+    padding : 0.5rem 1rem;
+    border : none;
+    outline : none;
+    width : 15px;
+    height : 15px;
+}
+
+.supportInputOne__Txt p 
+{
+    font-size : 0.9rem;
+    color : #000;
+}
+
+.supportInputOne button 
+{
+    margin-top : 1rem;
+    padding : 0.9rem 1rem;
+    width : 100%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    color : #fff;
+    background-color : #007BFF;
+    border-radius : 0.3rem;
+    cursor : pointer;
+    transition : all 0.3s ease;
+}
+
+.supportInputOne button:hover 
+{
+    color : #2d3c58;
+    background-color : #ffc107;
+}
