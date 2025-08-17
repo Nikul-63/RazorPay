@@ -32,8 +32,8 @@
 
 .sharedHosting__H3
 {
-    font-size: 4rem;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: 700;
     line-height: 4rem;
     margin: 1rem 0;
 }
@@ -41,5 +41,347 @@
 .sharehHosting__Desc
 {
     margin: 1rem 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight : 400;
+}
+
+.sharedHosting__LooksContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 2rem;
+    margin-top : 1rem;
+}
+
+.sharedHosting__Looks1, .sharedHosting__Looks2
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.sharedHosting__LooksImg
+{
+    min-width: 40px;
+    height : 40px;
+}
+
+.sharedHosting__LooksImg img 
+{
+    width : 100%;
+    height : 100%;
+}
+
+
+.sharedHosting__HeaderImg
+{
+    position : relative;
+    z-index : 1;
+    
+}
+
+.hosting__Cloud
+{
+    position : absolute;
+    top : 0;
+    left : 0;
+    z-index : -1;
+    animation : moveRightToLeft 10s linear infinite;
+}
+
+@keyframes moveRightToLeft 
+{
+    0% 
+    {
+        transform : translateX(0);
+    }
+
+    50% 
+    {
+        transform : translateX(-40px);
+    }
+
+    100% 
+    {
+        transform : translateX(0);
+    }
+}
+
+.hosting__Wifi
+{
+    position : absolute;
+    top : 46%;
+    left : 60px;
+    z-index : -1;
+    animation : pulsing 3s linear infinite;
+}
+
+@keyframes pulsing 
+{
+    0% 
+    {
+        transform : scale(1);
+    }
+
+    50% 
+    {
+        transform : scale(.8);
+    }
+
+    100% 
+    {
+        transform : scale(1);
+    }
+}
+
+/* ===================== Design Second Frame ==================*/
+.ShareHosting__Frame2
+{
+    margin : 3rem 0rem;
+    padding : 3rem 1rem;
+    display: flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content: flex-start;
+    gap : 1rem;
+    background : #f4f9ff;
+}
+
+.shareHosting__Frame2Txt
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    margin-top : 2rem;
+}
+
+.shareHosting__Frame2Txt h3 
+{
+    font-size : 2.7rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.shareHosting__Frame2Txt p 
+{
+    width : 80%;
+    margin : 1rem 0rem;
+    text-align : center;
+    font-size : 1rem;
+    font-weight : 400;
+    color : #2d3c58;
+}
+
+.priceYear__Comparasion
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    margin-top : 2rem;
+}
+
+.priceYear__TagOne
+{
+    padding : 0.5rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+    background-color : #2d3c58;
+    border-radius : 2rem;
+}
+
+.priceYear__SmTagOne h4 
+{
+    font-size : 1rem;
+    color : #fff;
+    padding : 0.3rem 0.9rem;
+    cursor : pointer;
+}
+
+.pricetag__Active h4 
+{
+    background-color : #0772ff;
+    border-radius : 1.2rem;
+}
+
+.priceYear__SmImg 
+{
+    width : 200px;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content: flex-start;
+}
+
+.priceYear__SmImg img 
+{
+    width : 100%;
+    height : 100%;
+}
+
+.priceYear__PTag
+{
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : flex-start;
+    width : 100%;
+}
+
+.priceYear__PTag p 
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.shareHosting__Frame2Cards
+{
+    margin-top : 5rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 2rem;
+}
+
+.shareHosting__Frame2CardOne
+{
+    width : 25%;
+    padding : 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+    background : #fff;
+}
+
+.SharedHosting__cardHeader
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 1rem;
+    font-size : 1.2rem;
+    font-weight : 700;
+    color : #2d3c58;
+}
+
+.shareHosting__smallP
+{
+    font-size : 0.9rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.shareHosting__DiscountContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.shareHosting__DiscountSpan span 
+{
+    color : #2d3c58;
+    font-size : 1rem;
+    font-weight : 700;
+    text-decoration : line-through;
+}
+
+.shareHosting__DiscountTag h5 
+{
+    padding : 0.3rem 0.5rem;
+    border-radius : 0.3rem;
+    color : #2d3c58;
+    font-size : 1rem;
+    font-weight : 700;
+    background-color : #e7f1ff;
+    border-radius : 1rem;
+}
+
+.shareHosting__PlanPrice h3 
+{
+    font-size : 2rem;
+    font-weight : 700;
+    color : #4c5671;
+}
+
+.shareHosting__PlanPrice span 
+{
+    font-size : 0.9rem;
+    font-weight : 400;
+    color : #000;
+}
+
+.shareHosting__AddToCartBtn
+{
+    width : 70%;
+    margin : 1rem 0rem 0rem;
+    padding : 0.5rem 1rem;
+    background-color : #0772ff;
+    border-radius : 0.4rem;
+}
+
+.shareHosting__AddToCartBtn a 
+{
+    color : #fff;
+    font-size : 1rem;
+    font-weight : 700;
+}
+
+.small__ShareHostingTxt
+{
+    color : #4c5671;
+    font-size : 0.8rem;
+    font-weight: 400;
+}
+
+.shareHosting__ULContainer
+{
+    margin : 1rem 0rem;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.shareHosting__List
+{
+    width : 100%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 2rem;
+}
+
+.shareHosting__LITxt h4 
+{
+    font-size : 0.9rem;
+    color : #2d3c58;
+}
+
+.shareHosting__LIIcon i 
+{
+    color : #4c5671;
+}
+
+.shareHosting__LITxt i 
+{
+    color : #00b67a;   
 }
