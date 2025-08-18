@@ -170,6 +170,153 @@ body
     font-weight: 600;
 }
 
+.page__SmMenu
+{
+    position : relative;
+    width : 100%;
+}
+
+.submenuContainer, .submenuContainer2, .subMenuContainer3, .subMenuContainer4, .subMenuContainer5
+{
+    margin: 2rem auto 0rem;
+    position : absolute;
+    left : 53%;
+    width : 100%;
+    background : #fff;
+    color : #2d3c58;
+    padding : 1rem;
+    border-radius : 1rem;
+    width : fit-content;
+    box-shadow : 0px 10px 15px rgba(0, 0, 0, 0.1);
+    opacity : 0;
+    visibility : hidden;
+    transition : all 0.3s ease;
+    z-index : 1000;   
+}
+
+.submenuContainer
+{
+    left : 5%;
+}
+
+.submenuContainer2 
+{
+    left : 28%;
+}
+
+.subMenuContainer3
+{
+    left : 46%;
+}
+
+.subMenuContainer5
+{
+    left : 63%;
+}
+
+.subMenuCardLinks
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.subMenuLink__A
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.subMenuLink__A::after
+{
+    content : "";
+    position : absolute;
+    width : 0;
+    height : 2px;
+    top : 50%;
+    left : 20px;
+    transform : translateY(-50%);
+    background : #4c5671;
+    transition : all 0.3s ease-in-out;
+}
+
+.subMenuLink__A:hover 
+{
+    width : 10px;
+}
+
+.sumbmenuCards
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    gap : 2rem;
+}
+
+.submenu__Card
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 2rem;
+}
+
+.submenuTag__One
+{
+    width : 100%;
+    padding : 0.5rem 0.3rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+    border-radius : 0.2rem;
+    outline : none;
+    transition : color 0.2s ease;
+}
+
+.submenuTag__One:hover 
+{
+    border : 1px solid #dfeaff;
+}
+
+.submenuTag__OneImg
+{
+    padding : 0.7rem 0.7rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    background : rgb(240, 240, 255);
+    border-radius : 0.2rem;
+}
+
+.submenuTag__OneTxt h4 
+{
+    font-size : 0.9rem;
+    font-weight : 500;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.submenuTag__OneTxt p 
+{
+    font-size : 0.9rem;
+    font-weight: 600;
+    color : #497696;
+    text-transform : capitalize;
+}
+
+/* .page__SmMenu:hover
+{
+    opacity : 1;
+    visibility : visible;
+} */
 
 /*===================== CSS FOR SECTION 2=======================*/
 .section__Two 
