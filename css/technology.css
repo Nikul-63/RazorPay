@@ -1,0 +1,212 @@
+.tech__FrameOneImgContainer
+{
+    position : relative;
+    z-index : 1;
+}
+
+.tech__Earth
+{
+    position : absolute;
+    top : 0;
+    left : 9rem;
+    z-index : -1;
+    animation : moveTopToBottom2 8s linear infinite;
+}
+
+@keyframes moveTopToBottom2 {
+    0% 
+    {
+        transform : translateY(-2%);
+    }
+
+    50% 
+    {
+        transform : translateY(2%);
+    }
+
+    100% 
+    {
+        transform : translateY(-2%);
+    }
+}
+
+.frame1__TechH3
+{
+    line-height : 3.7rem;
+}
+
+.Tech__Frame2
+{
+    margin : 3rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.Tech__Frame2 h3 
+{
+    margin-bottom : 2rem;
+    font-size : 2rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.tech__Frame2Cards
+{
+    margin-top : 1rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.tech__Frame2CardOne
+{
+    width : 100%;
+    height : 100%;
+    padding : 2rem;
+    background: #f4f9ff;
+    border-radius : 1rem;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.tech__Frame2CardOne h4 
+{
+    font-size : 1.2rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.tech__Frame2CardOne p 
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #2d3c58;
+}
+
+/*================================= Design Third Section =============================*/
+.Tech__Frame3
+{
+    margin : 3rem 0rem;
+    padding : 5rem 3rem;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : space-between;
+    gap : 1rem;
+    background-color : #2d3c58;
+}
+
+.tech__Frame3ImgContainer
+{
+    width : 40%;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : flex-start;
+}
+
+.tech__Frame3ImgContainer img 
+{
+    width : 100%;
+    height : 100%;
+    border-radius : 1rem;
+}
+
+.tech__Frame3TxtContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content: center;
+    gap : 1rem;
+}
+
+.tech__Frame3TxtContainer h3 
+{
+    color : #fff;
+    font-size : 2.3rem;
+    font-weight : 700;
+    text-transform : capitalize;
+}
+
+.tech__Frame3TxtContainer p 
+{
+    color : #fff;
+    font-size : 1rem;
+    font-weight : 400;
+}
+
+/*======================= Design Frame 4 =========================*/
+.tech__Frame4
+{
+    margin : 3rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content: flex-start;
+}
+
+.tech__Frame4TxtContainer
+{
+    width : 40%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.tech__Frame4TxtContainer h3 
+{
+    text-transform : capitalize;
+    font-size : 2.5rem;
+    line-height : 3rem;
+    font-weight : 700;
+    color : #2d3c58;
+}
+
+.tech__Frame4TxtContainer p 
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #2d3c58;
+    margin : 1rem 0rem;
+    width : 80%;
+}
+
+.tech__Frame4ImgContainer
+{
+    width : 60%;
+}
+
+.tech__Frame4ImgContainer
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.tech__Frame4ImgContainer img 
+{
+    border-radius : 1.1rem;
+}
+
+.banner2ImgSm1
+{
+    margin-top : 11rem;
+}
