@@ -1,0 +1,420 @@
+.domaintransfer__Header
+{
+    margin-top : 5rem 0rem;
+    padding : 7rem 0rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.domaintransfer__Header h3 
+{
+    font-size : 3rem;
+    font-weight : 700;
+    color : #fff;
+    text-transform: capitalize;
+}
+
+.domaintransfer__Header p 
+{
+    margin : 1rem auto;
+    font-size : 1rem;
+    font-weight : 500;
+    color : #fff;
+    text-transform : capitalize;
+}
+
+.domain__SmFormContainer
+{
+    width : 100%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.domain__SmFormContainer input 
+{
+    width : 40%;
+    padding : 0.7rem 1rem;
+    background : #fff;
+    border : none;
+    outline : none;
+    border-radius : 0.3rem;
+    color : #000;
+}
+
+.domain__SmFormContainer button 
+{
+    padding : 0.7rem 2rem;
+    background : #ffc107;
+    color : #2d3c58;
+    border : none;
+    outline : none;
+    border-radius : 0.3rem;
+    transition : all 0.3s ease;
+}
+
+.domain__SmFormContainer button:hover 
+{
+    color : #fff;
+    background : #2d3c58;
+}
+
+.domain__SmFormContainer button:hover a 
+{
+    color : #fff;
+}
+
+.domain__SmFormBtn a
+{
+    font-size : 1rem;
+    font-weight : 500;
+    color : #2d3c58;
+}
+
+.domain__Input::placeholder
+{
+    text-transform : capitalize;
+    font-size : 0.9rem;
+    font-weight : 500;
+}
+
+.domain__HeaderSmLinks
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.domain__HeaderSmLinks span 
+{
+    margin-top : 1rem;
+    font-size: 1rem;
+    font-weight : 500;
+    color : #fff;
+    text-transform : capitalize;
+}
+
+.header__SmLinksSpan a
+{
+    font-size : 1.1rem;
+    font-weight : 700;
+    color : #ffc107;
+}
+
+/* ======================= Design Second Domain Transfer Frame ==================*/
+.domainTransfer__Frame2
+{
+    margin : 3rem 0rem;
+    padding : 5rem 3rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.domainTransfer__Frame2 h3 
+{
+    font-size : 2.7rem;
+    font-weight : 700;
+    line-height : 3rem;
+    color : #2d3c58;
+    text-transform : capitalize;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    flex-wrap : wrap;
+}
+
+.domainTransfer__Frame2Cards
+{
+    margin : 2rem 0rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.domainTransfer__Card
+{
+    width : 100%;
+    padding : 2rem;
+    background-color : #f4f9ff;
+    border-radius : 10px;
+    transition : all 0.3s ease;
+}
+
+.domainTransfer__Card:hover 
+{
+    background-color : #0774fc;
+}
+
+.domainImgCard
+{
+    width : fit-content;
+    padding : 1rem;
+    background : #eaf1ff;
+    border-radius : 50%;
+}
+
+.domainTransfer__Card:hover .domainImgCard
+{
+    background : linear-gradient(180deg,#0774ff,#033aa7);
+}
+
+.domainTransfer__Card:hover .domainImgCard svg path 
+{
+    fill : #fff;
+}
+
+.domainTransfer__Card h4 
+{
+    margin : 1rem 0rem;
+    color : #2d3c58;
+    font-size : 1.1rem;
+    font-weight : 600;
+    text-transform : capitalize;
+}
+
+.domainTransfer__Card:hover h4 
+{
+    color : #fff;
+}
+
+.domainTransfer__Card p 
+{
+    color : #4c5671;
+}
+
+.domainTransfer__Card:hover p 
+{
+    color : #fff;
+}
+
+/*============================ Design Third Frame ================================*/
+.domainTransfer__Frame3
+{
+    margin : 2rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+    background : #f4f9ff;
+}
+
+.domainTransfer__Frame3 h3 
+{
+    font-size : 3rem;
+    font-weight : 700;
+    line-height : 3rem;
+    color : #2d3c58;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.domainTransfer__Frame3Table
+{
+    width : 100%;
+    margin : 3rem auto;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.domainTransfer__UL:nth-child(1)
+{
+    width : 80%;
+    background-color: #0774fc;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+}
+
+.domainTransfer__UL:nth-child(1) li 
+{
+    color : #fff;
+    text-transform: uppercase;
+    font-size : 1rem;
+}
+
+.domainTransfer__UL
+{
+    width : 80%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    border : 1px solid #d4dcff;
+    border-bottom : none;
+    background-color : #f4f9ff;
+    transition : all 0.3s ease;
+}
+
+.domainTransfer__UL:hover 
+{
+    background-color : #fff;
+}
+
+.domainTransfer__UL:nth-child(1):hover
+{
+    background-color: #0774ff;
+}
+
+.domainTransfer__UL:nth-child(1):hover li 
+{
+    color : #fff;
+}
+
+.domainTransfer__UL:nth-child(6)
+{
+    border-bottom : 1px solid #d4dcff;
+}
+
+.domainTransfer__LI
+{
+    width : 25%;
+    padding : 1rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content: center;
+    color : #2d3c58;
+    font-size : 1.1rem;
+    font-weight : 400;
+}
+
+.domainTransfer__LI h4 
+{
+    font-size : 1.1rem;
+    font-weight : 700;
+    color : #2d3c58;
+}
+
+.domainTransfer__LI p 
+{
+    font-size : 0.9rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.domainTransfer__LI i 
+{
+    font-size : 0.9rem;
+    color : #00b67a;
+}
+
+.fa-xmark.redCheck
+{
+    color : #e84444;
+}
+
+
+/*=================================== Design Frame 5 ===============================*/
+.domainTransfer__Frame5
+{
+    margin : 3rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.domainTransfer__Frame5 h3 
+{
+    font-size : 3rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.domainTransfer__Frame5 p 
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.domainTransfer__Frame5Cards
+{
+    margin-top : 3rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.domainTransfer__Frame5Card
+{
+    width : 100%;
+    padding : 2rem;
+    background : #f4f9ff;
+    border-radius : 10px;
+    transition : all 0.3s ease;
+}
+
+.domainTransfer__Frame5Card:hover 
+{
+    background : #0774ff;
+}
+
+.domainTransfer__Frame5ImgCard
+{
+    width : fit-content;
+    padding : 1rem;
+    background : #eaf1ff;
+    border-radius : 50%;
+}
+
+.domainTransfer__Frame5Card:hover .domainTransfer__Frame5ImgCard
+{
+    background-color : #0755f0;
+}
+
+.domainTransfer__Frame5Card:hover svg path
+{
+    fill : white;
+}
+
+.domainTransfer__Frame5Card h4 
+{
+    font-size : 19px;
+    font-weight : 700;
+    color : #2d3c58;
+    margin : 1rem 0rem;
+}
+
+.domainTransfer__Frame5Card:hover h4 
+{
+    color : #fff;
+}
+
+.domainTransfer__Frame5Card p 
+{
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.domainTransfer__Frame5Card:hover p 
+{
+    color : #fff;
+}
