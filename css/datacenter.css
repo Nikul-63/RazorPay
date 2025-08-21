@@ -1,0 +1,200 @@
+/*================================ Design For Frame1 =============================*/
+
+.datacenter__Frame1SmTags
+{
+    margin-top : 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.datacenter__Frame1Tg1
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.data__Frame1Icon
+{
+    width : 20px;
+    height : 20px;
+    border-radius : 50%;
+    background-color : #ffc107;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+}
+
+.data__Frame1Icon i 
+{
+    font-size: 0.7rem;
+    color : #0774ff;
+}
+
+.data__Frame1Txt p 
+{
+    font-weight : 400;
+}
+
+
+/*========================== Design Second Frame ============================*/
+.dataCenter__Frame2
+{
+    margin : 3rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.datacenter__Frame2Txt
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.datacenter__Frame2Txt h3 
+{
+    font-size : 2.7rem;
+    font-weight : 700;
+    text-transform : capitalize;
+    color : #2d3c58;
+}
+
+.datacenter__Frame2Txt p 
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.datacenter__Frame2Cards
+{
+    margin-top : 2rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content: center;
+    gap : 1rem;
+}
+
+.datacenter__Frame2Card
+{
+    width : 100%;
+    padding : 2rem;
+    background : linear-gradient(180deg, #d8eaff, #f6f6f6);
+    border-radius : 10px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content: center;
+}
+
+.datacenter__Frame2Card h4 
+{
+    margin : 1rem 0rem;
+    font-size : 1.2rem;
+    font-weight : 700;
+    text-transform: capitalize;
+    color : #2d3c58;
+}
+
+.datacenter__Frame2Card p 
+{
+    text-align : center;
+    color : #4c5671;
+    font-weight : 400;
+}
+
+
+/*============================== Design Frame 3 ============================*/
+.dataCenter__Frame3
+{
+    margin : 3rem 0rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.dataCenter__Frame3ImgContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content: flex-start;
+}
+
+.dataCenter__Frame3ImgContainer img 
+{
+    width : 80%;
+    border-radius : 10px;
+}
+
+.dataCenter__Frame3TxtContainer
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+}
+
+.dataCenter__Frame3TxtContainer h3 
+{
+    margin : 1rem 0rem;
+    font-size : 2.7rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.dataCenter__Frame3TxtContainer p 
+{
+    margin : 1rem 0rem;
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.dataCenter__Frame3SmTags
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content: center;
+}
+
+.dataCenter__Frame3SmTag
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.dataCenter__Frame3Icon i
+{
+    font-size : 0.8rem;
+    color : #0774ff;
+}
+
+.dataCenter__Frame3TXT p 
+{
+    margin : 0.3rem 0rem;
+}
