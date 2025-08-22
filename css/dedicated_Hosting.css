@@ -576,6 +576,12 @@ td
     justify-content : flex-start;
     gap : 1rem;
     border-radius : 0.6rem;
+    transition : all 0.3s ease;
+}
+
+.ded__HostingFrame5Card:hover 
+{
+    background-color : #0774ff;
 }
 
 .ded__HostingFrame5CardImg
@@ -590,6 +596,16 @@ td
     justify-content : center;
 }
 
+.ded__HostingFrame5Card:hover .ded__HostingFrame5CardImg
+{
+    background : #0755f0;
+}
+
+.ded__HostingFrame5Card:hover .ded__HostingFrame5CardImg svg path 
+{
+    fill : #fff;
+}
+
 .ded__HostingFrame5Card h3 
 {
     font-size : 1.2rem;
@@ -597,9 +613,19 @@ td
     color : #2d3c58;
 }
 
+.ded__HostingFrame5Card:hover  h3 
+{
+    color : #fff;
+}
+
 .ded__HostingFrame5Card p 
 {
     color : #4c5671;
+}
+
+.ded__HostingFrame5Card:hover p 
+{
+    color : #fff;
 }
 
 .ded__HostingFrame6Cards
