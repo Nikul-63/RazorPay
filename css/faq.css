@@ -1,0 +1,68 @@
+/*============================= Design Frame 1 =============================*/
+.FAQ__frame1H3
+{
+    margin : 1rem 0rem;
+    text-transform : capitalize;
+    line-height : 3.2rem;
+}
+
+.faqHero__Btn
+{
+    padding : 1rem 1.5rem;
+    background : #ffc107;
+    border-radius : 0.3rem;
+    transition : all 0.3s ease;
+}
+
+.faqHero__Btn a 
+{
+    font-weight : 700;
+    text-transform: capitalize;
+    color : #2d3c58;
+}
+
+.faqHero__Btn:hover 
+{
+    background : #2d3c58;
+}
+
+.faqHero__Btn:hover a 
+{
+    color : #fff;
+}
+
+.faq__Frame1ImgCon
+{
+    z-index: 1;
+}
+
+.FAQ__BannerImg2, .FAQ__BannerImg3, .FAQ__BannerImg4, .FAQ__BannerImg5
+{
+    position : absolute;
+}
+
+.FAQ__BannerImg2
+{
+    top : -1rem;
+    right : 12rem;
+}
+
+.FAQ__BannerImg3
+{
+    top : -2rem;
+    right : 16rem;
+}
+
+.FAQ__BannerImg4
+{
+    top : -2rem;
+    right : 5rem;
+    z-index : -1;
+}
+
+.FAQ__BannerImg5
+{
+    top : -2rem;
+    left : 7rem;
+    z-index : -1;
+}
