@@ -1,0 +1,109 @@
+/*====================== Design Frame1 ======================*/
+.frame1__CloudH3
+{
+    font-size : 2.9rem !important;
+    line-height : 3.2rem;
+    width : 100%;
+    text-transform: capitalize;
+}
+
+.cloud__Frame1SmallTxt
+{
+    margin-top : 1rem;
+    text-transform: capitalize;
+}
+
+.cloud__resellerH3
+{
+    text-align : center;
+}
+
+
+
+
+/*============================= Design Second Frame ============================*/
+.cloud__Frame2
+{
+    margin : 3rem 0rem; 
+    padding : 3rem 1rem;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.cloud__Frame2Left
+{
+    width : 50%
+}
+
+.cloud__Frame2Left img 
+{
+    width : 100%;
+    border-radius : 0.9rem;
+}
+
+.cloud__Frame2Right
+{
+    width : 50%;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.cloud__Frame2Right h3 
+{
+    font-size : 2.7rem;
+    font-weight : 700;
+    line-height : 3rem;
+    text-transform : capitalize;
+    color : #2d3c58;
+}
+
+.cloud__Frame2Right p 
+{
+    margin : 0.5rem 0rem;
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.cloud__Frame2SmTags
+{
+    width : 100%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.cloudFrame2__TagOne
+{
+    width : 100%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 2rem;
+}
+
+.cloudFrame2__SmTag
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.cloudFrame2__SmTagTXT h4 
+{
+    font-size : 1.1rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
