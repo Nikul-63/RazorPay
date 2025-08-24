@@ -6,18 +6,26 @@
 .blog__FrameTwoImgContainer
 {
     position : relative;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-end;
     z-index : 1;
 }
 
 .blog__FrameTwoImgContainer img 
 {
+    display : flex;
+    flex-direction : row;
+    align-items : flex-end;
+    justify-content : flex-end;
     border : 0;
     vertical-align: middle;
     max-width : 100%;
     height : auto;
 }
 
-.contact__BannerImg3, .contact__BannerImg4
+.contact__BannerImg2, .contact__BannerImg3, .contact__BannerImg4
 {
     position : absolute;
 }
@@ -28,16 +36,193 @@
     left : 45%;
 }
 
-.contact__Banner5
+.contact__BannerImg2
 {
-    position : absolute;
-    top : -55px;
-    left : 10%;
-    z-index : -1;
+    top : -30%;
+    left : 50%;
+    z-index: -1;
+    animation : moveTopToBottom2 8s linear infinite;
+}
+
+@keyframes moveTopToBottom2 
+{
+    0% 
+    {
+        transform : translateY(-2%);
+    }   
+
+    50% 
+    {
+        transform : translateY(2%);
+    }
+
+    100% 
+    {
+        transform : translateY(-2%);
+    }
 }
 
 .contact__BannerImg3
 {
-    top : 1%;
-    left : 25%;
+    top : -28%;
+    left : 34%;
+    animation : shakeBR 8s linear infinite;
+}
+
+@keyframes shakeBR 
+{
+    0%, 100% 
+    {
+        trasnform : rotate(0deg);
+        transform-origin : 100% 100%;
+    }    
+
+    10% 
+    {
+        transform : rotate(10deg);
+    }
+
+    20%, 40%, 60% 
+    {
+        transform : rotate(-4deg);
+    }
+
+    30%, 50%, 70% 
+    {
+        transform : rotate(4deg);
+    }
+
+    80% 
+    {
+        transform : rotate(-2deg);
+    }
+
+    90% 
+    {
+        transform : rotate(2deg);
+    }
+}
+
+.contact__BannerImg4
+{
+    top : -30%;
+    right : 2%; 
+    animation : moveLeftToRight2 15s linear infinite;
+}
+
+@keyframes moveLeftToRight2 
+{
+    0% 
+    {
+        transform : translateX(-20px);
+    }
+
+    50% 
+    {
+        transform : translateX(20px);
+    }
+
+    100% 
+    {
+        transform : translateX(-20px);
+    }
+}
+
+.contact__Banner5
+{
+    position : absolute;
+    top : -13%;
+    left : 35%;
+    z-index : -1;
+}
+
+
+/*==================================== Design Second Frame =============================*/
+.small__ContactDetailContainer
+{
+    margin : 2rem 0rem;
+    padding : 3rem 1rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.contactDetailCards
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content :  center;
+    gap : 1rem;
+}
+
+.contact__Card
+{
+    width : 100%;
+    padding : 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    background : #f4f9ff;
+    border-radius : 0.9rem;
+    cursor : pointer;
+    transition : all 0.3s ease;
+}
+
+.contact__Card:hover 
+{
+    background : #0774ff;
+}
+
+.contactCard__Icon
+{
+    width : 50px;
+    height : 50px;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : flex-start;
+}
+
+.contact__Card:hover i 
+{
+    color : #fff;
+}
+
+.contactCard__Icon i 
+{
+    font-size : 2rem;
+    color : #2d3c58;
+}
+
+
+.contact__Card h4 
+{
+    font-size : 1.1rem;
+    font-weight : 400;
+    color : #2d3c58;
+}
+
+.contact__Card:hover h4 
+{
+    color : #fff;
+}
+
+/*========================= Desing Map Frame =========================*/
+.Little__SiteMap
+{
+    width : 100%;
+    margin : 2rem 0rem;
+    padding : 3rem 1rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+}
+
+.Little__SiteMap iframe 
+{
+    width : 100%;
 }
