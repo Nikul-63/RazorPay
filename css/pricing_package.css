@@ -1,0 +1,190 @@
+/*================== Design First Frame =================*/
+.pricingPackage__Cards
+{
+    width : 100%;
+    margin : 3rem 0rem 3rem;
+    padding : 1rem 3rem 3rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 2rem;
+}
+
+.pricingPackage__Card
+{
+    padding : 2rem;
+    border-radius : 0.9rem;
+    box-shadow: 0 4px 30px 0 hsla(0, 0%, 62%, .25);
+    transition : all 0.3s ease;
+}
+
+.pricingPackage__Card:hover 
+{
+    background : #0774ff;
+    color : #fff;
+}
+
+.pricingPackage__Icon 
+{
+    margin-bottom : 1rem;
+}
+
+.pricingPackage__Card:hover .pricingPackage__Icon path
+{
+    fill : #ffc107;
+}
+
+
+.pricingPackage__Card h3 
+{
+    margin : 0.5rem 0rem;
+    font-size : 1.3rem;
+    font-weight : 700;
+    text-transform : capitalize;
+    color : #2d3c58;
+}
+
+.pricingPackage__Card:hover h3 
+{
+    color : #fff;
+}
+
+.pricingPackage__Card .pricingCard__SmP 
+{
+    margin-bottom : 2.5rem;
+    font-size : 0.9rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.pricingPackage__Card:hover .pricingCard__SmP 
+{
+    color : #fff;
+}
+
+.pricingPackage__SmTags
+{
+    margin-top : 1.5rem;
+    display : flex;
+    flex-direction : column;
+    align-items: flex-start;
+    justify-content : flex-start;
+}
+
+.pricingPackage__TAG1
+{
+    width : 100%;
+    padding : 0.5rem 0rem;
+    display : flex;
+    flex-direction : row;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 0.5rem;
+}
+
+.pricingPackage__TAGIcon i 
+{
+    color : #2d3c58;
+    font-size : 0.7rem;
+}
+
+.pricingPackage__Card:hover .pricingPackage__TAGIcon i 
+{
+    color : #fff;
+}
+
+.pricingPackage__TAGTXT p 
+{
+    font-size: 0.9rem;
+    font-weight : 700;
+    color : #4c5671;
+}
+
+.pricingPackage__Card:hover .pricingPackage__TAGTXT p
+{
+    color : #fff;
+}
+
+.pricingPackage__SmTagBtn
+{
+    width : 100%;
+    margin-top : 1rem;
+    padding : 0.8rem 1.2rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    background-color : #0774ff;
+    border-radius : 0.3rem;
+    transition : all 0.3s ease;
+}
+
+.pricingPackage__Card:hover .pricingPackage__SmTagBtn 
+{
+    background : #fff;
+}
+
+.pricingPackage__SmTagBtn a 
+{
+    color : #fff;
+    font-size : 0.9rem;
+    text-transform : capitalize;
+    font-weight : 700;
+}
+
+.pricingPackage__SmTagBtn:hover
+{
+    background : #ffc107;
+}
+
+
+.pricingPackage__SmTagBtn:hover a
+{
+    color : #2d3c58;
+}
+
+.pricingPackage__Card:hover .pricingPackage__SmTagBtn a 
+{
+    color : #2d3c2d;
+}
+
+.pricingPackage__CardActive
+{
+    background : #0774ff;
+}
+
+.pricingPackage__CardActive h3 
+{
+    color : #fff;
+}
+
+.pricingPackage__CardActive
+{
+    color : #fff;
+}
+
+.pricingPackage__CardActive .pricingPackage__TAGIcon i 
+{
+    color : #fff;
+}
+
+.pricingPackage__CardActive .pricingCard__SmP
+{
+    color : #fff;
+}
+
+.pricingPackage__CardActive p 
+{
+    color : #fff;
+}
+
+.pricingPackage__CardActive .pricingPackage__SmTagBtn
+{
+    background : #fff;
+}
+
+.pricingPackage__CardActive .pricingPackage__SmTagBtn a 
+{
+    color : #2d3c58;
+}

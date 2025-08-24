@@ -1,0 +1,111 @@
+/*================================= Design Header Section ============================*/
+
+.pricingFrame1
+{
+    margin : 1rem 0rem !important;
+    padding : 1rem 1rem;
+}
+
+.price__SmTXTTag
+{
+    width : 30%;
+}
+
+.pricing__HeaderH3
+{
+    font-size : 2.9rem;
+    text-transform : capitalize;
+    line-height : 3.2rem;
+}
+
+.pricingFrame1__SmTags
+{
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start;
+    gap : 1rem;
+}
+
+.priceFrame1__smTAG
+{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 0.3rem;
+}
+
+.priceFrame1__Icon
+{
+    width : 20px;
+    height : 20px;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    border-radius : 50%;
+    background-color : #ffc107;
+}
+
+.priceFrame1__Icon i 
+{
+    font-size : 0.7rem;
+}
+
+.priceFrame1__TXT
+{
+    font-size : 0.8rem;
+    font-weight : 400;
+    text-transform : capitalize;
+}
+
+.pricing__Frame1TXT
+{
+    width : 100%;
+    justify-content: space-between;
+    align-items : flex-end;
+}
+
+.pricingHeader__Container
+{
+    width : 100%;
+    justify-content : space-between;
+}
+
+.pricingTAG__H4
+{
+    font-size : 1.5rem;
+    font-weight : 700;
+    color : #4c5671;
+    margin-bottom : 0.5rem;
+}
+
+.pricing__PTag
+{
+    display : flex;
+    flex-direction : row;
+    align-items : flex-end;
+    justify-content : flex-end;
+    width : 60%;
+    padding : 1rem 0.9rem;
+    background : #0774ff;
+    border-radius : 0.3rem;
+}
+
+.pricing__PTag p 
+{
+    width : 100%;
+    margin : 0;
+    padding : 0;
+    color : #fff;
+    font-size : 0.9rem;
+    font-weight : 600;
+}
+
+.pricing__Frame2
+{
+    margin : 0 !important;
+    padding : 0rem 3rem !important;
+}
+
