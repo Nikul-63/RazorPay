@@ -1,0 +1,126 @@
+/*============================= Design First Frame =====================================*/
+.businessHeader__smTag
+{
+    width : 25%;
+}
+
+.businessImg
+{
+    position : relative;
+    z-index : 1;
+}
+
+.excalmanation
+{
+    position : absolute;
+    top : -35%;
+    right : 22%;
+    width : 18px !important;
+    animation : zoom-shake 3s linear infinite;
+}
+
+@keyframes zoom-shake 
+{
+    0%
+    {
+        transform : scale(100%) rotate(0deg);
+    }
+
+    20% 
+    {
+        transform : scale(105%) rotate(0deg);
+    }
+
+    40% 
+    {
+        transform: scale(105%) rotate(20deg);
+    }
+
+    60% 
+    {
+        transform: scale(105%) rotate(0deg);
+    }
+    80% 
+    {
+        transform: scale(105%) rotate(-20deg);
+    }
+
+    100%    
+    {
+        transform: scale(100%) rotate(0deg);
+    }
+}
+
+.business__Frame1
+{
+    margin : 3rem 0rem;
+    padding : 3rem 1rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.businessFrame1__TXT
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.businessFrame1__TXT h3 
+{
+    font-size : 2.7rem;
+    font-weight : 700;
+    color : #2d3c58;
+    text-transform : capitalize;
+}
+
+.businessFrame1__TXT p 
+{
+    font-size : 1rem;
+    font-weight : 400;
+    color : #4c5671;
+}
+
+.businessFrame1__Cards
+{
+    margin : 1rem 0rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.businessFrame__Card
+{
+    padding : 2rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 1rem;
+    border-radius : 10px;
+    background : linear-gradient(rgb(216, 234, 255), rgb(246, 246, 246))
+}
+
+.businessFrame__Card h4 
+{
+    font-size : 1.2rem;
+    font-weight : 700;
+    text-align : center;
+    text-transform : capitalize;
+    color : #2d3c58;
+}
+
+.businessFrame__Card p 
+{
+    font-size : 0.9rem;
+    text-align : center;
+    color : #4c5671;
+    text-transform: capitalize;
+}
