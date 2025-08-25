@@ -1,0 +1,11 @@
+.signin__Terms 
+{
+    margin : 1rem auto;
+    width : 60%;
+    justify-content : space-between;
+}
+
+.signin__Terms a 
+{
+    text-transform : capitalize;
+}
