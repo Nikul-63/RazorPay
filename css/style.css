@@ -553,9 +553,15 @@
     transition: all 0.5s ease;
 }
 
-.hosting__Card img:hover 
+.hosting__Card img 
 {
-    filter: hue-rotate(180deg) saturate(2);
+    filter : invert(0.75);
+    transition : 0.3s ease;
+}
+
+.hosting__Card:hover img 
+{
+     filter: invert(0); 
 }
 
 .hosting__CardH4
@@ -939,6 +945,96 @@
     color: #4c5671;
 }
 
+.section6__ImgContainer
+{
+    position : relative;
+}
+
+.section6__ImgContainer .round__Shape li 
+{
+    position : absolute;
+    text-align : center;
+    list-style : none;
+}
+
+.round__Shape li.one 
+{
+    top : 15.5%;
+    left : 15%;
+}
+
+.round__Shape li.two 
+{
+    top : 25.5%;
+    left : 42.5%;
+}
+
+.round__Shape li.three 
+{
+    top : 19%;
+    right : 28%;
+}
+
+.round__Shape li.four 
+{
+    top : 36.5%;
+    left : 15.6%;
+}
+
+.round__Shape li.five  
+{
+    top : 44%;
+    left : 46.8%;
+}
+
+.round__Shape li.six 
+{
+    top : 47.5%;
+    right : 38%;
+}
+
+.round__Shape li.seven 
+{
+    top : 34.2%;
+    right : 31.7%;
+}
+
+.round__Shape li.eight 
+{
+    bottom : 33%;
+    left : 25.9%;
+}
+
+.round__Shape li.nine 
+{
+    bottom : 17.9%;
+    left : 45.9%;
+}
+
+.round__Shape li.ten 
+{
+    bottom : 20.2%;
+    right : 24.8%;
+}
+
+.round__Shape li span 
+{
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.round__Shape span 
+{
+    width : 8px;
+    height : 8px;
+    border-radius : 50%;
+    background : #00b67a;
+    display : block;
+    position : relative;
+    margin : auto;
+}
+
 /*====================== CSS FOR SECTION 7 ====================*/
 .section7
 {
@@ -1165,7 +1261,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid #4c5671;
+   /*  border: 1px solid #4c5671; */
 }
 
 .sec9__PriceImg
@@ -1175,8 +1271,8 @@
 
 .sec9__PriceImg ul li 
 {
-    border-top: 1px solid #4c5671;
-    border-left: 1px solid #4c5671;
+    /* border-top: 1px solid #4c5671;
+    border-left: 1px solid #4c5671; */
 }
     
 .sec9__PriceDif
@@ -1245,9 +1341,187 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid #4c5671;
-    border-left: 1px solid #4c5671;
+    /* border-top: 1px solid #4c5671;
+    border-left: 1px solid #4c5671; */
 }
+
+/* new css for the correct table output*/
+
+.sec9__TableRow
+{
+    margin : 3rem 1.5rem;
+    display : flex;
+    flex-wrap : wrap;
+}
+
+.sec9__ColLg12
+{
+    flex : 0 0 auto;
+    width : 100%;
+}
+
+.rts-plan__table
+{
+    width : 100%;
+    margin : 0px;
+    white-space : nowrap;
+}
+
+.table-bordered
+{
+    border-collapse : collapse;
+    border-spacing : 0px;
+    border-color : gray;
+    color : #4c5671;
+}
+
+tbody, td, tfoot, th, thead, tr 
+{
+    border : 0 solid;
+    border-color : inherit;
+}
+
+.sec9__TableTR
+{
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.package__left
+{
+    width : 450px;
+    max-width : 450px;
+}
+
+thead th 
+{
+    text-transform : capitalize;
+    border-style : none;
+}
+
+.package__SpanContainer
+{
+    padding : 1rem 0rem 0.5rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+.package__item
+{
+    width : 290px;
+    max-width : 290px;
+    padding : 0px 30px;
+    border : 1px solid #e9edff;
+}
+
+
+.package__item__info 
+{
+    max-width: 180px;
+    margin: 0px auto;
+    padding-bottom : 1rem;
+}
+
+.package__item__info span 
+{
+    font-family : "Inter", sans-serif;
+    margin-bottom : 25px;
+    display : inline-block;
+    text-transform : capitalize;
+    font-weight : 400;
+    line-height : 100%;
+}
+
+.package__type
+{
+    font-weight : 700;
+    font-size : 24px;
+    color : #2d3c58;
+    margin-bottom : 15px;
+    display : block;
+}
+
+.package__item__info select 
+{
+    margin-bottom : 10px;
+    border-width : 1px;
+    border-style : solid;
+    border-color : rgb(76, 86, 113);
+    border-image : initial;
+    padding : 12px;
+    border-radius : 50px;
+}
+
+select 
+{
+    word-wrap : normal;
+}
+
+.buy__now, select 
+{
+    text-transform : none;
+}
+
+.buy__now, input, select, textarea 
+{
+    width : 100%;
+    max-width: 100%;
+    margin : 0px;
+    background : transparent;
+    transition : 0.4s ease-out;
+    vertical-align : baseline;
+    border-radius : 12px;
+}
+
+.buy__now
+{
+    width : 100%;
+    font-weight : 700;
+    color : #fff;
+    display : block;
+    max-width : 100%;
+    padding : 13px 0;
+    cursor : pointer;
+}
+
+.primary__btn
+{
+    padding : 15px 35px;
+    border-radius : 30px;
+    display : block;
+    line-height : 100%;
+    border : 1px solid transparent;
+    transition : all 0.4s ease;
+    text-transform : capitalize;
+}
+
+.primary__btn:hover 
+{
+    background-color:yellow;
+    color : #2d3c58;
+}
+
+.primary__bg
+{
+    background-color : #0774ff;
+    color : #fff;
+}
+
+td.package__left {
+    padding: 10px 30px;
+    border: 1px solid #e9edff;
+}
+
+td.package__item {
+    text-align: center;
+    border: 1px solid #e9edff;
+}
+
+
 
 /*====================== CSS FOR SECTION 10 =================*/
 .section10 
