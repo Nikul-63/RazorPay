@@ -3899,6 +3899,13 @@ footer
         max-width : 1900px;
         margin : 5rem auto 0rem;
     }
+
+    .footer__FiveRows 
+    {
+        align-items : center;
+        justify-content: center;
+        margin : 2rem auto;
+    }
 }
 
 
