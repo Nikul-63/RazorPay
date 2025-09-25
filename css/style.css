@@ -11,11 +11,15 @@
     color: #fff;
 }
 
+.bigSale__InfoContainer
+{
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, .1) 8.51%, hsla(0, 0%, 100%, .1) 77.02%);
+}
+
 .sale__infoContainer
 {
     width: 100%;
     height: fit-content;
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, .1) 8.51%, hsla(0, 0%, 100%, .1) 77.02%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -191,6 +195,17 @@
     padding: 0.5rem 2.5rem;
     border: 1px solid #fff;
     border-radius: 2rem;
+    transition : all 0.3s ease;
+}
+
+.nav__SubmitBtn:hover 
+{
+    background : #ffc107;
+}
+
+.nav__SubmitBtn:hover a 
+{
+    color : #2d3c58;
 }
 
 .header__Container
@@ -1222,6 +1237,12 @@
 }
 
 /*==================== CSS FOR SECTION9 ======================*/
+
+.section9__OuterContainer
+{
+    background-color : #f6f9ff;
+}
+
 .section9
 {
     margin: 3rem auto;
@@ -1261,18 +1282,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-   /*  border: 1px solid #4c5671; */
 }
 
 .sec9__PriceImg
 {
     width: 40%;
-}
-
-.sec9__PriceImg ul li 
-{
-    /* border-top: 1px solid #4c5671;
-    border-left: 1px solid #4c5671; */
 }
     
 .sec9__PriceDif
@@ -1466,7 +1480,7 @@ select
     text-transform : none;
 }
 
-.buy__now, input, select, textarea 
+.buy__now, select, textarea 
 {
     width : 100%;
     max-width: 100%;
@@ -1501,7 +1515,7 @@ select
 
 .primary__btn:hover 
 {
-    background-color:yellow;
+    background-color:#ffc107;
     color : #2d3c58;
 }
 
@@ -2033,5 +2047,2785 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;   
+    margin-top: 2rem;
+    
+}
+
+
+
+/*======================= Responsive Media Query ============================*/
+
+
+
+/* Base styles for 1344px and above */
+@media screen and (min-width : 1344px)
+{
+    .section__One
+    {
+        padding : 0rem;
+    }
+
+    .sale__infoContainer
+    {
+        max-width : 1400px;
+        margin : 0 auto;
+        padding : 1.2rem 2rem;
+    }
+
+    .navBar__Container
+    {
+        max-width : 1400px;
+        margin : 0 auto;
+        padding : 1.5rem 2rem;
+    }
+
+    .header__Container 
+    {
+        max-width : 1400px;
+        margin : 0 auto;
+        padding : 9.75rem 2rem 4rem;
+    }
+
+    .main__Header 
+    {
+        font-size : 4.5rem;
+        line-height : 4.5rem;
+    }
+
+    .header__smallDesc 
+    {
+        font-size : 1.2rem;
+        line-height : 1.8rem;
+        max-width : 90%;
+    }
+
+    /* Media query for section 2 */
+    .section__Two 
+    {
+        padding : 6rem 2rem 2rem;
+    }
+
+    .domain__Container 
+    {
+        max-width : 1400px;
+        margin : 0 auto;
+    }
+
+    .domain__TextH3 
+    {
+        font-size : 2rem;
+    }
+
+    .ads__BannerContainer
+    {
+        max-width : 1400px;
+        margin : 3rem auto;
+        justify-content : space-around;
+    }
+
+    .hosting__Container 
+    {
+        max-width : 1400px;
+        margin : 3rem auto;
+    }
+
+    .hosting__CardContainer 
+    {
+        max-width : 1400px;
+        margin : 0 auto;
+        justify-content : space-around;
+    }
+
+    .hosting__Card 
+    {
+        width : 300px;
+        padding : 3.5rem 2.5rem;
+    }
+
+    /* media query for section 3 */
+    .section3 
+    {
+        max-width : 1400px;
+        padding : 0 1.2rem;
+        gap : 5rem;
+    }
+
+    .sectionH3 
+    {
+        font-size : 2.8rem;
+        line-height : 3.5rem;
+        max-width : 85%;
+    }
+
+    .sectionP 
+    {
+        font-size : 1.2rem;
+        line-height : 1.8rem;
+        max-width : 85%;
+    }
+
+    .success__SmallDetail 
+    {
+        gap : 2.5rem;
+    }
+
+    .section3__SmDesc 
+    {
+        gap : 2.5rem;
+    }
+
+    .SmDesc__Txt h4 
+    {
+        font-size : 1.4rem;
+    }
+
+    .SmDesc__Txt h6 
+    {
+        font-size : 1.1rem;
+        line-height : 1.7rem;
+    }
+
+    /* media query for section 4 */
+    .section4 
+    {
+        max-width : 1400px;
+        padding : 7rem 0;
+        border-radius : 1.5rem;
+        gap : 2.5rem;
+    }
+
+    .section4h3 
+    {
+        font-size : 2.8rem;
+        max-width : 80%;
+        text-align : center;
+    }
+
+    .billBoard__Input 
+    {
+        width : 80%;
+        padding : 0.7rem 0.7rem 0.7rem 2.5rem;
+    }
+
+    .billBoard__Input input 
+    {
+        font-size : 1.1rem;
+    }
+
+    .billBoard__Btn 
+    {
+        padding : 1rem 2rem;
+        font-size : 1.1rem;
+    }
+
+    .billBoard__Txt 
+    {
+        width : 55%;
+        gap : 1.5rem;
+    }
+
+    .billBoard__Txt div 
+    {
+        font-size : 1.1rem;
+    }
+
+    .sm__Domain 
+    {
+        font-size : 1.2rem;
+    }
+
+    .smDom 
+    {
+        font-size : 1.1rem;
+    }
+
+    /* media query for section 5 */
+    .section5 
+    {
+        max-width : 1400px;
+        margin : 5rem auto;
+        padding : 0 2rem;
+    }
+
+    .section5__H3 
+    {
+        font-size : 2.8rem;
+    }
+
+    .section5__SmallP
+    {
+        max-width : 40%;
+        font-size : 1.2rem;
+        line-height : 1.8rem;
+        margin : 1.5rem auto;
+    }
+
+    .section5__CardContainer
+    {
+        max-width : 1400px;
+        margin : 3rem auto;
+    }
+
+    .section5__FirstRow 
+    {
+        margin : 0;
+        justify-content : space-around;
+    }
+
+    .sec5hosting__Card
+    {
+        height : 320px;
+    }
+
+    .sec5hosting__Card img 
+    {
+        padding : 0.8rem 0.9rem;
+        border-radius : 0.8rem;
+        margin : 1.2rem 0;
+    }
+
+    .hosting__CardH4 
+    {
+        font-size : 1.5rem;
+        margin : 1.2rem 0;
+    }
+
+    .hosting__CardP 
+    {
+        font-size : 1rem;
+        line-height : 1.4rem;
+        margin-bottom : 2.2rem;
+        width : 100%;
+    }
+
+    .hostingCard__Link 
+    {
+        font-size : 1.2rem;
+    }
+
+    /* media query for section 6 */
+    .section6 
+    {
+        max-width : 1400px;
+        margin : 0 auto;
+        padding : 6rem 2rem;
+    }
+
+    .section6__H3 
+    {
+        font-size : 2.8rem;
+    }
+
+    .section6__SmTxt
+    {
+        max-width : 50%;
+        font-size : 1.2rem;
+        line-height : 1.8rem;
+    }
+
+    .section6__ImgContainer 
+    {
+        max-width : 1200px;
+        margin : 0 auto;
+    }
+
+    .section6__ImgContainer img 
+    {
+        transform : scale(1.05);
+    }
+
+    /*adjusting flag position for larger map*/
+    .round__Shape li img 
+    {
+        transform : scale(1);
+    }
+
+    .round__Shape span 
+    {
+        width : 10px;
+        height : 10px;
+    }
+
+    .round__Shape li.one 
+    {
+        top: 14.5%;
+    }
+
+    .round__Shape li.two 
+    {
+        top: 24.5%;
+        left: 46.5%;
+    }
+
+    .round__Shape li.three 
+    {
+        top: 17%;
+        right: 20%;
+    }
+
+    .round__Shape li.four 
+    {
+        top : 36%;
+    }
+
+    .round__Shape li.five 
+    {
+        top: 43.5%;
+        left: 51.3%;
+    }
+
+    .round__Shape li.six 
+    {
+        top: 47.9%;
+        right: 31.4%;
+    }
+
+    .round__Shape li.seven 
+    {
+        top: 33.2%;
+        right: 24%;
+    }
+
+    .round__Shape li.eight 
+    {
+        bottom: 32%;
+        left: 27%;
+    }
+
+    .round__Shape li.nine 
+    {
+        bottom: 15.9%;
+        left: 50%;
+    }
+
+    .round__Shape li.ten 
+    {
+        bottom: 19.2%;
+        right: 16%;
+    }
+
+    /* media query for section 7 */
+    .section7 
+    {
+        max-width : 1400px;
+        padding : 4rem 3rem;
+        border-radius : 1.5rem;
+    }
+
+    .section7__SaleBanner 
+    {
+        max-width : 1300px;
+        margin : 0 auto;
+        gap : 3rem;
+    }
+
+    .section7__H3 
+    {
+        font-size: 2.5rem;
+    }
+
+    .section7__SmTxt 
+    {
+        font-size : 1.2rem;
+        line-height : 1.6rem;
+        width : 90%;
+    }
+
+    .sec7__SaleBanners 
+    {
+        gap : 2.5rem;
+    }
+
+    .sec7__Sale1 
+    {
+        padding : 35px 60px;
+        border-radius : 1.2rem;
+        gap : 2.5rem;
+    }
+
+    .saleOne__Span 
+    {
+        font-size : 1.9rem;
+    }
+
+    .saleOne__Img 
+    {
+        padding : 2rem;
+    }
+
+    .header__GetStartedBtn
+    {
+        padding : 1rem 2.5rem;
+        font-size : 1.1rem;
+    }
+
+    /*media query for section 8 */
+    .section8 
+    {
+        max-width : 1400px;
+        margin : 5rem auto;
+        padding : 4rem 2rem;
+        gap : 3rem;
+    }
+
+    .sec8__H3 
+    {
+        font-size : 2.5rem;
+        line-height : 3.2rem;
+        margin : 2.5rem 0;
+    }
+
+    .sec8__SmDesc 
+    {
+        gap : 1.5rem;
+    }
+
+    .sec8__SmDescOne 
+    {
+        width : 85%;
+        gap : 1.5rem;
+        margin-bottom : 1.5rem;
+    }
+
+    .sec8__SmDescOne img 
+    {
+        width : 70px;
+        height : 70px;
+        padding : 0.7rem 1.2rem;
+        border-radius : 1.2rem;
+    }
+
+    .sec8__SmDescOneTxt h4 
+    {
+        font-size : 1.4rem;
+        text-transform: capitalize;
+    }
+
+    .sec8__SmDescOneTxt p 
+    {
+        font-size : 1.1rem;
+        line-height : 1.6rem;
+    }
+
+    .sec8__ImgContainer 
+    {
+        padding : 5rem 2.5rem;
+        border-radius : 2.5rem;
+    }
+
+    .sec8__ImgContainer img 
+    {
+        transform : scale(1.1);
+    }
+
+    /*media query for section 10*/
+    .section10
+    {
+        max-width : 1400px;
+        margin : 5rem auto;
+        padding : 4rem 2rem;
+    }
+
+    /* media query for section 11*/
+    .section11 
+    {
+        max-width : 1300px;
+        margin : 5rem auto;
+        padding : 5rem 2rem;
+    }
+
+    /* media query for section 12 */
+    .section12 
+    {
+        margin : 5rem 2rem;
+        padding : 5rem 2rem;
+        border-radius : 1.4rem;
+    }
+
+    /* media query for footer */
+    footer 
+    {
+        max-width : 1300px;
+        margin : 5rem auto 0rem;
+    }
+}
+
+
+/* For 1440px displays (media query)*/
+@media screen and (min-width : 1440px)
+{
+    .sale__infoContainer, 
+    .navBar__Container, 
+    .header__Container
+    {
+        max-width : 1500px;
+    }
+
+    .main__Header
+    {
+        font-size : 5rem;
+        line-height : 5rem;
+    }
+
+    .header__smallDesc 
+    {
+        font-size : 1.3rem;
+        max-width : 95%;
+    }
+
+    .header__BtnContainer 
+    {
+        font-size : 1.2rem;
+    }
+
+    .header__GetStartedBtn, 
+    .header__PlantBtn 
+    {
+        padding : 0.5rem 2.2rem;
+        margin-bottom : 1.5rem;
+    }
+
+    /* Media Query for Section 2 */
+
+    .domain__Container 
+    {
+        max-width : 1500px;
+    }
+
+    .domain__TextH3 
+    {
+        font-size : 2.2rem;
+    }
+
+    .hosting__H3 
+    {
+        font-size : 2.8rem;
+    }
+
+    .hosting__txt 
+    {
+        font-size : 1.1rem;
+    }
+
+    .ads__BannerContainer, 
+    .hosting__Container, 
+    .hosting__CardContainer 
+    {
+        max-width : 1500px;
+    }
+
+    .hosting__Card 
+    {
+        width : 320px;
+        padding : 3.5rem 2.8rem;
+    }
+
+    .hosting__CardH4 
+    {
+        font-size : 1.4rem;
+    }
+
+    /*media query for section 3*/
+    .section3 
+    {
+        max-width : 1500px;
+        gap : 6rem;
+    }
+
+    .sectionH3 
+    {
+        font-size : 3rem;
+        line-height : 3.8rem;
+    }
+
+    .sectionP 
+    {
+        font-size : 1.25rem;
+        line-height : 1.9rem;
+    }
+
+    .section3__Icon1, 
+    .section3__Icon2 
+    {
+        padding : 1.2rem;
+        border-radius : 1.2rem;
+    }
+
+    .SmDesc__Txt h4 
+    {
+        font-size : 1.5rem;
+    }
+
+    .SmDesc__Txt h6 
+    {
+        font-size : 1.15rem;
+        line-height : 1.8rem;
+    }
+
+    /* media query for section 4 */
+    .section4 
+    {
+        max-width : 1500px;
+        padding : 8rem 0;
+        gap : 3rem;
+    }
+
+    .section4h3 
+    {
+        font-size : 3rem;
+        max-width : 75%;
+    }
+
+    .billBoard__Input 
+    {
+        width : 75%;
+        /* padding : 0.8rem 0.8rem 0.8rem 3rem; */
+        align-items : center;
+    }
+
+    .billBoard__Input input 
+    {
+        font-size : 1.2rem;
+    }
+
+    .billBoard__Btn 
+    {
+        padding : 1.1rem 2.2rem;
+        font-size : 1.2rem;
+        margin-bottom : 0;
+    }
+
+    .billBoard__Txt 
+    {
+        width : 70%;
+        gap : 2rem;
+    }
+
+    .billBoard__Txt div 
+    {
+        font-size : 1.2rem;
+    }
+
+    .sm__Domain 
+    {
+        font-size : 1.3rem;
+    }
+
+    .smDom 
+    {
+        font-size : 1.2rem;
+    }
+
+    /* media query for section 5 */
+    .section5 
+    {
+        max-width: 1500px;
+        margin : 6rem auto;
+    }
+
+    .section5__H3 
+    {
+        font-size : 3rem;
+    }
+
+    .section5__SmallP 
+    {
+        max-width: 35%;
+        font-size : 1.3rem;
+        line-height : 1.9rem;
+    }
+
+    .section5__CardContainer 
+    {
+        max-width : 1500px;
+    }
+
+    .sec5hosting__Card
+    {
+        height : 360px;
+        padding : 1.8rem 2.8rem;
+    }
+
+    .sec5hosting__Card img 
+    {
+        padding : 1rem 1.1rem;
+        border-radius : 1rem;
+        margin : 1.5rem 0;
+    }
+
+    .hosting__CardH4
+    {
+        font-size : 1.6rem;
+        margin: 1.5rem 0;
+    }
+
+    .hosting__CardP 
+    {
+        font-size : 1.1rem;
+        line-height : 1.5rem;
+        margin-bottom : 1.5rem;
+    }
+
+    .hostingCard__Link
+    {
+        font-size : 1.3rem;
+    }
+
+    /* media query for section 6 */
+    .section6 
+    {
+        max-width : 1500px;
+        padding : 7rem 2rem;
+    }
+
+    .section6__H3 
+    {
+        font-size : 3rem;
+    }
+
+    .section6__SmTxt 
+    {
+        max-width : 48%;
+        font-size : 1.3rem;
+        line-height : 1.9rem;
+    }
+
+    .section6__ImgContainer 
+    {
+        max-width : 1300px;
+    }
+
+    .section6__ImgContainer img 
+    {
+        transform : scale(1.1);
+    }
+
+    .round__Shape li img 
+    {
+        transform : scale(1.1);
+    }
+
+    .round__Shape span 
+    {
+        width : 11px;
+        height : 11px;
+    }
+
+    .round__Shape li.one 
+    {
+        top: 12.5%;
+        left : 12%;
+    }
+
+    .round__Shape li.two 
+    {
+        top: 22.5%;
+        left: 42.5%;
+    }
+
+    .round__Shape li.three 
+    {
+        top: 15.5%;
+        right: 24.4%;
+    }
+
+    .round__Shape li.four {
+        top: 35%;
+        left : 13%;
+    }
+
+    .round__Shape li.five
+    {
+        top: 43%;
+        left: 47.5%;
+    }
+
+    .round__Shape li.six {
+        top: 47.9%;
+        right: 35.7%;
+    }
+
+    .round__Shape li.seven {
+        top: 33.2%;
+        right: 28.5%;
+    }
+
+    .round__Shape li.nine 
+    {
+        bottom: 14.9%;
+        left: 46.5%;
+    }
+
+    .round__Shape li.ten 
+    {
+        bottom: 18.2%;
+        right: 21%;
+    }
+
+    /* media query for section 7 */
+    .section7 
+    {
+        max-width : 1500px;
+        padding : 4.5rem 3.5rem;
+    }
+
+    .section7__SaleBanner 
+    {
+        max-width : 1400px;
+        gap : 3.5rem;
+    }
+
+    .section7__H3 
+    {
+        font-size : 2.7rem;
+    }
+
+    .section7__SmTxt 
+    {
+        font-size : 1.3rem;
+        line-height : 1.7rem;
+    }
+
+    .sec7__SaleBanners 
+    {
+        gap : 3rem;
+    }
+
+    .saleOne__H3 
+    {
+        font-size : 2rem;
+    }
+
+    .saleOne__Span 
+    {
+        font-size : 2.1rem;
+    }
+
+    .saleOne__Img 
+    {
+        padding : 1.5rem;
+    }
+
+    .header__GetStartedBtn 
+    {
+        padding : 1.1rem 2.8rem;
+        font-size : 1.2rem;
+    }
+
+    /* media query for section 8 */
+    .section8 
+    {
+        max-width : 1500px;
+        padding : 4.5rem 2.5rem;
+        gap : 3.5rem;
+    }
+
+    /* media query for section 10 */
+    .section10 
+    {
+        max-width : 1500px;
+        padding : 4.5rem 2.5rem;
+    }
+
+    .section10__Header
+    {
+        width : 65%;
+        gap : 1.8rem;
+    }
+
+    .section10__Header h3 
+    {
+        font-size : 3rem;
+    }
+
+    .section10__Header p 
+    {
+        width : 50%;
+        font-size : 1.3rem;
+        line-height : 1.8rem;
+    }
+
+    .section10__ReviewsContainer
+    {
+        max-width : 1300px;
+        margin : 3rem auto;
+    }
+
+    .sec10__ReviewCard 
+    {
+        width : 400px;
+        padding : 2.8rem;
+        border-radius : 1.4rem;
+    }
+
+    /* media query for section 11 */
+    .section11 
+    {
+        max-width : 1400px;
+        margin : 6rem auto;
+        padding : 6rem 3rem;
+    }
+
+    .section11__LeftSide h3 
+    {
+        font-size : 2.3rem;
+        line-height : 3rem;
+    }
+
+    .section11__LeftSide p 
+    {
+        font-size : 1.3rem;
+        width : 75%;
+    }
+
+    .faq__Question h4 
+    {
+        font-size : 1.6rem;
+    }
+
+    .faq__Answer p 
+    {
+        font-size : 1.3rem;
+    }
+
+    .faqs__Container
+    {
+        padding : 3rem 0;
+    }
+
+    /* media query for section 12 */
+    .section12 
+    {
+        margin :  6rem 3rem;
+        padding : 6rem 2rem;
+        border-radius : 1.5rem;
+    }
+
+     /* media query for footer */
+    footer 
+    {
+        max-width : 1400px;
+        margin : 5rem auto 0rem;
+    }
+}
+
+/* For 1600px displays */
+@media screen and (min-width : 1600px)
+{
+    .sale__infoContainer, 
+    .navBar__Container, 
+    .header__Container 
+    {
+        max-width : 1600px;
+    }
+
+    .header__ContainerTxt
+    {
+        width : 55%;
+    }
+
+    .header__smallDesc 
+    {
+        max-width : 80%;
+    }
+
+    .header__ContainerImg img 
+    {
+        transform : scale(1.1);
+    }
+
+    /* Media Query For Section 2 */
+    .domain__Container 
+    {
+        max-width : 1600px;
+    }
+
+    .domain__TextH3 
+    {
+        font-size : 2.4rem;
+    }
+
+    .domain__ReviewContainer 
+    {
+        gap : 3rem;
+    }
+
+    .smdomain__Review1 
+    {
+        font-size : 1.8rem;
+    }
+
+    .smdomain__Review2 
+    {
+        font-size : 1.3rem;
+    }
+
+    .ads__BannerContainer, 
+    .hosting__Container, 
+    .hosting__CardContainer 
+    {
+        max-width : 1600px;
+    }
+
+    .hosting__H3 
+    {
+        font-size : 3rem;
+    }
+
+    .hosting__txt 
+    {
+        font-size : 1.2rem;
+    }
+
+    .hosting__Navigation i 
+    {
+        padding : 1.1rem 1.4rem;
+        font-size : 1.2rem;
+    }
+
+    .hosting__Card 
+    {
+        width : 340px;
+        height : 450px;
+        padding : 4rem 3rem;
+    }
+
+    .hosting__CardH4 
+    {
+        font-size : 1.5rem;
+    }
+
+    .hosting__CardP 
+    {
+        font-size : 1rem;
+        line-height : 1.4rem;
+        text-align : center;
+    }
+
+    .hosting__CardSpan, 
+    .hostingCard__Btn a 
+    {
+        font-size : 1.1rem;
+    }
+
+    .hostingCard__Btn 
+    {
+        padding : 0.7rem 1.2rem;
+    }
+
+    /*media query for section 3*/
+    .section3 
+    {
+        max-width : 1600px;
+        gap : 7rem;
+    }
+
+    .sectionH3 
+    {
+        font-size : 3.3rem;
+        line-height : 4rem;
+        max-width : 80%;
+    }
+
+    .sectionP 
+    {
+        font-size : 1.5rem;
+        line-height : 2rem;
+        max-width : 80%;
+    }
+
+    .success__SmallDetail 
+    {
+        gap : 3rem;
+    }
+
+    .section3__SmDesc 
+    {
+        gap : 3rem;
+    }
+
+    .section3__Icon1, 
+    .section3__Icon2 
+    {
+        padding : 1.3rem;
+        border-radius : 1.3rem;
+        transform : scale(1.1);
+    }
+
+    .SmDesc__Txt h4 
+    {
+        font-size : 1.6rem;
+    }
+
+    .SmDesc__Txt h6 
+    {
+        font-size : 1.2rem;
+        line-height : 1.9rem;
+    }
+
+    /* media query for section 4 */
+    .section4 
+    {
+        max-width : 1600px;
+        margin : 15rem auto;
+        padding : 9rem 0;
+        gap : 3.5rem;
+    }
+
+    .section4h3 
+    {
+        font-size : 3.3rem;
+        max-width : 70%;
+    }
+
+    .billBoard__Input 
+    {
+        width : 75%;
+        padding : 0.9rem 0.9rem 0.9rem 3.5rem;
+    }
+
+    .billBoard__Input input 
+    {
+        font-size : 1.3rem;
+    }
+
+    .billBoard__Btn 
+    {
+        padding : 1.2rem 2.5rem;
+        font-size : 1.3rem;
+        border-radius : 2.5rem;
+    }
+
+    .billBoard__Txt 
+    {
+        width : 70%;
+        gap : 2.5rem;
+    }
+
+    .billBoard__Txt div 
+    {
+        font-size : 1.3rem;
+    }
+
+    .sm__Domain 
+    {
+        font-size : 1.4rem;
+    }
+
+    .smDom 
+    {
+        font-size : 1.3rem;
+    }
+
+    /* media query for section 5 */
+    .section5 
+    {
+        max-width : 1600px;
+        margin : 7rem auto;
+    }
+
+    .section5__H3 
+    {
+        font-size : 3.3rem;
+    }
+
+    .section5__SmallP 
+    {
+        max-width : 42%;
+        font-size : 1.5rem;
+        line-height : 2.2rem;
+        margin : 2rem auto;
+    }
+
+    .section5__CardContainer 
+    {
+        max-width : 1600px;
+        margin : 4rem auto;
+    }
+
+    .sec5hosting__Card 
+    {
+        height : 400px;
+        padding : 2rem 3rem;
+    }
+
+    .sec5hosting__Card img 
+    {
+        padding : 1.2rem 1.3rem;
+        border-radius : 1.2rem;
+        margin : 1.1rem 0;
+        transform : scale(1.1);
+    }
+
+    .sec5hosting__Card .hosting__CardH4 
+    {
+        font-size : 1.7rem;
+        margin : 1.8rem 0;
+    }
+
+    .sec5hosting__Card .hosting__CardP 
+    {
+        font-size : 1.35rem;
+        line-height : 2rem;
+        margin-bottom : 1.8rem;
+        text-align : left;
+    }
+
+    .hostingCard__Link
+    {
+        font-size : 1.4rem;
+    }
+
+    /* media query for section 6 */
+    .section6 
+    {
+        max-width : 1600px;
+        padding : 8rem 2rem;
+    }
+
+    /* media query for section 7 */
+    .section7 
+    {
+        margin : 5rem auto;
+        max-width : 1600px;
+        padding : 5rem 4rem;
+        border-radius : 1.8rem;
+    }
+
+    /* media query for section 8 */
+    .section8 
+    {
+        max-width : 1600px;
+        padding : 5rem 3rem;
+        gap : 4rem;
+    }
+
+    /* media query for section 9 */
+    .section9 
+    {
+        max-width : 1600px;
+        padding : 5rem 3rem;
+    }
+
+    /* media query for section 11 */
+    .section11 
+    {
+        max-width : 1600px;
+        margin : 6rem auto;
+        padding : 6rem 3rem;
+    }
+
+     /* media query for section 12 */
+    .section12 
+    {
+        margin :  7rem 3rem;
+        padding : 6rem 2rem;
+        border-radius : 1.6rem;
+    }
+
+    .sec12__LeftSide h3 
+    {
+        font-size : 3rem;
+        line-height : 4rem;
+        margin-bottom : 1.5rem;
+    }
+
+    .sec12__LeftSide p 
+    {
+        font-size : 1.4rem;
+        line-height : 2rem;
+        width : 90%;
+    }
+
+     /* media query for footer */
+    footer 
+    {
+        max-width : 1600px;
+        margin : 5rem auto 0rem;
+    }
+}
+
+
+/*Media Query For 1920px (full hd) displays*/
+@media screen and (min-width : 1920px)
+{
+    .section__One 
+    {
+        padding : 0rem;
+    }
+ 
+    .navBar__Container, 
+    .header__Container 
+    {
+        max-width : 1800px;
+    }
+
+    .sale__infoContainer
+    {
+        max-width : 1900px;
+    }
+
+    .header__smallDesc 
+    {
+        font-size : 1.4rem;
+        line-height : 2rem;
+        max-width : 80%;
+    }
+
+    .header__BtnContainer
+    {
+        font-size : 1.3rem;
+        align-items : center;
+    }
+
+    .header__GetStartedBtn, 
+    .header__PlanBtn 
+    {
+        padding : 1rem 1.5rem;
+        margin-bottom : 0;
+    }
+
+    /* Adjust submenu positions for extra wide screens */
+    .submenuContainer 
+    {
+        left : 20%;
+    }
+
+    .submenuContainer2 
+    {
+        left : 34%;
+    }
+
+    .subMenuContainer3 
+    {
+        left : 44%;
+    }
+
+    .subMenuContainer5 
+    {
+        left : 58%;
+    }
+
+    /*Media Query For Section 2 */
+    .section__Two 
+    {
+        padding : 8rem 2rem 3rem;
+    }
+
+    .domain__Container 
+    {
+        max-width : 1800px;
+    }
+
+    .domain__TextH3 
+    {
+        font-size : 2.6rem;
+    }
+
+    .domain__ReviewContainer 
+    {
+        gap : 4rem;
+        margin : 2rem 0;
+    }
+
+    .smdomain__Review1 
+    {
+        font-size : 2rem;
+    }
+
+    .smdomain__Review2 
+    {
+        font-size : 1.4rem;
+    }
+
+    .ads__BannerContainer
+    {
+        max-width : 1800px;
+        margin : 4rem auto;
+    }
+
+    .ads__BannerContainer img 
+    {
+        transform : scale(1.1);
+    }
+
+    .hosting__Container 
+    {
+        max-width : 1800px;
+        margin : 4rem auto;
+    }
+
+    .hosting__H3 
+    {
+        font-size : 3.2rem;
+    }
+
+    .hosting__txt 
+    {
+        font-size : 1.3rem;
+        max-width : 80%;
+    }
+
+    .hosting__Navigation i 
+    {
+        padding : 1.2rem 1.6rem;
+        font-size : 1.3rem;
+        border-radius : 1.2rem;
+    }
+
+    .hosting__CardContainer 
+    {
+        max-width : 1800px;
+        margin : 0 auto;
+        gap : 2rem;
+    }
+
+    .hosting__Card 
+    {
+        width : 380px;
+        height : 480px;
+        padding : 2.5rem 3.5rem;
+        border-radius : 1.5rem;
+        gap : 1.2rem;
+    }
+
+    .hosting__Card img 
+    {
+        width : 70px;
+        height : auto;
+    }
+
+    .hosting__CardH4 
+    {
+        font-size : 1.6rem;
+    }
+
+    .hosting__CardP 
+    {
+        font-size : 1.2rem;
+        line-height : 2.1rem;
+    }
+
+    .hosting__CardSpan, 
+    .hostingCard__Btn a 
+    {
+        font-size : 1.2rem;
+    }
+
+    .hostingCard__Btn 
+    {
+        padding : 0.8rem 1.5rem;
+        border-radius : 2.5rem;
+        width : 65%;
+    }
+
+    /* media query for section 3 */
+    .section3 
+    {
+        max-width : 1800px;
+        margin : 6rem auto;
+        gap : 8rem;
+    }
+
+    .sectionH3 
+    {
+        font-size : 3.5rem;
+        line-height : 4.5rem;
+        max-width : 75%;
+    }
+
+    .sectionP 
+    {
+        font-size : 1.5rem;
+        line-height : 2.2rem;
+        max-width : 75%;
+        margin : 2.5rem 0;
+    }
+
+    .success__SmallDetail 
+    {
+        gap : 3.5rem;
+    }
+
+    .section3__SmDesc
+    {
+        gap : 3.5rem;
+    }
+
+    .section3__Icon1, 
+    .section3__Icon2
+    {
+        padding : 1.5rem;
+        border-radius : 1.5rem;
+        transform : scale(1.2);
+    }
+
+    .SmDesc__Txt h4 
+    {
+        font-size : 1.8rem;
+    }
+
+    .SmDesc__Txt h6 
+    {
+        font-size : 1.4rem;
+        line-height : 2.1rem;
+    }
+
+    .successImg img 
+    {
+        transform : scale(1.1);
+    }
+
+    /* media query for section4 */
+    .section4 
+    {
+        max-width : 1800px;
+        margin : 10rem auto;
+        padding : 10rem 0;
+        border-radius : 2rem;
+        gap : 4rem;
+    }
+
+    .section4h3 
+    {
+        font-size : 3.8rem;
+        max-width: 65%;
+    }
+
+    .billBoard__Input 
+    {
+        width : 75%;
+        padding : 1rem 1rem 1rem 4rem;
+        border-radius : 4rem;
+    }
+
+    .billBoard__Input input 
+    {
+        font-size : 1.4rem;
+    }
+
+    .billBoard__Btn 
+    {
+        padding : 1.2rem 2rem;
+        border-radius : 3rem;
+        margin-bottom : 0rem;
+    }
+
+    .billBoard__Btn a 
+    {
+        font-size : 1.4rem;
+    }
+
+    .billBoard__Txt 
+    {
+        width : 70%;
+        gap : 3rem;
+    }
+
+    .billBoard__Txt div 
+    {
+        font-size : 1.4rem;
+    }
+
+    .sm__Domain 
+    {
+        font-size : 1.5rem;
+    }
+
+    .smDom 
+    {
+        font-size : 1.4rem;
+    }
+
+    /* media query for section 5 */
+    .section5 
+    {
+        max-width : 1800px;
+        margin : 8rem auto;
+        padding : 0 3rem;
+    }
+
+    .section5__H3 
+    {
+        font-size : 3.8rem;
+    }
+
+    .section5__SmallP 
+    {
+        max-width : 40%;
+        font-size : 1.6rem;
+        line-height : 2.2rem;
+        margin : 2.5rem auto;
+    }
+
+    .section5__CardContainer 
+    {
+        max-width : 1800px;
+        margin : 5rem auto;
+    }
+
+    .section5__FirstRow 
+    {
+        margin : 0 auto;
+        max-width : 1700px;
+    }
+
+    .sec5hosting__Card 
+    {
+        height : 420px;
+        padding : 1.5rem 2rem;
+    }
+
+    /* media query for section 6 */
+    .section6 
+    {
+        max-width : 1800px;
+        padding : 10rem 3rem;
+    }
+
+    .section6__H3 
+    {
+        font-size : 3.8rem;
+    }
+
+    .section6__SmTxt
+    {
+        max-width: 55%;
+        font-size : 1.5rem;
+        line-height : 2.2rem;
+        margin-bottom : 2rem;
+    }
+
+    .section6__ImgContainer 
+    {
+        max-width : 1600px;
+        margin : 1rem auto;
+    }
+
+    .section6__ImgContainer img 
+    {
+        margin : 7rem auto 3rem;
+        transform : scale(1.2);
+    }
+
+    /* Adjust flag positions for layer map */
+
+    .round__Shape li img 
+    {
+        margin : 0;
+    }
+
+    .round__Shape li.one 
+    {
+        top: 9%;
+        left: 20.5%;
+    }
+
+    .round__Shape li.two 
+    {
+        top: 20.5%;
+        left: 47.5%;
+    }
+
+    .round__Shape li.three {
+        top: 13%;
+        right: 23.4%;
+    }
+
+    .round__Shape li.four 
+    {
+        top: 34%;
+        left: 21.3%;
+    }
+
+    .round__Shape li.five 
+    {
+        top: 43%;
+        left: 52%;
+    }
+
+    .round__Shape li.six 
+    {
+        top: 46.9%;
+        right: 33.3%;
+    }
+
+    .round__Shape li.seven {
+        top: 31%;
+        right: 27%;
+    }
+
+    .round__Shape li.eight 
+    {
+        bottom: 29.8%;
+        left: 31%;
+    }
+
+    .round__Shape li.nine 
+    {
+        bottom: 12%;
+        left: 51%;
+    }
+
+    .round__Shape li.ten 
+    {
+        bottom: 15.6%;
+        right: 20.5%;
+    }
+
+    /* media query for section 7 */
+    .section7 
+    {
+        max-width : 1800px;
+        margin : 7rem auto;
+        padding : 6rem 5rem;
+        border-radius : 2rem;
+    }
+
+    .section7__SaleBanner 
+    {
+        max-width : 1700px;
+        gap : 5rem;
+    }
+
+    /* media query for section 8 */
+    .section8
+    {
+        max-width : 1800px;
+        margin : 7rem auto;
+        padding : 6rem 4rem;
+        gap : 5rem;
+    }
+
+    .sec8__H3 
+    {
+        font-size : 3.8rem;
+        line-height : 4.2rem;
+        margin : 4rem 0;
+    }
+
+    .sec8__SmDesc 
+    {
+        gap : 1.5rem;
+    }
+
+    .sec8__SmDescOne
+    {
+        width : 70%;
+        gap : 2rem;
+        margin-bottom : 2.5rem;
+    }
+
+    .sec8__SmDescOne img 
+    {
+        width : 90px;
+        height : 90px;
+        padding : 1.2rem 1.8rem;
+        border-radius : 1.8rem;
+    }
+
+    .sec8__SmDescOneTxt h4 
+    {
+        font-size : 1.8rem;
+        text-transform : capitalize;
+    }
+
+    .sec8__SmDescOneTxt p 
+    {
+        font-size : 1.4rem;
+        line-height : 2rem;
+    }
+
+    .sec8__ImgContainer 
+    {
+        padding : 7rem 4rem;
+        border-radius : 3.5rem;
+    }
+
+    .sec8__ImgContainer img 
+    {
+        transform : scale(1.3);
+    }
+
+    /* media query for section 9 */
+    .section9 
+    {
+        max-width : 1800px;
+        margin : 7rem auto !important;
+        padding : 6rem 4rem; 
+    }
+
+    .table-bordered
+    {
+        margin : 2rem auto;
+    }
+
+    /* media query for section 12 */
+    .section12 
+    {
+        max-width : 1600px;
+        margin :  8rem auto;
+        padding : 7rem 3rem;
+        border-radius : 1.6rem;
+    }
+
+    .sec12__LeftSide h3 
+    {
+        font-size : 3.2rem;
+        line-height : 4.2rem;
+        margin-bottom : 2rem;
+    }
+
+    .sec12__LeftSide p 
+    {
+        font-size : 1.6rem;
+        line-height : 2.2rem;
+        width : 90%;
+    }
+
+    .sec12__GetStart {
+        padding: 1.3rem 2rem;
+        margin-top: 1.5rem;
+        border-radius: 2rem;
+    }
+
+    .sec12__GetStart a {
+        font-size: 1.2rem;
+    }
+
+    /* media query for footer */
+    footer 
+    {
+        max-width : 1900px;
+        margin : 5rem auto 0rem;
+    }
+}
+
+
+
+
+
+/*For 2k Displays(2048px and above)*/
+@media screen and (min-width : 2048px)
+{
+    .section__One 
+    {
+        padding : 0rem;
+    }
+
+    .navBar__Container, 
+    .header__Container 
+    {
+        max-width: 2000px;
+        padding : 3rem 2rem 10rem;
+    }
+
+    .sale__infoContainer
+    {
+        max-width : 2050px;
+    }
+
+    .header__ContainerTxt 
+    {
+        width : 50%;
+    }
+
+    .header__ContainerImg img 
+    {
+        transform : scale(1.1);
+    }
+
+    /*increase font size of nav links*/
+    .navBar__Ul li a 
+    {
+        font-size : 1.1rem;
+    }
+
+    .nav__SubmitBtn a 
+    {
+        font-size : 1.1rem;
+    }
+
+    /* media query for section 2 */
+    .domain__Container 
+    {
+        max-width : 2000px;
+    }
+
+    .domain__TextH3 
+    {
+        font-size : 2.8rem;
+    }
+
+    .ads__BannerContainer, 
+    .hosting__Container, 
+    .hosting__CardContainer 
+    {
+        max-width : 2000px;
+    }
+
+    .hosting__H3 
+    {
+        font-size: 3.5rem;
+    }
+
+    .hosting__txt 
+    {
+        font-size : 1.4rem;
+        max-width : 75%;
+    }
+
+    .hosting__CardContainer 
+    {
+        gap : 2.5rem;
+    }
+
+    .hosting__Card 
+    {
+        width : 420px;
+        height : 500px;
+        padding : 3rem 4rem;
+    }
+
+    .hosting__CardH4 
+    {
+        font-size : 2rem;
+    }
+
+    .hosting__CardP 
+    {
+        font-size : 1.3rem;
+        line-height : 2.2rem;
+    }
+
+    /* media query for 2k display */
+    .section3 
+    {
+        max-width : 2000px;
+        gap : 9rem;
+    }
+
+    .sectionH3 
+    {
+        font-size : 4.2rem;
+        line-height : 4.2rem;
+        max-width : 80%;
+    }
+
+    .sectionP 
+    {
+        font-size : 1.6rem;
+        line-height : 2.4rem;
+        max-width : 70%;
+    }
+
+    .section3__Icon1, 
+    .section3__Icon2 
+    {
+        padding : 1.7rem;
+        border-radius : 1.7rem;
+        transform : scale(1.3);
+    }
+
+    .SmDesc__Txt h4 
+    {
+        font-size : 2rem;
+    }
+
+    .SmDesc__Txt h6 
+    {
+        font-size : 1.5rem;
+        line-height : 2.3rem;
+    }
+
+    /*media query for section 4 */
+    .section4 
+    {
+        max-width : 2000px;
+        padding : 12rem 0;
+        gap : 4.5rem;
+    }
+
+    .section4h3 
+    {
+        font-size : 4.2rem;
+        max-width : 80%;
+    }
+
+    .billBoard__Input 
+    {
+        width : 80%;
+        padding : 1.2rem 1.2rem 1.2rem 3.5rem;
+    }
+
+    .billBoard__Input input 
+    {
+        font-size : 1.5rem;
+    }
+
+    .billBoard__Btn 
+    {
+        padding : 1.5rem 3.5rem;
+        font-size : 1.5rem;
+    }
+
+    .billBoard__Txt 
+    {
+        width : 70%;
+        gap : 3.5rem;
+    }
+
+    .billBoard__Txt div 
+    {
+        font-size : 1.5rem;
+    }
+
+    .sm__Domain 
+    {
+        font-size : 1.6rem;
+    }
+
+    .smDom 
+    {
+        font-size : 1.5rem;
+    }
+
+    /* media query for section 5 */
+    .section5 
+    {
+        max-width : 2000px;
+        margin : 10rem auto;
+    }
+
+    .section5__H3 
+    {
+        font-size : 4.2rem;
+    }
+
+    .section5__SmallP 
+    {
+        max-width : 48%;
+        font-size : 1.7rem;
+        line-height : 2.4rem;
+    }
+
+    .section5__CardContainer 
+    {
+        max-width : 2000px;
+        margin : 6rem auto;
+    }
+
+    .sec5hosting__Card 
+    {
+        height : 440px;
+        padding : 2rem 3rem;
+    }
+
+    /* media query for section 6 */
+    .section6 
+    {
+        max-width : 2000px;
+        padding : 12rem 3rem;
+    }
+
+    .section6__H3 
+    {
+        font-size : 4.2rem;
+    }
+
+    .section6__SmTxt 
+    {
+        max-width : 48%;
+        font-size : 1.6rem;
+        line-height : 2.4rem;
+    }
+
+    .section6__ImgContainer 
+    {
+        max-width : 1800px;
+    }
+
+    .section6__ImgContainer img 
+    {
+        transform : scale(1.25);
+    }
+
+    .round__Shape li img 
+    {
+        transform : scale(1.2);
+    }
+
+    .round__Shape span 
+    {
+        width : 12px;
+        height : 12px;
+    }
+
+    .round__Shape li.one {
+        top: 7%;
+        left: 23%;
+    }
+
+    .round__Shape li.two 
+    {
+        top: 19%;
+        left: 48%;
+    }
+
+    .round__Shape li.three 
+    {
+        top: 11%;
+        right: 25.4%;
+    }
+
+    .round__Shape li.four 
+    {
+        top: 33%;
+        left: 23.3%;
+    }
+
+    .round__Shape li.five {
+        top: 42%;
+        left: 52%;
+    }
+
+    .round__Shape li.six {
+        top: 46.9%;
+        right: 34.6%;
+    }
+
+    .round__Shape li.seven {
+        top: 30%;
+        right: 29%;
+    }
+
+    .round__Shape li.eight 
+    {
+        bottom: 28.8%;
+        left: 32.8%;
+    }
+
+    .round__Shape li.nine {
+        bottom: 10%;
+        left: 51%;
+    }
+
+    .round__Shape li.ten {
+        bottom: 13.6%;
+        right: 22.5%;
+    }
+
+    .section7 
+    {
+        max-width : 2000px;
+        padding : 7rem 6rem;
+    }
+
+    .section7__SaleBanner 
+    {
+        max-width : 1900px;
+        gap : 6rem;
+    }
+
+    .section7__H3 
+    {
+        font-size : 3.4rem;
+    }
+
+    .section7__SmTxt 
+    {
+        font-size : 1.8rem;
+        line-height : 2.2rem;
+        width : 75%;
+    }
+
+    .sec7__SaleBanners 
+    {
+        gap : 4rem;
+    }
+
+    .sec7__Sale1 
+    {
+        padding : 65px 70px;
+        border-radius : 2rem;
+        gap : 5rem;
+    }
+
+    .saleOne__P 
+    {
+        font-size : 1.2rem;
+        padding : 0.5rem 1rem;
+    }
+
+    .saleOne__Img 
+    {
+        padding : 1.8rem;
+    }
+
+    .header__GetStartedBtn
+    {
+        padding : 1.5rem 3rem;
+    }
+
+    .header__GetStartedBtn a
+    {
+        font-size : 1.7rem;
+    }
+
+    /* media query for section 8 */
+    .section8 
+    {
+        max-width : 2000px;
+        padding : 7rem 5rem;
+        gap : 6rem;
+    }
+
+    .sec8__ImgContainer img 
+    {
+        transform : scale(1.4);
+    }
+
+    /* media query for 2k devices */
+    .section9 
+    {
+        max-width : 2000px;
+        padding : 7rem 5rem;
+    }
+
+    .sec9__PlanHeader p 
+    {
+        width : 30%;
+        font-size : 1.3rem;
+        line-height : 1.8rem;
+    }
+
+     /* media query for footer */
+    footer 
+    {
+        max-width : 1900px;
+        margin : 5rem auto 0rem;
+    }
+}
+
+/* for 4k displays (3840px and above) */
+@media screen and (min-width : 3840px)
+{
+    .bigSale__InfoContainer 
+    {
+        min-width : 100%;
+    }
+
+    .navBar__Container, 
+    .header__Container 
+    {
+        max-width : 2100px;
+    }
+
+    .header__ContainerSmTxt 
+    {
+        font-size : 1.5rem;
+        padding : 0.8rem 1.5rem;
+    }
+
+    .header__smallDesc
+    {
+        font-size : 2.1rem;
+        line-height : 3rem;
+        max-width : 90%;
+        padding : 2rem 0;
+    }
+
+    .header__BtnContainer 
+    {
+        gap : 2rem;
+        margin-bottom : 2rem;
+    }
+
+    .header__GetStartedBtn, 
+    .header__PlanBtn 
+    {
+        padding : 1.5rem 3rem;
+        border-radius : 4rem;
+    }
+
+    .header__GetStartedBtn a, 
+    .header__PlanBtn a 
+    {
+        font-size : 1.4rem;
+    }
+
+    .header__PlanIntro
+    {
+        font-size : 1.8rem;
+        margin : 2rem 0;
+    }
+
+    /*adjust navbar links for 4k devices*/
+    .navBar__UL li a 
+    {
+        font-size : 1.5rem;
+    }
+
+    .submenuContainer 
+    {
+        left : 40%;
+    }
+
+    .main__Header 
+    {
+        font-size : 6rem;
+        line-height : 6rem;
+    }
+
+    .submenuContainer2 
+    {
+        left : 44%;
+    }
+
+    .subMenuContainer3 
+    {
+        left : 48%;
+    }
+
+    .subMenuContainer4 
+    {
+        left : 51%;
+    }
+
+    .subMenuContainer5
+    {
+        left : 53%;
+    }
+
+    .submenuTag__OneImg 
+    {
+        padding : 1.2rem 1.2rem;
+    }
+
+    .submenuTag__OneImg img 
+    {
+        width : 2.5rem;
+        height : auto;
+    }
+
+    .submenuTag__OneTxt h4 
+    {
+        font-size : 1.5rem;
+    }
+
+    .submenuTag__OneTxt p 
+    {
+        font-size : 1.3rem;
+    }
+
+    .subMenuLink__A 
+    {
+        font-size : 1.5rem;
+    }
+
+    /* scale up sale info */
+    .sale__infoTxt, 
+    .sale__SmDesc,
+    .sale__LiveChatText, 
+    .sale__LoginText 
+    {
+        font-size : 1.5rem;
+    }
+
+    .sale__infoEmail i, 
+    .sale__Login i 
+    {
+        font-size : 1.5rem;
+    }
+
+    .sale__Description img, 
+    .sale__LiveChat img 
+    {
+        width : 2rem;
+        height : auto;
+    }
+
+    /* media query for section 2 */
+    .section__Two 
+    {
+        padding : 12rem 4rem 6rem;
+    }
+
+    .domain__Container 
+    {
+        max-width : 3500px;
+    }
+
+    .domain__TextH3 
+    {
+        font-size : 4.5rem;
+        margin-bottom : 3rem;
+    }
+
+    .domain__ReviewContainer 
+    {
+        gap : 6rem;
+        margin : 3rem 0;
+    }
+
+    .smdomain__Review1 
+    {
+        font-size : 3rem;
+    }
+
+    .smdomain__Review2
+    {
+        font-size : 2.2rem;
+    }
+
+    .smdomain__Review1, .smdomain__Review2 
+    {
+        gap : 2rem;
+    }
+
+    .domain__ReviewContainer img 
+    {
+        transform : scale(1.5);
+    }
+
+    .ads__BannerContainer 
+    {
+        max-width : 2300px;
+        margin : 6rem auto;
+        gap : 2rem;
+    }
+
+    .ads__BannerContainer img 
+    {
+        transform : scale(1.3);
+    }
+
+    .hosting__Container 
+    {
+        max-width : 2100px;
+        margin : 6rem auto;
+    }
+
+    .hosting__H3 
+    {
+        font-size : 5rem;
+    }
+
+    .hosting__txt 
+    {
+        font-size : 2.2rem;
+        line-height : 3rem;
+        max-width : 70%;
+        padding : 2rem 0;
+    }
+
+    .hosting__Navigation i 
+    {
+        padding : 2rem 2.5rem;
+        font-size : 2.5rem;
+        border-radius : 2rem;
+    }
+
+    .hosting__CardContainer
+    {
+        max-width : 2400px;
+        margin : 0 auto;
+        gap : 1rem;
+    }
+
+    .hosting__Card 
+    {
+        width : 500px;
+        height : 700px;
+        padding : 3rem 4rem;
+        border-radius : 1.9rem;
+        gap : 2.5rem;
+    }
+
+    .hosting__Card img 
+    {
+        width : 90px;
+        height : auto;
+    }
+
+    .hosting__CardH4 
+    {
+        font-size : 2.3rem;
+    }
+
+    .hosting__CardP 
+    {
+        font-size : 1.5rem;
+        line-height : 2.5rem;
+    }
+
+    .hosting__CardSpan, 
+    .hostingCard__Btn a 
+    {
+        font-size : 1.2rem;
+    }
+
+    .hostingCard__Btn 
+    {
+        padding : 1.5rem 2.5rem;
+        border-radius : 4rem;
+        width : 70%;
+        margin : 2rem auto;
+    }
+
+    /*media query for section 3*/
+    .section3 
+    {
+        max-width : 2500px;
+        margin : 10rem auto;
+        padding : 0 4rem;
+        gap : 12rem;
+    }
+
+    .sectionH3 
+    {
+        font-size : 5rem;
+        line-height : 5.5rem;
+        max-width : 80%;
+        margin : 2rem 0;
+    }
+
+    .sectionP 
+    {
+        font-size : 2rem;
+        line-height: 2.5rem;
+        max-width : 60%;
+        margin : 3rem 0; 
+    }
+
+    .success__SmallDetail 
+    {
+        gap : 3rem;
+        margin-top : 4rem;
+    }
+
+    .section3__SmDesc 
+    {
+        gap : 4rem;
+    }
+
+    .section3__Icon1, 
+    .section3__Icon2 
+    {
+        padding : 1.3rem;
+        border-radius : 2rem;
+        transform : scale(1.5);
+    }
+
+    .section3__Icon1 img, 
+    .section3__Icon2 img 
+    {
+        width : 80px;
+        height : auto;
+    }
+
+    .SmDesc__Txt h4 
+    {
+        font-size : 3.5rem;
+        margin-bottom : 1.5rem;
+    }
+
+    .SmDesc__Txt h6 
+    {
+        font-size : 2rem;
+        line-height : 2.5rem;
+        max-width : 90%;
+    }
+
+    .successImg img 
+    {
+        transform : scale(1.7);
+    }
+
+    /* media query for section 4 */
+    .section4 
+    {
+        max-width : 2500px;
+        margin : 15rem auto;
+        padding : 13rem 0;
+        border-radius : 3rem;
+        gap : 8rem;
+    }
+
+    .section4h3 
+    {
+        font-size : 6rem;
+        max-width : 90%;
+        line-height : 8rem;
+    }
+
+    .billBoard__Input 
+    {
+        
+        border-radius : 6rem;
+    }
+
+    .billBoard__Input input 
+    {
+        font-size : 2.5rem;
+    }
+
+    .billBoard__Btn 
+    {
+        padding : 1.5rem 3rem;
+        border-radius : 3rem;
+    }
+
+    .billBoard__Btn a 
+    {
+        font-size : 1.8rem;
+    }
+
+    .billBoard__Txt 
+    {
+        width : 70%;
+        gap : 3rem;
+    }
+
+    .billBoard__Txt div 
+    {
+        font-size : 2.5rem;
+    }
+
+    .sm__Domain 
+    {
+        font-size : 1.8rem;
+    }
+
+    .smDom 
+    {
+        font-size : 2rem;
+    }
+
+    /* media query for section 5 */
+    .section5 
+    {
+        max-width : 3500px;
+        margin : 15rem auto;
+        padding : 0 5rem;
+    }
+
+    .section5__H3 
+    {
+        font-size : 6rem;
+    }
+
+    .section5__SmallP
+    {
+        max-width : 40%;
+        font-size : 2.5rem;
+        line-height : 3.5rem;
+        margin : 4rem auto;
+    }
+
+    .section5__CardContainer 
+    {
+        max-width : 3500px;
+        margin : 8rem auto;
+    }
+
+    .section5__FirstRow
+    {
+        max-width : 2300px;
+        margin : 0 auto;
+    }
+
+    .sec5hosting__Card 
+    {
+        height : 600px;
+        padding : 3rem 4rem;
+    }
+
+    .sec5hosting__Card img 
+    {
+        padding : 1.5rem 2rem;
+        border-radius : 1.5rem;
+        margin : 3rem 0;
+        transform : scale(1.2);
+    }
+
+    .hosting__CardH4 
+    {
+        font-size : 2.5rem !important;
+        margin : 3rem 0;
+    }
+
+    .hosting__CardP 
+    {
+        font-size : 1.7rem !important;
+        line-height : 3rem !important;
+        margin-bottom : 4rem;
+    }
+
+    .hostingCard__Link 
+    {
+        font-size : 1.8rem;
+    }
+
+    .sec5__LastCard 
+    {
+        border-right : none;
+    }
+
+    .section7 
+    {
+        max-width : 2500px;
+        margin : 12rem auto;
+        padding : 12rem 10rem;
+    }
+
+    .section7__SaleBanner 
+    {
+        max-width : 2300px;
+        gap : 10rem;
+    }
+
+    /* media query for section 8 */
+    .section8 
+    {
+        max-width : 2600px;
+        margin : 12rem auto;
+        padding : 12rem 8rem;
+        gap : 10rem;
+    }
+
+    /* media query for section 9 */
+    .section9 
+    {
+        max-width : 3500px;
+        margin : 12rem auto;
+        padding : 12rem 8rem;
+    }
+
+    .sec9__PlanHeader h3 
+    {
+        font-size : 4rem;
+    }
+
+    .sec9__PlanHeader p 
+    {
+        width : 25%;
+        font-size : 1.5rem;
+        line-height : 2rem;
+    }
+
+    /* media query for section 10 */
+    .section10 
+    {
+        max-width : 3500px;
+        margin : 12rem auto;
+        padding : 12rem 8rem;
+    }
+
+    .section10__Header p 
+    {
+        width : 40%;
+        font-size : 1.5rem;
+        line-height : 2.5rem;
+    }
 }
