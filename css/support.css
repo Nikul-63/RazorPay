@@ -142,6 +142,11 @@
 
 
 /*==================================== DESING FRAME 2 ==================================*/
+.support__Frame2MainContainer
+{
+    background-color : #f4f9ff;
+}
+
 .support__FrameTwo
 {
     display : flex;
@@ -151,7 +156,6 @@
     gap : 2rem;
     padding : 5rem 1rem;
     margin : 5rem 0rem;
-    background-color : #f4f9ff;
 }
 
 .support__FrameTwoTxtContainer
@@ -291,6 +295,7 @@
 
 .support__FAQ1
 {
+    width : 100%;
     margin: 1rem auto;
     background-color: #f4f9ff;
     padding : 1rem 2rem;
@@ -304,7 +309,7 @@
     flex-direction : row;
     align-items : center;
     justify-content : space-between;
-    width: 70vw;
+    width: fixed;
     cursor: pointer;
 }
 
@@ -510,4 +515,263 @@
 {
     color : #2d3c58;
     background-color : #ffc107;
+}
+
+
+
+
+
+
+
+
+/* media query for larger devices */
+@media screen and (min-width : 1024px)
+{
+    /* Navigation Bar */
+    .navBar__Container {
+        max-width: 1200px;
+        margin: 1rem auto 0;
+        padding: 0rem;
+    }
+
+    .navBar__Links ul li a {
+        font-size: 1rem;
+        padding: 0.8rem 0;
+    }
+
+     .navBar__Button button {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    /* Blog Frame Two (Support Banner) */
+    .blog__FrameTwo {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 9rem 2rem 3rem;
+    }
+
+    .blog__FrameTwoTxtContainer h3 
+    {
+        font-size: 3rem;
+        line-height: 3.4rem;
+    }
+
+    .support__ArrowDown 
+    {
+        left : 100px;
+    }
+
+    .support__ArrowUp 
+    {
+        right: 10px;
+    }
+
+    .support__SettingDark {
+        bottom: -25px;
+        left: 100px;
+    }
+
+    .support__SettingYellow {
+        bottom: -90px;
+        left: 150px;
+    }
+
+    /* media query for frame 2 of support */
+    .support__FrameTwo 
+    {
+        max-width : 1200px;
+        padding : 4rem 2rem;
+        margin : 4rem auto;
+    }
+
+    .support__CardTxtSmContainer h4 {
+        font-size: 1.3rem;
+    }
+    
+    .support__CardTxtSmContainer p {
+        font-size: 1rem;
+    }
+
+    .support__CardTxtSmContainer h4 {
+        text-align : center;
+    }
+
+    /* media query for support frame 4 */
+    .FrameFour 
+    {
+        width: 100%;
+        padding : 4rem 2rem;
+    }
+
+    .support__SendMsgContainer
+    {
+        max-width : 1200px;
+        margin :2rem auto;
+    }
+
+    .support__MsgImgContainer,
+    .support__MsgFormContainer {
+        width: 100%;
+    }
+
+    .support__SendMsgContainer 
+    {
+        gap : 3rem;
+    }
+
+    .support__MsgTxt h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        margin-top: 2rem;
+    }
+
+    .support__MsgTxt p {
+        width: 89%;
+        font-size: 1.1rem;
+    }
+
+    .support__MsgFormContainer form {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .support__MsgTxt img 
+    {
+        top: 13%;
+        right: 0%;
+    }
+
+    .support__MsgFormContainer h4 {
+        width : 90%;
+        margin : 1rem auto;
+    }
+}
+
+@media screen and (min-width : 1344px)
+{
+    .blog__FrameTwo
+    {
+        max-width : 1300px;
+    }
+
+    .support__ArrowDown
+    {
+        top : -70px;
+        left : 200px;
+        animation : shakeArrowUp 20s linear     infinite;
+    }
+
+    .support__ArrowUp
+    {
+        bottom : -80px;
+        right : 30px;
+        animation : shakearrowdown 20s linear infinite;
+    }
+
+    .support__SettingDark
+    {
+        bottom : -5px;
+        left : 200px;
+        animation : rotateSetting 10s linear infinite;
+    }
+
+    .support__SettingYellow
+    {
+        bottom : -60px;
+        left : 250px;
+        animation : rotateSetting 20s linear infinite;
+    }
+
+    .support__MsgTxt img 
+    {
+        position : absolute;
+        top : -13%;
+        right : 28%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sale__infoContainer,
+    .navBar__Container,
+    .blog__FrameTwo {
+        max-width: 1400px;
+    }
+
+    .support__ArrowDown {
+        left: 300px;
+    }
+
+    .support__ArrowUp {
+        bottom: -60px;
+        right: 10px;
+    }
+
+    .support__SettingYellow
+    {
+        left: 340px;
+    }
+
+    .support__SettingDark 
+    {
+        left: 300px;
+    }
+
+     .support__FrameTwo {
+        max-width: 1400px;
+        padding: 7rem 2rem;
+    }
+    
+    .support__FrameTwoTxtContainer h4 {
+        font-size: 3.2rem;
+    }
+    
+    .support__FrameTwoTxtContainer p {
+        font-size: 1.3rem;
+        width: 60%;
+    }
+
+    .support__FrameTwo__CardContainer 
+    {
+        max-width: 1300px;
+        gap: 2.5rem;
+    }
+
+    .support__FrameTwoCard {
+        margin: 1rem auto;  
+        padding: 3.5rem 2rem;
+    }
+
+    .support__CardImgSmContainer svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .support__CardTxtSmContainer {
+        align-items: center;
+    }
+    
+    .support__CardTxtSmContainer h4 {
+        font-size: 1.5rem;
+    }
+    
+    .support__CardTxtSmContainer p {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+   
+}
+
+
+@media screen and (min-width : 3840px)
+{
+    .support__FrameTwo 
+    {
+        max-width : 1600px;
+        margin : 5rem auto;
+    }
 }
