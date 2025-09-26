@@ -226,3 +226,28 @@
 {
     width : 100%;
 }
+
+
+
+
+
+/* media query for larger devices */
+@media screen and (min-width : 1440px)
+{
+    .Little__SiteMap 
+    {
+        max-width: 1400px;
+        padding : 4rem 2rem;
+        margin : 3rem auto;
+    }
+}
+
+@media screen and (min-width : 1920px)
+{
+    .Little__SiteMap 
+    {
+        max-width: 1600px;
+        padding : 4rem 2rem;
+        margin : 3rem auto;
+    }
+}
