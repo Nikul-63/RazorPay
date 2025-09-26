@@ -377,13 +377,7 @@
 {
     background-color: rgba(0, 0, 0, .075);
 }
-/* .normal__PriceListMenuTag li 
-{
-    display : flex;
-    flex-direction : row;
-    align-items : center;
-    justify-content: center;
-} */
+
 
 /*============================= Design Frame4 Css =========================*/
 .domain__Frame4
@@ -466,4 +460,142 @@
     font-size : 0.9rem;
     font-weight : 400;
     color : #2d3c58;
+}
+
+
+
+
+
+
+
+
+
+
+/* media query for larger devices */
+@media screen and (min-width : 1024px) 
+{
+    .domain__Frame2 
+    {
+        max-width : 1200px;
+        margin : 2rem auto;
+        padding : 4rem 2rem;
+    }
+    
+    .domain__Frame2CardsContainer 
+    {
+        width: 100%;
+    }
+
+    .domain__Frame2CardsOne 
+    {
+        width: 100%;
+        gap : 1rem;
+    }
+
+    .domain__CardOne 
+    {
+        padding: 1rem;
+    }
+
+    /* media query for frame 3 */
+    .domain__PriceListContainer 
+    {
+        padding : 4rem 2rem;
+        max-width : 1200px;
+    }
+
+
+
+    /* media query for frame 4 */
+    .domain__Frame4 
+    {
+        max-width : 1200px;
+        padding : 4rem 2rem;
+        margin : 2rem auto;
+    }
+
+    .domain__Frame4TxtContainer p {
+        width: 50%;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .domain__Frame4CardsContainer {
+        margin-top: 2.5rem;
+        gap: 1.5rem;
+    }
+    
+    .domain__Frame4CardOne {
+        margin: 0;
+        padding: 2rem 1.5rem;
+        gap: 1.2rem;
+        height : 250px;
+    }
+    
+    .domain__Frame4CardOne h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width : 1920px)
+{
+    .domain__Frame3 
+    {
+        width : 100%;
+    }
+
+    .domain__PriceListContainer 
+    {
+        max-width : 1600px;
+        margin : 4rem auto;
+    }
+}
+
+@media screen and (min-width : 3840px)
+{
+    /* media query for frame 1 input container*/
+    .get__domainContainer {
+        max-width: 1200px;
+    }
+
+    .dom__InputContainer {
+        width: 100%;
+    }
+
+    .domain__Frame3 
+    {
+        width : 100%;
+    }
+
+    .domain__PriceListContainer 
+    {
+        max-width : 1600px;
+        margin : 4rem auto;
+    }
+
+    .domain__PriceListMenu {
+        width: 100%;
+    }
+
+    .special__PriceListMenuTag {
+        width: 100%;
+    }
+
+    .normal__PriceListMenuTag {
+        width: 100%;
+    }
+
+    /* media query for frame 4 */
+    .domain__Frame4 
+    {
+        max-width : 1600px;
+        padding : 6rem 2rem;
+        margin : 4rem auto;
+    }
+
+    .domain__Frame4TxtContainer p {
+        width: 30%;
+        font-size: 1.3rem;
+        line-height: 1.6;
+    }
 }
