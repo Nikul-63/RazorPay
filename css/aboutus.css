@@ -96,7 +96,7 @@
     height: 100%;
     border-radius : 1rem;
 }
-
+/* css for section 2 of about us page */
 .about__Frame2
 {
     margin : 5rem 2rem;
@@ -231,6 +231,11 @@
 }
 
 /*============================== Designing Section 3 =====================================*/
+.about__Frame3Main
+{
+    background-color : #f4f9ff;
+}
+
 .about__Frame3
 {
     margin : 3rem 0;
@@ -239,7 +244,6 @@
     flex-direction : row;
     align-items : center;
     justify-content : space-between;
-    background-color : #f4f9ff;
 }
 
 .about__Frame3TxtContainer
@@ -368,7 +372,7 @@
 {
     display : flex;
     flex-direction : column;
-    align-items : flex-start;
+    align-items : center;
     justify-content : center;
 }
 
@@ -673,4 +677,651 @@
     font-weight : bolder;
     color: #fff;
     text-transform : capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query for about page */
+/*============= media query for larger devices ===============*/
+
+/*media query for 1024px devices */
+@media screen and (min-width : 1024px)
+{
+    .section__One
+    {
+        padding : 0rem 2rem 5rem;
+    }
+
+    .about__HeaderContainer
+    {
+        margin : 8rem 3rem 4rem;
+        padding-bottom : 8rem;
+        max-width : 1200px;
+        margin-left : auto;
+        margin-right : auto;
+    }
+
+    .about__SmTxtTag 
+    {
+        width : 24%;
+        padding : 0.6rem;
+        border-radius : 0.5rem;
+    }
+
+    .about__SmTxtTag p 
+    {
+        font-size : 1rem;
+    }
+
+    .about__HeaderH3 
+    {
+        font-size : 2.5rem;
+        line-height : 3rem;
+        margin : 1.2rem 0 2.2rem;
+    }
+
+    .about__HeaderSmTxt p 
+    {
+        font-size: 1.1rem;
+        width : 75%;
+    }
+
+    .about__HeaderBtnContainers 
+    {
+        width : 65%;
+        margin-top: 2rem;
+    }
+
+    .about__HeaderPlanBtn 
+    {
+        padding : 0.8rem 1.2rem;
+        border-radius : 0.6rem;
+    }
+
+    .about__HeaderPlanBtn a 
+    {
+        font-size : 1rem;
+    }
+
+    .about__HeaderPlanBtn2 a 
+    {
+        font-size : 1rem;
+        text-underline-offset: 0.5rem;
+    }
+
+    .about__HeaderImgContainer 
+    {
+        width: 50%;
+    }
+
+    .about__HeaderImgContainer img 
+    {
+        border-radius : 1rem;
+    }
+
+    /* media query for section 2 */
+    .about__Frame2
+    {
+        margin : 5rem auto;
+        padding : 6rem 2rem;
+        max-width : 1200px;
+    }
+
+    .about__SecondBannerImg 
+    {
+        gap : 1.2rem;
+    }
+
+    .about__SecondBannerImgOne
+    {
+        width : 50%;
+    }
+
+    .about__SecondBannerImgTwo 
+    {
+        width: 35%;
+    }
+
+    /* media query for section 3 */
+    .about__Frame3 
+    {
+        margin : 4rem auto;
+        padding : 6rem 2rem;
+        max-width : 1200px;
+        gap : 4rem;
+    }
+
+    .about__Frame3TxtContainer
+    {
+        width : 50%;
+    }
+
+    .about__Frame3TxtContainer h3 
+    {
+        font-size : 2.5rem;
+        line-height : 3rem;
+        margin-bottom : 2rem;
+    }
+
+    .about__Frame3TxtContainer p 
+    {
+        font-size : 1.1rem;
+        margin-bottom : 1.2rem;
+    }
+
+    .about__Frame3ImgContainer
+    {
+        width : 40%;
+    }
+
+    .about__Frame3ImgContainerOne
+    {
+        width : 60%;
+    }
+
+    .about__Frame3ImgContainerOne img 
+    {
+        width : 240px;
+        height : 400px;
+        object-fit : cover;
+    }
+
+    .about__Frame3ImgContainerTwo img 
+    {
+        width : 200px;
+        height : 300px;
+        object-fit: cover;
+    }
+
+    /* media query for section 4 */
+    .about__Frame4 
+    {
+        margin : 4rem auto;
+        padding : 4rem 2rem;
+        max-width : 1000px;
+    }
+
+    .about__NumItemOne h3 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+    
+    .about__NumItemOne p {
+        font-size: 1.2rem;
+        text-align : center;
+    }
+    
+    .about__NumItemOne img {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+
+    /*media query for frame 5 */
+    .about__Frame5 
+    {
+        margin : 10rem auto;
+        gap : 1.2rem;
+        max-width : 1200px;
+    }
+
+    .about__TeamHeader h3 
+    {
+        font-size : 3rem;
+    }
+
+    .about__TeamHeader p 
+    {
+        font-size : 1.2rem;
+        max-width : 66%;
+        margin : 1.2rem 0;
+    }
+
+    .about__TeamImgCards 
+    {
+        justify-content : center;
+        gap : 3rem;
+    }
+
+    .about__TeamImgCard 
+    {
+        margin-bottom : 2.2rem;
+    }
+
+    .about__TeamImgCardImg 
+    {
+        width : 350px;
+        height : 350px;
+    }
+
+    .about__TeamImgCardTxt h3 {
+        font-size: 1.8rem;
+    }
+
+    .about__TeamImgCardTxt p {
+        font-size: 1rem;
+    }
+
+    /* media query for frame 7 */
+    .about__Frame7 
+    {
+        margin : 6rem auto;
+        max-width : 1200px;
+    }
+
+    .about__smPlanHighLightTxt p 
+    {
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+@media screen and (min-width : 1344px)
+{
+    .about__HeaderContainer 
+    {
+        margin : 9rem 2rem 3rem;
+        padding-bottom : 3rem;
+        max-width : 1300px;
+    }
+
+    /* media query for section 3 */
+    .about__Frame3ImgContainerOne
+    {
+        width : 70%;
+    }
+
+    .about__Frame3ImgContainerOne img 
+    {
+        width: 450px;
+    }
+
+    .about__Frame3ImgContainerTwo {
+        margin-top: 14rem;
+    }
+
+    .about__Frame3ImgContainerTwo img {
+        width: 300px;
+        height : 320px;
+    }
+
+    .about__Frame3TxtContainer p 
+    {
+        margin-bottom: 0rem;
+    }
+
+    /* media query for section 4 */
+    .about__Frame4 
+    {
+        margin : 4rem auto;
+        padding : 4rem 2rem;
+        max-width : 1300px;
+    }
+}
+
+@media screen and (min-width : 1440px)
+{
+    .about__HeaderContainer
+    {
+        margin : 10rem auto 6rem;
+        padding-bottom : 6rem;
+        max-width : 1400px;
+    }
+
+    /*media query for second section*/
+    .about__Frame2 
+    {
+        margin : 8rem auto;
+        padding : 8rem 2rem;
+        max-width : 1400px;
+    }
+
+    .about__SecondBannerImg
+    {
+        align-items : flex-start;
+    }
+
+    .about__SecondBannerImgTwo 
+    {
+        margin-top: 13rem;
+    }
+
+    .about__SecondBannerImgOne img,
+    .about__SecondBannerImgTwo img {
+        border-radius: 1.2rem;
+    }
+
+    .about__secondBanner__H3 {
+        font-size: 2.9rem;
+        margin-bottom: 1.6rem;
+    }
+    
+    .about__secondBanner__SmallTxt p {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .about__secondBanner__Abilities {
+        margin: 2.6rem 0rem;
+        gap: 1.6rem;
+    }
+
+    .secondBanner__Ability1 {
+        gap: 2.6rem;
+    }
+
+    .secondBanner__AbilityImg {
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        width: 80px;
+        height: 80px;
+    }
+
+    .secondBanner__AbilityTxt h4 {
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .secondBanner__AbilityTxt p {
+        font-size: 1rem;
+    }
+
+    .about__secondBanner__Btn 
+    {
+        border-radius : 0.8rem;
+    }
+
+    /* media query for section3 */
+    .about__Frame3 
+    {
+        margin: 6rem auto;
+        max-width : 1400px;
+        padding : 8rem 5rem;
+    }
+
+    .about__Frame3TxtContainer h3 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .about__Frame3TxtContainer p {
+        font-size: 1.3rem;
+        margin-bottom: 0rem;
+    }
+
+    .about__Frame3ImgContainer 
+    {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width : 1920px)
+{
+    .about__HeaderContainer 
+    {
+        margin : 11rem auto 8rem;
+        padding-bottom : 8rem;
+        max-width : 1600px;
+    }
+
+    .about__SmTxtTag 
+    {
+        width : 18%;
+        padding : 0.5rem 1rem;
+        border-radius : 0.8rem;
+    }
+
+    .about__SmTxtTag p 
+    {
+        font-size : 1.1rem;
+    }
+
+    .about__HeaderH3 
+    {
+        font-size : 3rem;
+        line-height : 3.5rem;
+        margin : 2rem 0 3rem;
+    }
+
+    .about__HeaderSmTxt p 
+    {
+        font-size : 1.4rem;
+        width : 70%;
+    }
+
+    .about__HeaderBtnContainers 
+    {
+        width : 50%;
+        margin-top : 3rem;
+        gap : 1rem;
+    }
+
+    .about__HeaderPlanBtn
+    {
+        padding : 1rem 1.5rem;
+        border-radius : 0.8rem;
+    }
+
+    .about__HeaderPlanBtn a 
+    {
+        font-size : 1.2rem;
+    }
+
+    .about__HeaderPlanBtn2 a 
+    {
+        font-size : 1.2rem;
+        text-underline-offset: 0.8rem;
+    }
+
+    .about__HeaderImgContainer img 
+    {
+        border-radius : 1.2rem;
+        transform : scale(1.12);
+    }
+
+    /* media query for section 2 */
+    .about__Frame2 
+    {
+        max-width : 1800px;
+        margin : 10rem auto;
+        padding : 10rem 5rem;
+    }
+
+    .about__SecondBannerImg 
+    {
+        gap : 2rem;
+    }
+
+    .about__SecondBannerImgTwo 
+    {
+        margin-top : 15rem;
+    }
+
+    .about__SecondBannerImgOne
+    {
+        width : 52%;    
+    }
+
+    .about__SecondBannerImgTwo 
+    {
+        width : 34%;
+    }
+
+    .about__secondBanner__H3 {
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .about__secondBanner__SmallTxt p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    
+    .about__secondBanner__Abilities {
+        margin: 3rem 0rem;
+        gap: 2rem;
+    }
+    
+    .secondBanner__Ability1 {
+        gap: 3rem;
+    }
+
+    .secondBanner__AbilityImg {
+        padding: 1rem;
+        border-radius: 0.6rem;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .secondBanner__AbilityTxt h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .secondBanner__AbilityTxt p {
+        font-size: 1.3rem;
+    }
+
+    /* CSS for section 3*/
+    .about__Frame3 
+    {
+        margin : 8rem auto;
+        padding : 10rem 6rem;
+        max-width : 1600px;
+    }
+
+    .about__Frame3TxtContainer h3 
+    {
+        font-size : 3.2rem;
+        line-height : 4rem;
+        margin-bottom : 2rem;
+    }
+
+    .about__Frame3TxtContainer p {
+        font-size: 1.5rem;
+        margin-bottom: 0rem;
+    }
+    
+    .about__Frame3ImgContainer {
+        gap: 2rem;
+    }
+
+    .about__Frame3ImgContainerTwo {
+        margin-top: 15rem;
+    }
+
+    .about__Frame3ImgContainerOne img
+    {
+        width: 500px;
+        height : 400px;
+    }
+
+    .about__Frame3ImgContainerTwo img {
+        width: 400px;
+        height: 420px;
+    }
+
+    /* media query for section 4 */
+    .about__Frame4 
+    {
+        margin : 4rem auto;
+        padding : 4rem 2rem;
+        max-width : 1400px;
+    }
+
+    /* media query for section 5 */
+    .about__Frame5 
+    {
+        max-width : 1600px;
+    }
+
+    .about__TeamHeader 
+    {
+        width: 100%;
+    }
+
+    .about__TeamContainer {
+        width: 1600px;
+    }
+
+    .about__TeamHeader p 
+    {
+        max-width : 50%;
+    }
+
+    .about__TeamImgCards 
+    {
+        display : grid;
+        grid-template-columns: repeat(3, 1fr);  
+    }
+
+    /* media query for fram 7 */
+    .about__Frame7 {
+        margin: 6rem auto;
+        max-width: 1400px;
+    }
+}
+
+
+
+
+/* ================= media query for 2048px width devices =================*/
+@media screen and (min-width : 2048px)
+{
+    .about__HeaderContainer 
+    {
+        padding-bottom : 5rem;
+    }
+}
+
+
+@media screen and (min-width : 3840px)
+{
+    .about__HeaderContainer 
+    {
+        max-width : 1800px;
+    }
+
+    .about__Frame2 
+    {
+        max-width : 2000px;
+    }
+
+    .about__Frame3 
+    {
+        max-width : 2000px;
+        margin : 12rem auto;
+        padding : 14rem 8rem;
+    }
+
+    .about__Frame3ImgContainer {
+        width: 55%;
+    }
+
+    .about__Frame3ImgContainerOne img {
+        width: 400px;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .about__Frame3ImgContainerOne img, 
+    .about__Frame3ImgContainerTwo img 
+    {
+        border-radius : 1.2rem;
+    }
+
+    /* media query for fram 7 */
+    .about__Frame7 {
+        margin: 6rem auto;
+        max-width: 1600px;
+    }
 }
