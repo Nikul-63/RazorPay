@@ -1,4 +1,8 @@
 /*================================= Design Header Section ============================*/
+.pricing__Sec1
+{
+    background-color : #0774ff;
+}
 
 .pricingFrame1
 {
@@ -109,3 +113,88 @@
     padding : 0rem 3rem !important;
 }
 
+
+
+
+
+/* responsive media query for larger devices..!*/
+@media screen and (min-width : 1024px)
+{
+    .price__SmTXTTag {
+        width: 40%;
+    }
+
+    .payment__BannerImgContainer 
+    {
+        justify-content: center;
+    }
+
+    .payment__BannerImgOne 
+    {
+        left: 3rem;
+    }
+
+    .paymentMethod__SingleDollar 
+    {
+        top: 1rem;
+        right: 3rem;
+    }
+}
+
+
+@media screen and (min-width : 1440px)
+{
+    .price__SmTXTTag {
+        width: 30%;
+    }
+
+    .paymentMethod__SingleDollar 
+    {
+        right: 9rem;
+    }
+
+    .paymentMethod__MultiDollar 
+    {
+        right: 9rem;
+    }
+
+    .payment__BannerImgOne 
+    {
+        left: 8rem;
+    }
+}
+
+
+@media screen and (min-width : 3840px)
+{
+    .section__One
+    {
+        max-width : 1800px;
+        margin : 0 auto;
+    }
+
+    .sale__infoContainer
+    {
+        max-width : 1800px;
+    }
+
+    .navBar__Container
+    {
+        max-width : 1800px;
+    }
+
+    .payment__HeaderContainer
+    {
+        max-width : 1800px;
+    }
+
+    .paymentMethod__SingleDollar 
+    {
+        right: 12rem;
+    }
+
+    .paymentMethod__MultiDollar 
+    {
+        right: 12rem;
+    }
+}
