@@ -4835,4 +4835,27 @@ footer
         font-size : 1.5rem;
         line-height : 2.5rem;
     }
+
+
+    /* media query for section 11*/
+    .support__FrameThree 
+    {
+        max-width: 1600px;
+    }
+
+    .support__FAQs 
+    {
+        width: 100%;
+    }
+
+    .support__FAQsContainer {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .support__FAQ1 {
+        width : 100%;
+    }
 }
