@@ -230,6 +230,51 @@
 
 
 
+/*========================= MEDIA QUERY FOR MEDIUM SCREEN SIZE ========================*/
+@media screen and (min-width : 768px)
+{
+    .blog__FrameTwoImgContainer 
+    {
+        margin-top: 5rem;
+        justify-content: center;
+    }
+
+    .blog__FrameTwo 
+    {
+        margin : 3rem auto;
+        padding : 1rem;
+    }
+
+    .contact__BannerImg2 {
+        top: -16%;
+    }
+
+    .contact__BannerImg4 
+    {
+        top: -23%;
+        right: 12%;
+    }
+
+    .small__ContactDetailContainer 
+    {
+        margin: 2rem auto;
+    }
+
+    .contactDetailCards 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact__Card
+    {
+        height : 200px;
+    }
+}
+
+
+
+
 
 /* media query for larger devices */
 @media screen and (min-width : 1440px)
