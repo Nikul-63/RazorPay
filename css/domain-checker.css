@@ -469,6 +469,78 @@
 
 
 
+/*============================ MEDIA QUERY FOR SMALLER DEVICES ====================*/
+@media screen and (max-width : 768px)
+{
+    /*========================== Media Query For Domain Frame2 =======================*/
+    .domain__CheckerContainer h3 
+    {
+        text-align: center;
+    }
+
+    /*========================== Media Query For Domain Frame2 =======================*/
+    .domain__Frame2 
+    {
+        max-width : 800px;
+        margin : 3rem auto;
+        overflow : hidden;
+    }
+
+    .domain__Frame2TxtContainer h3 
+    {
+        text-align: center;
+        line-height : 3.2rem;
+    }
+
+    .domain__Frame2TxtContainer p 
+    {
+        font-size: 1.2rem;
+    }
+
+    .domain__Frame2CardsContainer
+    {
+        width : 100%;
+    }
+
+    .domain__Frame2CardsOne 
+    {
+        display : grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .domain__Frame4TxtContainer h3 
+    {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+    }
+
+    .domain__Frame4TxtContainer p 
+    {
+        font-size: 1rem;    
+        width: 55%;
+    }
+
+    .domain__Frame4CardsContainer 
+    {
+        display : grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap : 2rem;
+    }
+
+    .support__FAQHeader h3 
+    {
+        text-align: center;
+        line-height : 3.3rem;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 /* media query for larger devices */
