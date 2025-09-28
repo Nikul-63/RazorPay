@@ -17,7 +17,8 @@
 </head>
 <body>
     <section class="section__One">
-        <div class="sale__infoContainer">
+        <div class="bigSale__InfoContainer">
+            <div class="sale__infoContainer">
             <div class="sale__infoEmail">
                 <i class="fa-regular fa-envelope"></i>
                 <span class="sale__infoTxt">contact@hostie.com</span>
@@ -31,7 +32,9 @@
             <div class="sale__rightSide">
                 <div class="sale__LiveChat">
                     <img src="./img/home/livechat__sale.svg" alt="Livechat Icon">
-                    <p class="sale__LiveChatText">Live Chat</p>
+                    <a href="./support.html">
+                        <p class="sale__LiveChatText">Live Chat</p>
+                    </a>
                 </div>
 
                 <div class="sale__Login">
@@ -54,10 +57,18 @@
                 </div>
             </div>
         </div>
+        </div>
 
         <div class="navBar__Container">
             <div class="navBar__Logo">
                 <img src="./img/home/logo-1.svg" alt="Site Logo">
+            </div>
+
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
 
             <div class="navBar__Links">
@@ -430,10 +441,120 @@
             </div>
 
             <div class="navBar__Button">
-                <button type="submit">
+                <button type="submit" class="nav__SubmitBtn">
                     <a href="#">Client Area</a>
                 </button>
             </div>
+
+            <!--- MOBILE MENU -->
+            <div class="mobile__Menu" id="mobileMenu">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Pages <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./aboutus.html">About</a>
+
+                            <a href="./affiliate.html">Affiliate</a>
+
+                            <a href="./pricing.html">Pricing</a>
+
+                            <a href="./signup.html">Sign Up</a>
+
+                            <a href="./partner.html">Partner</a>
+
+                            <a href="./blog.html">Blog</a>
+
+                            <a href="./support.html">Support</a>
+
+                            <a href="./pricing.html">Pricing</a>
+
+                            <a href="./pricing_package.html">Pricing Package</a>
+
+                            <a href="./pricing3.html">Pricing Comparision</a>
+
+                            <a href="./signin.html">Sign In</a>
+                            
+                            <a href="./business.html">Business Mail</a>
+
+                            <a href="./knowledgebase.html">Knowledgebase</a>
+
+                            <a href="./domain-checker.html">Domain Checker</a>
+
+                            <a href="./datacenter.html">Data Centers</a>
+
+                            <a href="./technology.html">Technology</a>
+
+                            <a href="./contactus.html">Contact</a>
+
+                            <a href="./domain_transfer.html">Domain Transfer</a>
+
+                            <a href="./paymentMethod.html">Payment Method</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Hosting <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./shared_hosting.html">Shared Hosting</a>
+
+                            <a href="./wordpress.html">WordPress Hosting</a>
+
+                            <a href="./vps.html">VPS Hosting</a>
+
+                            <a href="./reseller_hosting.html">Reseller Hosting</a>
+
+                            <a href="./dedicated_Hosting.html">Dedicated Hosting</a>
+
+                            <a href="./cloud.html">Cloud Hosting</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Domain <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./domain-checker.html">Domain Checker</a>
+
+                            <a href="./domain_transfer.html">Domain Transfer</a>
+
+                            <a href="./domainRegistration.html">Domain Registration</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Technology <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./technology.html">Technology</a>
+
+                            <a href="./datacenter.html">Data Centers</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Help Center <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./faq.html">FAQ</a>
+
+                            <a href="./support.html">Support</a>
+
+                            <a href="./contactus.html">Contact</a>
+
+                            <a href="./knowledgebase.html">Knowledgebase</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!---  Overlay  -->
+            <div class="overlay" id="overlay"></div>
         </div>
 
         <div class="header__Container">
@@ -560,7 +681,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="section3">
         <div class="section3__ImgContainer">
@@ -877,7 +997,8 @@
         </div>
     </section>
 
-    <section class="section9">
+    <div class="section9__OuterContainer">
+        <section class="section9">
         <div class="sec9__PlanHeader">
             <h3>Choose your web hosting plan</h3>
             <p>Shared hosting is the easiest, most economical way to get your website connected to the Internet so you can start building it.</p>
@@ -1015,6 +1136,7 @@
             </div>
         </div>
     </section>
+    </div>
 
     <section class="section10">
         <div class="section10__Header">
@@ -1188,7 +1310,8 @@
         </div>
     </section>
 
-    <footer>
+    <div class="footer__MainContainer">
+        <footer>
         <div class="footer__FiveRows">
             <div class="footer__FirstRows">
                 <img src="./img/home/logo_dark.svg" alt="Site Logo">
@@ -1333,11 +1456,14 @@
             &copy; CopyRight 2025. All Rights Reserved.
         </div>
     </footer>
+    </div>
+    
     <script src="./js/navmenu.js"></script>
     <script src="./js/navmenu2.js"></script>
     <script src="./js/navmenu3.js"></script>
     <script src="./js/navmenu4.js"></script>
     <script src="./js/navmenu5.js"></script>
     <script src="./js/logintab.js"></script>
+    <script src="./js/hamburger.js"></script>
 </body>
 </html>
