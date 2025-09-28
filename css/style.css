@@ -174,6 +174,11 @@
     font-weight: bold;
 }
 
+.mobile__Menu
+{
+    display : none;
+}
+
 .navBar__Container
 {
     display : flex;
@@ -435,11 +440,160 @@
     text-transform : capitalize;
 }
 
-/* .page__SmMenu:hover
+
+
+/* CSS for Hamburger Menu */
+.hamburger 
+{
+    display : none;
+    flex-direction : column;
+    justify-content : space-between;
+    gap : 1rem;
+    width : 30px;
+    height : 21px;
+    cursor : pointer;
+    z-index : 1000;
+}
+
+.hamburger span 
+{
+    display : block;
+    height : 3px;
+    width : 100%;
+    margin : 0.3rem 0rem;
+    background-color : #fff;
+    border-radius : 3px;
+    transition : all 0.3s ease;
+}
+
+.mobile__Menu
+{
+    position : fixed;
+    top : 0;
+    right : -100%;
+    width : 80%;
+    max-width : 400px;
+    height : 100vh;
+    color : #2d3c58;
+    background : #fff;
+    z-index : 999;
+    padding : 80px 30px 30px;
+    transition : right 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    overflow-y : auto;
+}
+
+.mobile__Menu.active 
+{
+    right : 0;
+}
+
+.mobile-menu ul 
+{
+    display : flex;
+    flex-direction : column;
+    gap : 0;
+}
+
+.mobile__Menu > ul > li 
+{
+    border-bottom : 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile__Menu > ul > li > a 
+{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 15px 0;
+    font-weight : 600;
+}
+
+.mobile-submenu
+{
+    max-height : 0;
+    overflow : hidden;
+    transition : max-height 0.5s ease;
+    background : rgba(255, 255, 255, 0.05);
+    border-radius : 8px;
+    margin : 10px 0;
+}
+
+.mobile-submenu.active 
+{
+    max-height : 1000px;
+}
+
+.mobile-submenu a 
+{
+    display : block;
+    padding : 12px 15px;
+    border-bottom : 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mobile-submenu a:last-child 
+{
+    border-bottom: none;
+}
+
+.overlay 
+{
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    background : rgba(0, 0, 0, 0.5);
+    z-index : 998;
+    opacity : 0;
+    visibility : hidden;
+    transition : all 0.3s;
+}
+
+.overlay.active 
 {
     opacity : 1;
     visibility : visible;
-} */
+}
+
+/* Animation in Hamburger Menu*/
+.hamburger.active span:nth-child(1)
+{
+    transform : rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2)
+{
+    opacity : 0;
+}
+
+.hamburger.active span:nth-child(3)
+{
+    transform : rotate(-45deg) translate(7px, -6px);
+}
+
+/* sumenu animation */
+.mobile-submenu
+{
+    animation : slideDown 0.5s ease;
+}
+
+@keyframes slideDown 
+{
+    from 
+    {
+        opacity : 0;
+        transform : translateY(-10px);
+    }
+
+    to 
+    {
+        opacity : 1;
+        transform : translateY(0);
+    }
+}
+
+
+
 
 /*===================== CSS FOR SECTION 2=======================*/
 .section__Two 
@@ -1831,6 +1985,11 @@ td.package__item {
 }
 
 /*====================== CSS FOR FOOTER =================*/
+.footer__MainContainer
+{
+     background: linear-gradient(0deg,#dfeaff,rgba(246,249,255,0) 82.55%);
+}
+
 footer
 {
     margin: 3rem 0rem 0rem;
@@ -1839,7 +1998,6 @@ footer
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background: linear-gradient(0deg,#dfeaff,rgba(246,249,255,0) 82.55%);
     gap: 2rem;
 }
 
@@ -2048,12 +2206,526 @@ footer
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    
 }
 
 
 
-/*======================= Responsive Media Query ============================*/
+
+
+
+/*======================================== Media Query For Medium Size Devices ==========================================*/
+@media screen and (max-width : 768px)
+{
+    .section__One 
+    {
+        max-width : 800px;
+    }
+
+    .sale__infoEmail,
+    .sale__Description,
+    .navBar__Links,
+    .navBar__Button
+    {
+        display : none;
+    }
+
+    .sale__rightSide {
+        justify-content : space-between;
+        width : 100%;
+    }
+
+    .mobile__Menu
+    {
+        display : block;
+    }
+
+    .hamburger 
+    {
+        display : block;
+    }
+
+    .header__Container 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8.75rem 1rem 1rem 1rem;
+        gap : 4rem;
+    }
+
+    .header__ContainerTxt 
+    {
+        width: 100%;
+    }
+
+
+    /* media query for section 2 */
+    .section__Two
+    {
+        max-width : 800px;
+    }
+
+    .domain__Container
+    {
+        width : 100%;
+    }
+
+    .domain__TextH3 
+    {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    
+    .ads__BannerContainer 
+    {
+        margin : 2rem auto;
+    }
+
+    .hosting__Container 
+    {
+        margin : 6rem 0 2rem;
+    }
+
+    .hosting__CardContainer {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+    }
+
+    .hosting__Card 
+    {
+        height: 500px;
+    }
+
+
+    /* media query for section 3 */
+    .section3 
+    {
+        flex-direction : column;
+    }
+
+    .section3__ImgContainer,
+    .section3__TxtContainer
+    {
+        width: 100%;
+    }
+
+    .sectionH3 
+    {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .sectionP 
+    {
+        max-width: 80%;
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .success__SmallDetail 
+    {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    /*============== media query for section 4 ================*/
+    .section4 {
+        width: 95%;
+        margin: 6rem auto;
+        padding: 4rem 2rem;
+    }
+
+    .section4h3 
+    {
+        font-size : 2rem;
+    }
+
+    .billBoard__Input
+    {
+        width : 100%;
+    }
+
+    .billBoard__Btn 
+    {
+        padding: 0.5rem 1rem;
+    }
+
+    .header__GetStartedBtn a 
+    {
+        font-size : 0.8rem;
+    }
+
+    .billBoard__Txt 
+    {
+        width : 100%;
+    }
+
+    /* media query for section 5 */
+    .section5 
+    {
+        max-width : 800px;
+        margin : 3rem auto;
+    }
+
+    .section5__FirstRow 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sec5hosting__Card 
+    {
+        height : 400px;
+        border-right : 0;
+    }
+
+    
+    .sec5hosting__Card img 
+    {
+        width: 80px;
+        height : 80px;
+    }
+
+    .hosting__CardH4 
+    {
+        font-size: 1.5rem;
+        margin : 2rem 0;
+    }
+
+    .hosting__CardP 
+    {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        width: 80%;
+        margin: 1rem 0rem 2.8rem;
+    }
+
+
+    /* media queyr for section 6 */
+    .section6 
+    {
+        max-width : 800px;
+    }
+
+    .section6__SmTxt 
+    {
+        max-width: 80%;
+    }
+
+    .round__Shape li.one 
+    {
+        top: 16.2%;
+        left: 16%;
+    }
+
+    .round__Shape li.two 
+    {
+        left: 46.5%;
+    }
+
+    .round__Shape li.three 
+    {
+        right: 19.5%;
+    }
+
+    .round__Shape li.four 
+    {
+        left: 16.6%;
+    }
+
+    .round__Shape li.five
+    {
+        left: 51.2%;
+    }
+
+    .round__Shape li.six 
+    {
+        right: 30.5%;
+    }
+
+    .round__Shape li.seven 
+    {
+        top: 33.2%;
+        right: 23.7%;
+    }
+
+    .round__Shape li.eight 
+    {
+        bottom: 30%;
+        left: 27.9%;
+    }   
+
+    .round__Shape li.nine 
+    {
+        bottom: 14.9%;
+        left: 50%;
+    }
+
+    .round__Shape li.ten 
+    {
+        bottom: 18.2%;
+        right: 15.8%;
+    }
+
+
+
+    /* media query for section 7 */
+    .section7__SaleBanner {
+        width: 100%;
+        flex-direction : column;
+        overflow : hidden;
+    }
+
+    .section7__SaleTxt
+    {
+        margin : 1rem auto;
+        width : 100%;
+    }
+
+    .section7__H3
+    {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .section7__SmTxt {
+        width: 50%;
+        padding: 0rem;
+        margin: 2rem 0;
+    }
+
+    .sec7__SaleBanners 
+    {
+        width : 100%;
+        flex-direction: column;
+    }
+
+    .saleOne__Txt 
+    {
+        width: 50%; 
+    }
+
+    .saleOne__P
+    {
+        width: 75%;
+        text-align: center;
+    }
+
+    .sec7__Sale1::after
+    {
+        background : linear-gradient(113deg, hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1) 110.84%);
+    }
+
+    .saleOne__H3 {
+        font-size: 2.2rem;
+        line-height: 2.3rem;
+        font-weight: bold;
+    }
+
+    /* media query for section 8 */
+    .section8 
+    {
+        max-width : 800px;
+        margin : 3rem auto;
+        flex-direction : column;
+        align-items : center;
+        justify-content : center;
+    }
+
+    .sec8__TxtContainer,
+    .sec8__ImgContainer 
+    {
+        width: 100%;
+    }
+
+    .sec8__H3 {
+        line-height : 3rem;
+    }
+
+    .sec8__SmDescOne img {
+        width : 80px;
+        height : 80px;
+    }
+
+    .sec8__SmDescOneTxt h4 
+    {
+        font-size: 1.4rem;
+    }
+
+    .sec8__SmDescOneTxt p 
+    {
+        font-size: 1.1rem;
+    }
+
+
+
+    /* media query for section 9*/
+    .section9 
+    {
+        max-width : 800px;
+        overflow-x : auto;
+    }
+
+    .sec9__PlanHeader p 
+    {
+        width: 55%;
+    }
+
+    .package__left {
+        padding : 1rem;
+    }
+
+    /*=============================== MEDIA QUERY FOR SECTION 10 ==========================*/
+    .section10 
+    {
+        max-width : 800px;
+    }
+
+    .section10__Header h3 
+    {
+        font-size: 3rem;
+    }
+
+    .section10__Header p {
+        width: 70%;
+    }
+
+    
+    .section10__ReviewsContainer 
+    {
+        gap : 2rem;
+        justify-content : center;
+        overflow : hidden;
+    }
+
+    .sec10__ReviewCard
+    {
+        min-width : 500px;
+    }
+
+
+    /*================================= MEDIA QUERY FOR SECTION 11 ============================*/
+    .section11 
+    {
+        max-width : 800px;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .section11__LeftSide,
+    .section11__RightSide
+    {
+        width : 100%;
+    }
+
+    .section11__LeftSide h3 
+    {
+        width: 70%;
+        margin: 1rem 0 3rem;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.2rem;
+    }
+
+    .section11__LeftSide p {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+
+    .section11__LeftSide img 
+    {
+        margin-top: 4rem;
+        width: 400px;
+    }
+
+
+    /*============================== MEDIA QUERY FOR SECTION 12 ===========================*/
+    .section12 
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .sec12__LeftSide 
+    {
+        width: 100%;
+    }
+
+
+    /*=========================== MEDIA QUERY FOR FOOTER SECTION ===========================*/
+    
+    .footer__FiveRows {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__FirstRows, 
+    .footer__SecondRows,
+    .footer__ThirdRow,
+    .footer__FourthRow,
+    .footer__FifthRow
+    {
+        width : 100%;
+    }
+
+    .footer__FiveRows > *:nth-child(5)
+    {
+        display : content;
+        grid-column : 1 / -1;
+        align-items : center;
+    }
+
+    .footer__FifthRow
+    {
+        margin-top : 3rem;
+    }
+
+    .footer__SRowHeader
+    {
+        font-size: 1.6rem;
+        font-weight : 700;
+    }
+
+    .footer__ContactBox 
+    {
+        width : 70%;
+    }
+
+    .footer__SocialMedia 
+    {
+        text-align : center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================= Responsive Media Query For Larger Devices  ============================*/
 
 
 
@@ -4455,6 +5127,8 @@ footer
     /* media query for section 2 */
     .section__Two 
     {
+        max-width : 1600px;
+        margin : 3rem auto;
         padding : 12rem 4rem 6rem;
     }
 
@@ -4465,7 +5139,7 @@ footer
 
     .domain__TextH3 
     {
-        font-size : 4.5rem;
+        font-size : 3.5rem;
         margin-bottom : 3rem;
     }
 
