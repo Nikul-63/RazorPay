@@ -690,6 +690,118 @@
 
 
 
+/*==================================== MEDIA QUERY FOR MEDIUM SIZE DEVICES =============================*/
+@media screen and (max-width : 768px)
+{
+    .about__HeaderContainer 
+    {
+        align-items : center;
+        flex-direction: column;
+        gap : 3rem;
+    }
+
+    .about__HeaderTextContainer,
+    .about__HeaderImgContainer
+    {
+        width : 100%;
+    }
+
+    /* ======================== MEDIA QUERY FOR FRAME 2 ====================== */
+    .about__Frame2 
+    {
+        flex-direction: column;
+        align-items : center;
+        gap : 3rem;
+    }
+
+    .about__SecondBannerImg, 
+    .about__SecondBannerTxt 
+    {
+        width : 100%;
+    }
+
+    .about__SecondBannerImgTwo {
+        width: 40%;
+    }
+
+    .about__secondBanner__Abilities 
+    {
+        align-items : flex-start;
+    }
+
+    .about__secondBanner__SmallTxt p 
+    {
+        width: 70%; 
+        font-size: 1.1rem;
+    }
+
+    /*======================== MEDIA QUERY FOR FRAME 3 ====================*/
+    .about__Frame3 
+    {
+        flex-direction: column !important;
+        gap : 3rem;
+    }
+
+    .about__Frame3TxtContainer,
+    .about__Frame3ImgContainer
+    {
+        width : 100%;
+    }
+
+    .about__Frame3TxtContainer p 
+    {
+        font-size: 1.2rem;
+        line-height : 1.8rem;
+        font-weight : 400;
+        width: 100%;
+    }
+
+    .Frame3__FeatureOne,
+    .Frame3__FeatureTwo
+    {
+        width : 100%;
+    }
+
+    .aboutFrame3__HeaderP
+    {
+        width : 70% !important;
+    }
+
+    .about__Frame3ImgContainerOne
+    {
+        width : 400px;
+    }
+
+    .about__Frame3ImgContainerTwo 
+    {
+        width: 300px;
+    }
+
+    .about__Frame3ImgContainerTwo img
+    {
+        width : 100%;
+    }
+
+    /*================= MEDIA QUERY FOR ABOUT FRAME 4 ========================*/
+    .about__TeamHeader h3 
+    {
+        font-size: 3rem;
+        font-weight : 700;
+    }
+
+    .about__TeamImgCard 
+    {
+        margin : 0 auto 2rem;
+    }
+}
+
+
+
+
+
+
+
+
 /* media query for about page */
 /*============= media query for larger devices ===============*/
 
