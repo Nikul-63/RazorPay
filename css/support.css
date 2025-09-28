@@ -524,6 +524,132 @@
 
 
 
+
+/*======================== MEDIA QUERY FOR MEDIUM SIZE DEVICES =========================*/
+@media screen and (max-width : 768px)
+{
+    .blog__FrameTwo 
+    {
+        flex-direction: column;
+        gap : 3rem;
+    }
+
+    .blog__FrameTwoTxtContainer,
+    .blog__FrameTwoImgContainer 
+    {
+        width : 100%;
+    }
+
+    .blog__FrameTwoTxtContainer h3 
+    {
+        line-height: 3.4rem;
+    }
+
+    .blog__FrameTwoImgContainer 
+    {
+        padding: 3rem 0rem;
+    }
+
+    .support__ArrowUp
+    {
+        bottom : -35px;
+        right : 18px;
+    }
+
+    .support__ArrowDown 
+    {
+        top: 0px;
+        left: 350px;
+    }
+
+    .support__SettingDark 
+    {
+        bottom: 10%;
+        left: 350px;
+    }
+
+    .support__SettingYellow 
+    {
+        bottom: -7%;
+        left: 390px;
+    }
+
+    .Support__MsgIcon 
+    {
+        top: -2rem;
+        right: 7rem;
+    }
+
+    .Support__PhoneIcon
+    {
+        top: 0rem;
+        right: 3rem;
+    }
+
+    /*======================= MEDIA QUERY FOR SUPPORT FRAME2 ========================*/
+    .support__FrameTwo__CardContainer
+    {
+        display : grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .support__CardTxtSmContainer h4 
+    {
+        font-size: 1.4rem;
+    }
+
+    .support__CardTxtSmContainer p 
+    {
+        font-size : 1.1rem;
+    }
+
+    .support__SendMsgContainer 
+    {
+        flex-direction: column;
+        gap : 3rem;
+    }
+
+    .support__MsgImgContainer,
+    .support__MsgFormContainer
+    {
+        width : 100%;
+    }
+
+    .support__MsgTxt h1 
+    {
+        font-size : 4rem;
+        line-height : 4.5rem;
+    }
+
+    .support__MsgTxt p 
+    {
+        width: 70%;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        padding : 1rem 0rem;
+    }
+
+    .support__MsgTxt img 
+    {
+        top: -1%;
+        right: 28%;
+    }
+
+    .support__MsgFormContainer 
+    {
+        align-items : center;
+        justify-content : center;
+    }
+
+}
+
+
+
+
+
+
+
+
 /* media query for larger devices */
 @media screen and (min-width : 1024px)
 {
