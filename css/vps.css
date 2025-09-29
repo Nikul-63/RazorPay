@@ -208,3 +208,89 @@
     font-size : 0.5rem;
     color : #fff;
 }
+
+
+
+
+
+
+/*================================= MEDIA QUERY FOR MEDIUM DEVICES =========================*/
+@media screen and (max-width : 768px)
+{
+    .vpsHosting__Frame1H3
+    {
+        align-items : center;
+        justify-content : center;
+    }
+
+    .vpsHosting__Frame1H3 h3
+    {
+        text-align : center;
+    }
+
+    .dedicated__HostingFrame5Left p 
+    {
+        text-align: center;
+    }
+
+    .vps__Frame1 
+    {
+        flex-direction: column-reverse;
+        margin: 3rem auto;
+    }
+
+    .vpsFrame1__LeftContainer, 
+    .vpsFrame1__RightContainer
+    {
+        width : 100%;
+    }
+
+    .vpsFrame1__RightContainer img 
+    {
+        margin: 1rem auto;
+    }
+
+    .vps__Frame2 
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+        gap : 3rem;
+    }
+
+    .vpsFrame2__LftContainer
+    {
+        width : 100%;
+    }
+
+    .vpsFrame2__RitContainer
+    {
+        width : 80%;
+        margin : 1rem auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*============================================== MEDIA QUERY FOR LARGER SCREEN SIZES===========================================*/
+@media screen and (min-width : 1024px)
+{
+    .vps__Frame1
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
+
+    .vps__Frame2
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+        gap : 3rem;
+    }
+}
