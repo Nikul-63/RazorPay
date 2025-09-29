@@ -63,6 +63,13 @@
                 <img src="./img/home/logo-1.svg" alt="Site Logo">
             </div>
 
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <div class="navBar__Links">
                 <ul class="navBar__UL">
                     <li>
@@ -433,12 +440,121 @@
             </div>
 
             <div class="navBar__Button">
-                <button type="submit">
+                <button type="submit" class="nav__SubmitBtn">
                     <a href="#">Client Area</a>
                 </button>
             </div>
-        </div>
 
+            <!--- MOBILE MENU -->
+            <div class="mobile__Menu" id="mobileMenu">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Pages <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./aboutus.html">About</a>
+
+                            <a href="./affiliate.html">Affiliate</a>
+
+                            <a href="./pricing.html">Pricing</a>
+
+                            <a href="./signup.html">Sign Up</a>
+
+                            <a href="./partner.html">Partner</a>
+
+                            <a href="./blog.html">Blog</a>
+
+                            <a href="./support.html">Support</a>
+
+                            <a href="./pricing.html">Pricing</a>
+
+                            <a href="./pricing_package.html">Pricing Package</a>
+
+                            <a href="./pricing3.html">Pricing Comparision</a>
+
+                            <a href="./signin.html">Sign In</a>
+                            
+                            <a href="./business.html">Business Mail</a>
+
+                            <a href="./knowledgebase.html">Knowledgebase</a>
+
+                            <a href="./domain-checker.html">Domain Checker</a>
+
+                            <a href="./datacenter.html">Data Centers</a>
+
+                            <a href="./technology.html">Technology</a>
+
+                            <a href="./contactus.html">Contact</a>
+
+                            <a href="./domain_transfer.html">Domain Transfer</a>
+
+                            <a href="./paymentMethod.html">Payment Method</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Hosting <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./shared_hosting.html">Shared Hosting</a>
+
+                            <a href="./wordpress.html">WordPress Hosting</a>
+
+                            <a href="./vps.html">VPS Hosting</a>
+
+                            <a href="./reseller_hosting.html">Reseller Hosting</a>
+
+                            <a href="./dedicated_Hosting.html">Dedicated Hosting</a>
+
+                            <a href="./cloud.html">Cloud Hosting</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Domain <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./domain-checker.html">Domain Checker</a>
+
+                            <a href="./domain_transfer.html">Domain Transfer</a>
+
+                            <a href="./domainRegistration.html">Domain Registration</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Technology <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./technology.html">Technology</a>
+
+                            <a href="./datacenter.html">Data Centers</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="mobile-menu-toggle">Help Center <i class="fa-solid fa-chevron-right"></i></a>
+
+                        <div class="mobile-submenu">
+                            <a href="./faq.html">FAQ</a>
+
+                            <a href="./support.html">Support</a>
+
+                            <a href="./contactus.html">Contact</a>
+
+                            <a href="./knowledgebase.html">Knowledgebase</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!---  Overlay  -->
+            <div class="overlay" id="overlay"></div>
+        </div>
         <div class="blog__FrameTwo">
             <div class="blog__FrameTwoTxtContainer">
                 <div class="blog__FrameSmTagTxt">
@@ -468,7 +584,7 @@
         </div>
     </section>
 
-    <section class="reseller__HostingFeatureContainer">
+    <section class="reseller__HostingFeatureContainer cloud__HostingFeatureContainer">
         <h3 class="cloud__resellerH3">host on the cloud <br/> to keep growing</h3>
         <div class="reseller__HostingCards">
             <div class="reseller__HostingCardOne">
@@ -1661,7 +1777,8 @@
         </div>
     </section>
 
-    <footer>
+    <div class="footer__MainContainer">
+        <footer>
         <div class="footer__FiveRows">
             <div class="footer__FirstRows">
                 <img src="./img/home/logo_dark.svg" alt="Site Logo">
@@ -1687,27 +1804,27 @@
                 <div class="footer__SRowLinks">
                     <ul>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="./aboutus.html">About Us</a>
                         </li>
 
                         <li>
-                            <a href="#">News Feed</a>
+                            <a href="./blog.html">News Feed</a>
                         </li>
 
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="./contactus.html">Contact</a>
                         </li>
 
                         <li>
-                            <a href="#">Affiliate Program</a>
+                            <a href="./affiliate.html">Affiliate Program</a>
                         </li>
 
                         <li>
-                            <a href="#">Our Technology</a>
+                            <a href="./technology.html">Our Technology</a>
                         </li>
 
                         <li>
-                            <a href="#">Knowledgebase</a>
+                            <a href="./knowledgebase.html">Knowledgebase</a>
                         </li>
                     </ul>
                 </div>
@@ -1806,6 +1923,7 @@
             &copy; CopyRight 2025. All Rights Reserved.
         </div>
     </footer>
+    </div>
 
     <script src="./js/navmenu.js"></script>
     <script src="./js/navmenu2.js"></script>
@@ -1813,5 +1931,6 @@
     <script src="./js/navmenu4.js"></script>
     <script src="./js/navmenu5.js"></script>
     <script src="./js/logintab.js"></script>
+    <script src="./js/hamburger.js"></script>
 </body>
 </html>
