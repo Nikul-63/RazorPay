@@ -218,3 +218,97 @@
     color : #4c5671;
     margin-bottom : 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*===================== MEDIA QUERY FOR MEDIUM SIZE DEVICES ======================*/
+@media screen and (max-width : 768px)
+{
+    .reseller__HeaderImgContainer
+    {
+        height : 450px;
+    }
+
+    .reseller__HeaderImgContainer img 
+    {
+        height : 100%;
+    }
+
+    .reseller__SmIconContainer 
+    {
+        left : 14%;
+    }
+
+    .reseller__SmIconContainer2 
+    {
+        top : 43px;
+        left : 24%;
+    }
+
+    .reseller__SmIconContainer3 
+    {
+        width : 100px;
+        right : 44%;
+    }
+
+    .reseller__HostingCards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*==================================== MEDIA QUERY FOR LARGER DEVICES =================================*/
+@media screen and (min-width : 1024px)
+{
+    .reseller__SmTxtTag 
+    {
+        width: 32%;
+    }
+
+    .reseller__SmIconContainer2 
+    {
+        left : 5rem;
+    }
+
+    .reseller__HeaderImgContainer
+    {
+        height : 500px;
+    }
+
+    .reseller__SmIconContainer 
+    {
+        left : 7rem;
+    }
+
+
+}
+
+@media screen and (min-width : 1920px)
+{
+    .reseller__SmIconContainer3 
+    {
+        right : 45%;
+    }
+
+    .reseller__SmIconContainer2 
+    {
+        left : 4rem;
+    }
+}
