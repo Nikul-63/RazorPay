@@ -385,3 +385,111 @@
 {
     color : #00b67a;   
 }
+
+
+
+
+
+
+
+
+
+
+/*=============================== MEDIA QUERY FOR MEDIUM SIZE DEVICES =======================*/
+@media screen and (max-width : 768px)
+{
+    .shareHosting__Frame2Cards 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shareHosting__Frame2CardOne 
+    {
+        width: 100%;
+    }
+
+    .sharedHosting__HeaderContainer
+    {
+        flex-direction: column;
+        gap : 3rem;
+    }
+
+    .sharedHosting__HeaderTxt, 
+    .sharedHosting__HeaderImg
+    {
+        width : 100%;
+    }
+
+    .sharedHosting__HeaderImg img 
+    {
+        margin : 2rem auto;
+    }
+
+    .hosting__Cloud 
+    {
+        left: 20%;
+    }
+
+    .hosting__Wifi 
+    {
+        top: 41%;
+        left: 32%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*=================================== MEDIA QUERY FOR LARGER DEVICES ===========================*/
+@media screen and (min-width : 1024px)
+{
+    .sharedHosting__SimpleHighlighter
+    {
+        width : 40%;
+    }
+
+    .sharedHosting__H3 
+    {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+
+}
+
+@media screen and (min-width : 1344px)
+{
+    .sharedHosting__HeaderContainer
+    {
+        max-width : 1300px;
+        margin : 3rem auto;
+    }
+    .sharedHosting__SimpleHighlighter
+    {
+        width : 30%;
+    }
+}
+
+
+@media screen and (min-width : 1440px)
+{
+    .sharedHosting__HeaderContainer
+    {
+        max-width : 1400px;
+    }
+}
+
+
+@media screen and (min-width : 1920px)
+{
+    .sharedHosting__HeaderContainer
+    {
+        max-width : 1600px;
+    }
+}
