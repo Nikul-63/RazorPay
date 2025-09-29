@@ -215,6 +215,11 @@
 }
 
 /*=============== Generate CSS for Second Payment Frame =============*/
+.paymentFrame2__MainContainer
+{
+     background-color : #f4f9ff;
+}
+
 .Payment__Frame2
 {
     margin : 3rem 0rem;
@@ -224,7 +229,6 @@
     align-items : center;
     justify-content : space-between;
     gap : 2rem;
-    background-color : #f4f9ff;
 }
 
 .Payment__Frame2TxtContainer
@@ -328,4 +332,104 @@
 .Payment__SmBtnContainer:hover i 
 {
     color : #2d3c58;
+}
+
+
+
+
+
+
+/*============================= MEDIA QUERY FOR MEDIUM SIZE DEVICES =======================*/
+@media screen and (max-width : 768px)
+{
+    .Payment__Frame2 
+    {
+        flex-direction : column-reverse;
+        align-items : center;
+        justify-content : center;
+        padding : 7rem 2rem;
+        margin: 3rem auto;
+    }
+
+    .Payment__Frame2TxtContainer, 
+    .Payment__Frame2ImgContainer
+    {
+        width : 70%;
+        margin : 1rem auto;
+    }
+
+    .Payment__CreditImgContainer, 
+    .Payment__E__WalletContainer, 
+    .Crypto__ImgContainer 
+    {
+        width : 100%;
+    }
+
+
+    .Payment__Frame2TxtContainer h3 
+    {
+        font-size: 2.5rem;
+    }
+
+    .Payment__Frame2TxtContainer p 
+    {
+        font-size: 1.2rem;
+        line-height : 1.8rem;
+        font-weight : 400;
+    }
+
+    .Payment__SmTxtContainer 
+    {
+        gap: 1rem;
+        margin: 1rem 0rem;
+    }
+
+    
+    .Payment__SmPOne 
+    {
+        gap : 1rem;
+    }
+
+    .Payment__SmPOneI 
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Payment__SmPOneI i 
+    {
+        font-size: 0.8rem;
+    }
+
+    .Payment__SmPOneh4 
+    {
+        font-size: 1.1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*=============================== MEDIA QUERY FOR LARGER DEVICES ==========================*/
+@media screen and (min-width : 1024px)
+{
+    .Payment__Frame1 
+    {
+        padding : 5rem 3rem;
+        margin : 5rem auto;
+        gap : 5rem;
+        max-width : 1200px;
+    }
+    
+    .Payment__Frame2
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+        padding : 5rem 2rem;
+    }
 }
