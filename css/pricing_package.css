@@ -1,4 +1,9 @@
 /*================== Design First Frame =================*/
+.pricingPackage__SectionOne
+{
+    background-color : #0774ff;
+}
+
 .pricingPackage__Cards
 {
     width : 100%;
@@ -187,4 +192,15 @@
 .pricingPackage__CardActive .pricingPackage__SmTagBtn a 
 {
     color : #2d3c58;
+}
+
+
+/*============================== MEDIA QUERY FOR MEDIUM SIZE DEVICES =====================*/
+@media screen and (max-width : 768px)
+{
+    .pricingPackage__Cards 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
