@@ -425,6 +425,11 @@ td
 }
 
 /*==================================== Design Frame 4 =============================*/
+.dedicatedHosting__Frame4MainContainer
+{
+    background : #f4f9ff;
+}
+
 .dedicated__HostingFrame4
 {
     margin-top : 0rem;
@@ -435,7 +440,6 @@ td
     align-items : center;
     justify-content : center;
     gap : 3rem;
-    background : #f4f9ff;
 }
 
 .dedicated__HostingFm4Img
@@ -637,4 +641,223 @@ td
     align-items : center;
     justify-content : center;
     gap : 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*============================ MEDIA QUERY FOR SMALLER DEVICES ====================*/
+@media screen and (max-width : 768px)
+{
+    .dedicated__HeaderTXTContainer, 
+    .dedicated__HeaderImgContainer
+    {
+        width : 100%;
+    }
+
+    .dedicated__BannerImg1 
+    {
+        margin: 3rem auto;
+    }
+
+    .dedicated__BannerSMIcon2 
+    {
+        right: 21%;
+        top: -32%;
+    }
+
+    .dedicatedFrame2__Cards 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dedicated__HostingFrame3Container 
+    {
+        margin: 3rem auto 0rem;
+        flex-direction: column;
+        gap : 3rem;
+    }
+
+    .dedicated__HostinFrame3Left, 
+    .dedicated__HostingFrame3Right
+    {
+        width : 100%;
+    }
+
+    .ded__HostFrame3__RightSmTag 
+    {
+        left : 0;
+    }
+
+    .dedicated__HostingFrame4 
+    {
+        margin: 2rem auto 3rem;
+        flex-direction: column-reverse;
+    }
+
+    .dedicated__HostingFm4Img 
+    {
+        width: 100%;
+    }
+
+    .dedicated__HostinFrame3Left 
+    {
+        padding : 1rem 2rem;
+    }
+
+    .dedicated__MailContainer 
+    {
+        width: 50%;
+        right : 4rem;
+    }
+
+    .dedicated__HostingFrame5 
+    {
+        flex-direction: column;
+        margin: 3rem auto 0rem;
+        gap : 3rem;
+    }
+
+    .dedicated__HostingFrame5Left, 
+    .dedicated__HostingFrame5Right
+    {
+        width : 100%;
+    }
+
+    .dedicated__HostingFrame5Left
+    {
+        text-align : center;
+    }
+
+    .ded__HostingFrame5Cards 
+    {
+        width : 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dedicated__HostingFrame5 
+    {
+        padding: 3rem 1rem 0rem;
+    }
+
+    .ded__HostingFrame6Cards 
+    {
+        margin: 0rem auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*========================== Media Query For Domain Frame2 =======================*/
+    .domain__Frame2 
+    {
+        max-width : 800px;
+        margin : 3rem auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*=========================================== media query for larger devecs ===========================================*/
+/* .wordpress__Frame2 
+{
+    margin : 4rem auto;
+    padding : 4rem 2rem;
+} */
+
+
+@media screen and (min-width : 1024px)
+{
+    .dedicated__SmTXTtag 
+    {
+        width: 32%;
+    }
+
+    .dedicated_Hosting__Frame2
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
+
+    .dedicated__HostingFrame4
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
+
+    .dedicated__HostingFrame5Left 
+    {
+        align-items : flex-start;
+        justify-content : flex-start;
+    }
+    
+    .dedicated__HostingFrame5
+    {
+        max-width : 1200px;
+        margin : 3rem auto 0rem;
+    }
+
+    .ded__HostingFrame6Cards
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
+}
+
+
+@media screen and (min-width : 1344px)
+{
+    .dedicated__HostingFrame4
+    {
+        max-width : 1400px;
+        margin : 4rem auto;
+    }
+
+    .dedicated__HostingFrame5
+    {
+        max-width : 1300px;
+        margin : 3rem auto 0rem;
+    }
+
+    .ded__HostingFrame6Cards
+    {
+        max-width : 1300px;
+        margin : 4rem auto;
+    }
+}
+
+
+@media screen and (min-width : 1920px)
+{
+    .dedicated__HostingFrame4
+    {
+        max-width : 1600px;
+        margin : 4rem auto;
+    }
+
+    .dedicated__HostingFrame5
+    {
+        max-width : 1600px;
+        margin : 3rem auto 0rem;
+    }
+
+    .ded__HostingFrame6Cards
+    {
+        max-width : 1600px;
+        margin : 4rem auto;
+    }
 }
