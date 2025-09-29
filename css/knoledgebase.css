@@ -133,3 +133,61 @@
 {
     border-bottom: none;
 }
+
+
+
+
+
+/*======================== MEDIA QUERY FOR MEDIUM SIZE DEVICES =====================*/
+@media screen and (max-width : 768px)
+{
+    .payment__HeaderContainer 
+    {
+        flex-direction: column;
+        gap : 3rem;
+    }
+
+    .knowledgebase__ImgContainer 
+    {
+        width: 100%;
+    }
+
+    .knowledgeBase__Frame1 
+    {
+        margin: 3rem auto;
+        flex-direction: column;
+    }
+
+    .knowledgeBase__LeftContainer, 
+    .knowledgeBase__RightContainer
+    {
+        width : 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query for larger screen sizes*/
+@media screen and (min-width : 1024px)
+{
+    .knowledgeBase__Frame1 
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+        padding : 5rem 2rem;
+        gap : 2rem;
+    }
+}
