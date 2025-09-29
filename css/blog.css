@@ -246,3 +246,119 @@
     background: #007BFF;
     border-radius : 50%;
 }
+
+
+
+
+
+
+
+
+
+
+/*============================== MEDIA QUERY FOR MEDIUM SIZE DEVICES ====================*/
+@media screen and (max-width : 768px)
+{
+    .blog__FrameTwo 
+    {
+        margin : 5rem auto;
+        flex-direction: column;
+        gap : 3rem;
+    }
+
+    .blog__FrameTwoTxtContainer, 
+    .blog__FrameTwoImgContainer
+    {
+        width : 100%;
+    }
+
+    .about__LeftToRight 
+    {
+        right: 3%;
+    }
+
+    .about__BlogSecImg 
+    {
+        right: 20%;
+    }
+
+    .Blog__CardBigContainer 
+    {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* media query for larger devices */
+@media screen and (min-width : 1024px)
+{
+
+    .blog__FrameTwo
+    {
+        max-width : 1024px;
+        margin : 4rem auto;
+    }
+
+    .Blog__FrameThree
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+        padding : 5rem 2rem;
+    }
+}
+
+@media screen and (min-width : 1344px)
+{
+
+    .blog__FrameTwo
+    {
+        max-width : 1300px;
+        margin : 4rem auto;
+    }
+
+    .Blog__FrameThree
+    {
+        max-width : 1300px;
+    }
+}
+
+
+@media screen and (min-width : 1920px)
+{
+    .Blog__FrameThree
+    {
+        max-width : 1600px;
+        margin : 4rem auto;
+        padding : 5rem 2rem;
+    }
+
+    .blog__FrameTwo
+    {
+        max-width : 1600px;
+        margin : 4rem auto;
+    }
+}
+
+
+@media screen and (min-width : 3840px)
+{
+    .blog__FrameTwo
+    {
+        max-width : 1800px;
+        margin : 4rem auto 6rem;
+        padding : 6rem 4rem;
+    }
+
+    .about__BlogSecImg 
+    {
+        right: 10rem;
+    }
+}
