@@ -641,7 +641,12 @@
         justify-content : center;
     }
 
+    .support__FAQHeader h3 
+    {
+        text-align: center;
+    }
 }
+
 
 
 
