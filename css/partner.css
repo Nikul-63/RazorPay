@@ -1,4 +1,9 @@
 /*====================== Design Frame 1 ==========================*/
+.partner__MainContainer
+{
+    background-color : #0774ff;
+}
+
 .partner__Frame1Container
 {
     margin : 1rem 0rem;
@@ -268,4 +273,161 @@
     color : #2d3c58;
     line-height : 3rem;
     text-transform : capitalize;
+}
+
+
+
+
+
+
+
+
+/*================ MEDIA QUERY FOR MEDIUM SIZE DEVICES ===================*/
+@media screen and (max-width : 768px)
+{
+    .partner__Frame1Container 
+    {
+        margin: 1rem auto;
+        flex-direction: column-reverse;
+    }
+
+    .partner__Frame1ImgContainer, 
+    .partner__Frame1TxtContainer
+    {
+        width : 100%;
+    }
+
+    .partner__Frame1ImgContainer img 
+    {
+        margin : 1rem auto;
+    }
+
+    .partner__fram1SmImg5
+    {
+        top: 12%;
+        left: 5%;
+    }
+
+    .partner__fram1SmImg3 
+    {
+        top: 3%;
+        right: 33%;
+    }
+
+    .partner__Frame2Container 
+    {
+        margin: 3rem auto;
+        flex-direction: column-reverse;
+    }
+
+    .partner__Frame2TxtContainer, 
+    .partner__Frame2ImgContainer
+    {
+        width : 100%;
+    }
+
+    .partner__Frame3 
+    {
+        margin: 3rem auto 0rem;
+        flex-direction: column;
+        gap : 3rem;
+    }
+
+    .partner__Frame3ImgContainer, 
+    .partner__Frame3TxtContainer
+    {
+        width : 100%;
+        margin : 1rem auto;
+    }
+
+    .partner__Frame3ImgContainer img 
+    {
+        margin : 1rem auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query for larger devices */
+@media screen and (min-width : 1024px)
+{
+    .partner__Frame1TxtContainer {
+        gap : 0rem;
+    }
+
+    .partner__Frame1TxtContainer h3 {
+        font-size: 2rem;
+    }
+
+    /*========================== media query for frame 2 of partner page ===========================*/
+    .partner__Frame2Container
+    {
+        margin : 4rem auto;
+        padding : 4rem 3rem;
+        gap : 3rem;
+        max-width : 1200px;
+    }
+
+    .partner__Frame2TxtContainer h3 
+    {
+        font-size : 2.5rem;
+        line-height : 3rem;
+        margin-bottom : 1rem;
+    }
+
+    .partner__Frame3 
+    {
+        max-width : 1200px;
+        margin: 4rem auto;
+        padding : 4rem 3rem;
+        align-items : center;
+    }
+
+    .partner__Frame3TxtContainer {
+        width: 50%;
+    }
+
+    .partner__Frame3TxtContainer h3 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media screen and (min-width : 1920px)
+{
+    .partner__Frame1Container{
+        max-width: 1600px;
+        margin : 3rem auto;
+    }
+
+    .partner__Frame1TxtContainer {
+        gap : 1.5rem;
+    }
+
+    .partner__Frame1TxtContainer h3 {
+        font-size: 2.7rem;
+    }
+
+    .partner__Frame2Container {
+        max-width : 1400px;
+    }
+
+    .partner__Frame3 
+    {
+        max-width : 1400px;
+    }
 }
