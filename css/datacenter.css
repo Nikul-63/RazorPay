@@ -92,6 +92,7 @@
 .datacenter__Frame2Card
 {
     width : 100%;
+    height : 350px;
     padding : 2rem;
     background : linear-gradient(180deg, #d8eaff, #f6f6f6);
     border-radius : 10px;
@@ -197,4 +198,71 @@
 .dataCenter__Frame3TXT p 
 {
     margin : 0.3rem 0rem;
+}
+
+
+
+
+/*======================= MEDIA QUERY FOR MEDIUM SIZE DEVICES =======================*/
+@media screen and (max-width : 768px)
+{
+    .datacenter__Frame2Txt p 
+    {
+        font-size: 1.1rem;
+    }
+
+    .datacenter__Frame2Cards
+    {
+        display : grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap : 2rem;
+    }
+
+    .dataCenter__Frame3 
+    {
+        flex-direction: column;
+        margin: 3rem auto;
+    }
+
+    .dataCenter__Frame3ImgContainer, 
+    .dataCenter__Frame3TxtContainer
+    {
+        width : 100%;
+    }
+
+    .dataCenter__Frame3ImgContainer img 
+    {
+        width : 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================== MEDIA QUERY FOR LARGER SCREEN SIZE ============================================*/
+@media screen and (min-width : 1024px)
+{
+    .dataCenter__Frame2,
+    .dataCenter__Frame3
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
 }
