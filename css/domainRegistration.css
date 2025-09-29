@@ -1,3 +1,8 @@
+.domainRegister__Frame1MainContainer
+{
+    background-color : #f6f6f6;
+}
+
 .domainRegister__Frame1
 {
     margin : 5rem 0rem;
@@ -7,7 +12,6 @@
     align-items : center;
     justify-content : center;
     gap  : 1rem;
-    background : #f6f6f6;
 }
 
 .domainRegister__ImgFrame1
@@ -142,4 +146,37 @@
 .domainRegister__BtnFrame1:hover a 
 {
     color : #fff;
+}
+
+
+
+
+
+
+
+
+/*=========================== MEDIA QUERY FOR MEDIUM SIZE DEVICES =======================*/
+@media screen and (max-width : 768px)
+{
+    .domainRegister__Frame1
+    {
+        flex-direction : column;
+    }
+
+    .domainRegister__ImgFrame1, 
+    .domainRegister__TxtFrame1 
+    {
+        width : 100%;
+    }
+}
+
+
+/*========================================= MEDIA QUERY FOR LARGER DEVICES ==========================================*/
+@media screen and (min-width : 1024px)
+{
+    .domainRegister__Frame1
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
 }
