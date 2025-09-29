@@ -117,6 +117,65 @@
 
 
 
+
+
+
+
+
+/*========================== MEDIA QUERY FOR MEDIUM SIZE DEVICES ======================*/
+@media screen and (max-width : 768px)
+{
+    .payment__HeaderContainer
+    {
+        flex-direction : column;
+        gap : 3rem;
+    }
+
+    .payment__BannerImgContainer
+    {
+        width : 100%;
+    }
+
+    .paymentMethod__ImgTwo 
+    {
+        margin: 0rem auto;
+        width: 500px;
+    }
+
+    .payment__BannerImgOne 
+    {
+        bottom : 0;
+        left : 21%;
+    }
+
+    .paymentMethod__SingleDollar 
+    {
+        top: 2rem;
+        right: 8rem;
+    }
+
+    .paymentMethod__MultiDollar 
+    {
+        right: 9rem;
+        bottom: 0rem;
+    }
+
+    .pricingFrame1 
+    {
+        max-width: 800px;
+        margin: 1rem auto !important;
+        padding: 1rem 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
 /* responsive media query for larger devices..!*/
 @media screen and (min-width : 1024px)
 {
