@@ -124,3 +124,62 @@
     color : #4c5671;
     text-transform: capitalize;
 }
+
+
+
+
+/*========================== MEDIA QUERY FOR MEDIUM SIZE DEVICES ========================*/
+@media screen and (max-width : 768px)
+{
+    .payment__HeaderContainer 
+    {
+        flex-direction : column-reverse;
+    }
+
+    .businessImg img 
+    {
+        width : 80%;
+        margin : 1rem auto;
+    }
+
+    .excalmanation 
+    {
+        top: -36%;
+        right: 28%;
+    }
+
+    .businessFrame1__TXT p 
+    {
+        font-size: 1.1rem;
+    }
+
+    .businessFrame1__Cards
+    {
+        display : grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+/* media query for larger devices */
+@media screen and (min-width : 1920px)
+{
+    .businessImg img
+    {
+        transform : scale(1);
+    }
+
+    .excalmanation 
+    {
+        position: absolute;
+        top: -35%;
+        right: 23%;
+        width: 25px !important;
+    }
+}
