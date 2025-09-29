@@ -262,3 +262,124 @@
     text-align : center;
     color : #4c5671;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*==================================== MEDIA QUERY FOR MEDIUM SIZE DEVICES =================*/
+@media screen and (max-width : 768px)
+{
+    .about__HeaderImgContainer 
+    {
+        width : 70%;
+        margin-top : 5rem;
+    }
+
+    .wordpress__Frame1 
+    {
+        margin: 3rem auto;
+        flex-direction: column-reverse;
+    }
+
+    .wordpress__Frame1Txt, 
+    .wordpress__Frame1Img
+    {
+        width : 100%;
+    }
+
+    .wordpressPluginContainerTxt p 
+    {
+        font-size: 1.1rem;
+    }
+
+    .wordpressPluginContainerCards 
+    {
+        margin : 3rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+/*======================================== MEDIA QUERY FOR LARGER DEVICES ========================================*/
+@media (min-width : 1024px)
+{
+    .about__HeaderImgContainer 
+    {
+        height : 400px;
+    }
+
+    .wordpress__Frame1 
+    {
+        margin : 4rem auto;
+        padding : 4rem 2rem;
+        max-width : 1200px;
+        gap : 3rem;
+    }
+
+    .wordpress__Frame1Txt h3 
+    {
+        font-size : 2.3rem;
+        line-height : 2.8rem;
+    }
+
+    .wordpress__Frame1Txt p 
+    {
+        font-size : 0.9rem;
+    }
+
+    .wordpress__SmFeaturesLeftContainer h4 
+    {
+        font-size : 3.4rem;
+        margin-bottom : 0rem;
+    }
+
+    .wordpress__BadgeTag 
+    {
+        padding : 0.5rem 1rem;
+    }
+
+    .wordpress__BadgeTagTxt h5 {
+        font-size: 1rem;
+    }
+
+    .wordpress__Frame1Txt p {
+        font-size: 0.8rem;
+    }
+
+    /*===================== media query for wordpress frame2 =======================*/
+
+    .wordpress__Frame2 
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
+}
+
+
+@media (min-width : 1344px)
+{
+    .wordpress__SmTxtTag 
+    {
+        width: 30%;
+    }
+    
+    .wordpress__Frame1 
+    {
+        max-width : 1300px;
+    }
+}
