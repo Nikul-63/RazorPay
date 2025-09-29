@@ -107,3 +107,71 @@
     color : #2d3c58;
     text-transform : capitalize;
 }
+
+
+
+
+
+/*======================= MEDIA QUERY FOR MEDIUM DEVICES ====================*/
+@media screen and (max-width : 768px)
+{
+    .cloud__Frame2 
+    {
+        flex-direction: column;
+        margin: 3rem auto;
+    }
+
+    .cloud__Frame2Left, 
+    .cloud__Frame2Right
+    {
+        width : 100%;
+    }
+
+    .cloudFrame2__TagOne 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cloudFrame2__SmTag 
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================== MEDIA QUERY FOR LARGER DEVICES ============================================*/
+@media screen and (min-width : 1024px)
+{
+    .about__HeaderBtnContainers 
+    {
+        width: 60%;
+    }
+    
+    .cloud__HostingFeatureContainer
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
+
+    .cloud__Frame2
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
+}
