@@ -95,6 +95,11 @@
 }
 
 /*================================= Design Third Section =============================*/
+.tech__Frame3MainContainer
+{
+    background-color : #2d3c58;
+}
+
 .Tech__Frame3
 {
     margin : 3rem 0rem;
@@ -104,7 +109,6 @@
     align-items : flex-start;
     justify-content : space-between;
     gap : 1rem;
-    background-color : #2d3c58;
 }
 
 .tech__Frame3ImgContainer
@@ -209,4 +213,101 @@
 .banner2ImgSm1
 {
     margin-top : 11rem;
+}
+
+
+
+
+
+
+
+/*============================ MEDIA QUERY FOR MEDIUM SIZE DEVICES =======================*/
+@media screen and (max-width : 768px)
+{
+    
+    .Tech__Frame2 h3 
+    {
+        font-size : 2rem;
+        text-align : center;
+    }
+
+    .tech__Frame2Cards 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tech__Frame2CardOne h4 
+    {
+        font-size: 1.4rem;
+    }
+
+    /*========================== media query for frame 3 ================================*/
+    .Tech__Frame3 
+    {
+        flex-direction: column;
+    }
+
+    .tech__Frame3ImgContainer, 
+    .tech__Frame3TxtContainer
+    {
+        width : 100%;
+    }
+
+    .tech__Frame2CardOne p 
+    {
+        max-width: 80%;
+        font-size: 1.1rem;
+    }
+
+
+    /*========================== media query for frame 4 ================================*/
+    .tech__Frame4 
+    {
+        margin : 3rem auto;
+        flex-direction: column;
+    }
+
+    .tech__Frame4TxtContainer, 
+    .tech__Frame4ImgContainer
+    {
+        width : 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================== MEDIA QUERY FOR LARGER SCREEN SIZES ===========================================*/
+@media screen and (min-width : 1024px)
+{
+    .Tech__Frame2
+    {
+        max-width : 1200px;
+        margin : 5rem auto;
+    }
+
+    .Tech__Frame3
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
+
+    .tech__Frame4
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+    }
 }
