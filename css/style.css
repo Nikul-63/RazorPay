@@ -3032,6 +3032,12 @@ footer
 
 @media screen and (max-width : 425px)
 {
+    .domain__ReviewContainer 
+    {
+        flex-direction : column;
+        gap : 0.5rem;
+    }
+
     .hosting__Navigation i 
     {
         padding: 0.5rem 1rem;
@@ -3319,6 +3325,342 @@ footer
     .sec12__LeftSide p {
         font-size : 0.9rem;
     }
+}
+
+@media screen and (max-width : 325px)
+{
+
+    .navBar__Container 
+    {
+        padding : 1rem;
+    }
+
+    .main__Header 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .header__Container 
+    {
+        padding: 1.75rem 1rem 1rem 1rem;
+    }
+
+    .header__ContainerSmTxt 
+    {
+        font-size: 0.6rem;
+        padding: 0.2rem 0.7rem;
+    }
+
+    .header__smallDesc {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+    .header__PlanIntro
+    {
+        font-size : 0.9rem;
+    }
+
+    .header__ContainerImg img {
+        width: 60%;
+    }
+
+    /* media query for frame 2 */
+    .domain__TextH3 
+    {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .smdomain__Review1, 
+    .smdomain__Review2 
+    {
+        font-size: 1.1rem;
+    }
+
+    .hosting__Container 
+    {
+        margin: 5rem 0 2rem;
+    }
+
+    .hosting__Container 
+    {
+        flex-direction : column;
+    }
+
+    .hosting__H3 
+    {
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .hosting__txt 
+    {
+        padding: 1rem 0rem;
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+    }
+
+    .hosting__Card 
+    {
+        height: 350px;
+        padding : 1.25rem 1rem;
+    }
+
+    .hosting__Card img 
+    {
+        width: 20%;
+    }
+
+    .hosting__CardH4 {
+        font-size: 1.3rem;
+    }
+
+    .hosting__CardP {
+        width: 100%;
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+    .hostingCard__Btn 
+    {
+        width: 60%;
+        margin: 1rem auto 0rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .sectionH3 
+    {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .sectionP 
+    {
+        font-size: 0.9rem;
+        line-height : 1.1rem;
+    }
+
+    .section3__SmDesc 
+    {
+        flex-direction: column;
+    }
+
+    .SmDesc__Txt
+    {
+        text-align: center;
+    }
+
+    .section4 
+    {
+        padding: 3rem 1rem;
+    }
+
+    .section4h3 
+    {
+        line-height: 2rem;
+    }
+
+    .billBoard__Input input 
+    {
+        width: 50%;
+    }
+
+    .billBoard__Input 
+    {
+        padding: 0.3rem 0.3rem 0.3rem 1rem;
+    }
+
+    .section5__H3 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .hosting__CardP 
+    {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .section7__H3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .header__GetStartedBtn 
+    {
+        width: 50%;
+    }
+
+    .section7 
+    {
+        padding : 1rem;
+    }
+
+    .saleOne__Img 
+    {
+        width: 20%;
+        max-height: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .saleOne__Img img 
+    {
+        min-width: 35px;
+        height: 35px;
+    }
+
+    .sec8__H3 
+    {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .sec8__SmDescOne {
+        flex-direction: column;
+    }
+
+    .sec8__SmDescOne
+    {
+       text-align: center;  
+    }
+
+    .sec8__SmDescOneTxt h4 
+    {
+        font-size: 1.1rem;
+        text-transform: capitalize;
+    }
+
+    .sec9__PlanHeader h3 
+    {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .sec9__PlanHeader p {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .section10 
+    {
+        margin: 0rem auto;
+        padding: 1rem 1rem;
+    }
+
+    .section10__Header h3 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .section10__ReviewsContainer {
+        max-width: 300px;
+    }
+
+    .sec10__ReviewCard {
+        min-width: 300px;
+        padding : 1rem;
+    }
+
+    .section11__LeftSide h3 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .section11__LeftSide img 
+    {
+        width : 300px;
+        max-width: 300px;
+    }
+
+    .faq__Question h4 {
+        font-size: 1rem;
+    }
+
+    .faq__QuestionIcon 
+    {
+        width: 15px;
+        height: 15px;
+    }
+
+    .faq__QuestionIcon i 
+    {
+        font-size: 0.5rem;
+    }
+
+    .faq__Answer p 
+    {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+    .section12 
+    {
+        margin: 2rem 1rem;
+        padding: 1rem;
+    }
+
+    .sec12__LeftSide h3 
+    {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .footer__FirstP 
+    {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .payImgs img 
+    {
+        width: 40px;
+    }
+
+    .footer__SRowHeader {
+        font-size: 1.2rem;
+    }
+
+    .footer__SRowLinks li 
+    {
+        padding: 0.1rem 0;
+    }
+
+    .footer__SRowLinks a 
+    {
+        font-size: 0.9rem;
+    }
+
+    .footer__FifthSmTxt 
+    {
+        margin: 1rem 0;
+        font-size: 0.9rem;
+    }
+
+    .footer__ContactBox {
+        width: 90%;
+    }
+
+    .footer__ArrowIcon 
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer__ArrowIcon i 
+    {
+        font-size: 0.9rem;
+    }
+
 }
 
 
