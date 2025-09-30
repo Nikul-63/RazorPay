@@ -3030,6 +3030,297 @@ footer
     }
 }
 
+@media screen and (max-width : 425px)
+{
+    .hosting__Navigation i 
+    {
+        padding: 0.5rem 1rem;
+        border-radius : 0.7rem;
+    }
+
+    .hosting__Card {
+        height: 400px;
+    }
+
+    .hosting__CardH4 
+    {
+        font-size : 1.4rem;
+        margin: 0rem 0;
+    }
+
+    .hosting__CardP {
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .hosting__CardSpan, .hostingCard__Btn a 
+    {
+        font-size: 0.9rem;
+    }
+
+    .hostingCard__Btn {
+        width: 60%;
+        margin: 1rem auto 0rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .sectionH3 
+    {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .sectionP 
+    {
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    .SmDesc__Txt h4 
+    {
+        font-weight : 700;
+        color : #2d3c58;
+    }
+
+    .SmDesc__Txt h6 
+    {
+        font-size : 0.8rem;
+    }
+
+    .header__GetStartedBtn {
+        width: 40%;
+    }
+
+    .header__GetStartedBtn a {
+        font-size: 0.7rem;
+    }
+
+    .billBoard__Input input 
+    {
+        font-size: 0.8rem;
+    }
+
+    .billBoard__Txt 
+    {
+        flex-direction : column;
+        gap : 0.4rem;
+    }
+
+    .sm__Domain 
+    {
+        font-size: 1rem;
+    }
+
+    .smDom 
+    {
+        font-size : 0.9rem;
+    }
+
+    .section5 
+    {
+        max-width: 400px;
+        margin: 1rem auto;
+    }
+
+    .section5__H3 
+    {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    .section5__SmallP 
+    {  
+        max-width: 90%;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .section6__H3 
+    {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    .section6__SmTxt 
+    {
+        width: 100%;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    .sec7__Sale1 
+    {
+        padding : 25px;
+    }
+
+    .saleOne__Txt {
+        width: 80%;
+    }
+
+    .saleOne__P {
+        width: 100%;
+    }
+
+    .saleOne__P 
+    {
+        font-size: 0.7rem;
+    }
+
+    .saleOne__H3 {
+        font-size: 1.8rem;
+    }
+
+    .sec8__H3 
+    {
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .sec8__SmDescOne {
+        width: 100%;
+    }
+
+    .section7__SmTxt 
+    {
+        font-size : 0.9rem;
+    }
+
+    .section7__H3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .sec9__PlanHeader h3 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .sec9__PlanHeader p 
+    {
+        width: 95%;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .package__left 
+    {
+        width: 400px;
+        max-width: 400px;
+    }
+
+    .package__item__info span 
+    {
+        margin-bottom: 18px;
+    }
+
+    .package__type 
+    {
+        font-size: 1.2rem;
+    }
+
+    .package__item__info select 
+    {
+        font-size: 0.9rem;
+        padding : 8px;
+    }
+
+    .primary__btn 
+    {
+        padding: 10px 15px;
+        font-size : 0.9rem;
+    }
+
+    td.package__left,
+    td.package__item 
+    {
+        font-size: 0.9rem;
+        padding: 8px 20px;
+    }
+
+    .section10__Header h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .section10__Header p 
+    {
+        font-size: 0.9rem;
+    }
+
+    .section10__ReviewsContainer 
+    {
+        max-width: 400px;
+    }
+
+    .sec10__ReviewCard 
+    {
+        min-width: 400px;
+    }
+
+    .sec10__RatingStar i
+    {
+        font-size: 0.8rem;
+    }
+
+    .sec10__P 
+    {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .review__PeopleTxt h4 
+    {
+        font-size: 1.3rem;
+    }
+
+    .review__PeopleTxt span 
+    {
+        font-size: 0.9rem;
+    }
+
+    .section11__LeftSide h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+        margin-bottom : 2rem;
+    }
+
+    .section11__LeftSide p 
+    {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .section11__LeftSide img 
+    {
+        width : 350px;
+    }
+
+    .faq__Question h4 {
+        font-size: 1.1rem;
+    }
+
+    .faq__Answer p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .sec12__LeftSide h3 {
+        font-size: 1.8rem;
+        line-height : 2.2rem;
+    }
+
+    .sec12__LeftSide p {
+        font-size : 0.9rem;
+    }
+}
+
 
 
 
