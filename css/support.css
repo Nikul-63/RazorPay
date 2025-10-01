@@ -648,9 +648,364 @@
 }
 
 
+@media screen and (max-width : 525px)
+{
+    .blog__FrameTwo 
+    {
+        margin: 1rem auto;
+        padding : 2rem 1rem;
+    }
+
+    .blog__FrameTwoTxtContainer h3 {
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+
+    .blog__FrameSmallTxt {
+        font-size: 0.9rem;
+    }
+
+    .blog__FrameSmallTxt br
+    {
+        display : none;
+    }
+
+    .Support__FrameBtn a 
+    {
+        font-size: 0.9rem;
+    }
+
+    .support__ImgContainer 
+    {
+        justify-content: center;    
+    }
+
+    .support__ArrowDown 
+    {
+        left: 7%;
+    }
+
+    .support__SettingDark 
+    {
+        bottom: 12%;
+        left: 10%;
+    }
+
+    .support__SettingYellow 
+    {
+        bottom: -5%;
+        left: 18%;
+    }
+
+    .support__ArrowUp 
+    {
+        bottom: -4%;
+        right: 15%;
+    }
+
+    .Support__MsgIcon 
+    {
+        top: -1rem;
+        right: 11rem;
+    }
+
+    .Support__PhoneIcon 
+    {
+        top: 1rem;
+        right: 8rem;
+    }
+
+    .support__FrameTwo__CardContainer 
+    {
+        margin : 2rem auto;
+    }
+
+    .support__FrameTwoCard 
+    {
+        padding : 1rem;
+    }
+
+    .support__CardTxtSmContainer h4 
+    {
+        font-size: 1.2rem;
+    }
+
+    .support__FAQHeader 
+    {
+        margin: 1rem auto 3rem;
+    }
+
+    .support__Que h4 
+    {
+        font-size: 1rem;
+    }
+
+    .support__Ans1 p {
+        padding: 1rem 0rem;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
 
 
+    .support__FAQs 
+    {
+        width: 90%;
+    }
 
+    .support__CardTxtSmContainer p 
+    {
+        font-size: 1rem;
+    }
+
+    .support__FAQHeader h3 
+    {
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+
+    .support__FrameThree 
+    {
+        margin: 2rem auto;
+        padding: 1rem 1rem;
+    }
+
+    .FrameFour 
+    {
+        margin: 3rem auto;
+        padding: 2rem 2rem;
+    }
+
+    .support__MsgImg img 
+    {
+        width : 200px;
+        height : 150px;
+    }
+
+    .support__MsgTxt h1 
+    {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    .support__MsgTxt br 
+    {
+        display : block;
+    }
+
+    .support__MsgTxt img 
+    {
+        top: -10%;
+        right: 33%;
+    }
+
+    .support__MsgTxt p 
+    {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    
+    .support__MsgFormContainer form 
+    {
+        width : 90%;
+        padding : 2rem 1rem;
+    }
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .blog__FrameSmTagTxt p 
+    {
+        font-size : 0.8rem;
+    }
+
+    .blog__FrameTwoTxtContainer h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .blog__FrameSmallTxt 
+    {
+        font-size: 0.8rem;
+    }
+
+    .about__BlogFirstImg 
+    {
+        width: 50%;
+    }
+
+    .support__ArrowUp {
+        width: 40%;
+        bottom: -1%;
+        right: 19%;
+    }
+
+    .support__ArrowDown {
+        width: 40%;
+        left: 7%;
+    }
+
+    .support__SettingDark {
+        width: 10%;
+        bottom: 14%;
+        left: 12%;
+    }
+
+    .support__SettingYellow {
+        width: 15%;
+        bottom: -3%;
+        left: 20%;
+    }
+
+    .Support__MsgIcon {
+        width: 10%;
+        top: 0rem;
+        right: 10rem;
+    }
+
+    .Support__PhoneIcon 
+    {
+        width: 10%;
+        top: 1rem;
+        right: 7.4rem;
+    }
+
+    .support__FrameTwo 
+    {
+        padding : 2rem 1rem;
+    }
+
+    .Support__SettingIcon {
+        width: 10%;
+    }
+
+    .support__FrameTwo__CardContainer 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .support__FrameTwoTxtContainer h4 
+    {
+        font-size: 1.8rem;
+    }
+
+    .support__FAQHeader h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .support__MsgTxt h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .support__MsgTxt img {
+        width: 40%;
+        top: -7%;
+        right: 31%;
+    }
+
+    .support__MsgTxt p 
+    {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .supportInputOne 
+    {
+        flex-direction : column;
+    }
+
+    .supportInputOne input 
+    {
+        width : 100%;
+    }
+
+    .supportInputOne select 
+    {
+        width : 100%;
+    }
+
+    #SupportTextArea 
+    {
+        height: 140px;
+    }
+
+    .supportInputOne button 
+    {
+        padding: 0.5rem 0.8rem;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width : 325px)
+{
+    .support__ArrowUp {
+        width: 30%;
+        bottom: 7%;
+        right: 24%;
+    }
+
+    .support__ArrowDown 
+    {
+        width: 30%;
+        top: 11%;
+        left: 10%;
+    }
+
+    .support__SettingDark 
+    {
+        width: 8%;
+        bottom: 22%;
+        left: 14%;
+    }
+
+    .support__SettingYellow {
+        width: 13%;
+        bottom: 7%;
+        left: 20%;
+    }
+
+    .Support__MsgIcon {
+        width: 9%;
+        top: 1rem;
+        right: 7rem;
+    }
+
+    .Support__PhoneIcon {
+        width: 9%;
+        top: 2rem;
+        right: 5.4rem;
+    }
+
+    .support__MsgTxt h1 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .support__MsgTxt img 
+    {
+        width: 30%;
+        top: 10%;
+        right: 30%;
+    }
+
+    .FrameFour 
+    {
+        padding : 2rem 1rem;
+    }
+
+    .supportInputOne input,
+    .supportInputOne select,
+    .supportInputOne textarea
+    {
+        font-size: 0.8rem;
+    }
+}
 
 
 
@@ -755,6 +1110,11 @@
         font-size: 3.5rem;
         line-height: 4rem;
         margin-top: 2rem;
+    } 
+
+    .support__MsgTxt br 
+    {
+        display : none;
     }
 
     .support__MsgTxt p {
