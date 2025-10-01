@@ -1167,7 +1167,7 @@
 }
 
 
-@media screen and (max-width : 325px)
+@media screen and (max-width : 385px)
 {
 
     .about__SmTxtTag 
@@ -2061,3 +2061,4 @@
         max-width: 1600px;
     }
 }
+
