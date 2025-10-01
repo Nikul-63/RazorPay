@@ -535,6 +535,207 @@
 }
 
 
+@media screen and (max-width : 525px)
+{
+    .domain__CheckerContainer {
+        padding : 3rem 1rem 3rem;
+    }
+
+    .domain__CheckerContainer h3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .domain__CheckerContainer p {
+        font-size: 1rem;
+    }
+
+    .dom__InputContainer 
+    {
+        padding: 0.5rem 1rem;
+    }
+
+    .dom__InputSelectContainer 
+    {
+        padding: 0.5rem 1rem;
+    }
+
+    .pop__DomainTag {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .dom__BtnContainer button 
+    {
+        padding: 0.5rem 2rem;
+    }
+
+    .pop__Tag1 span 
+    {
+        display: flex;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .pop__DomainContainer 
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+    }
+
+    .domain__Frame2 
+    {
+        margin: 3rem 0;
+        padding: 1rem 2rem;
+    }
+
+    .domain__Frame2TxtContainer h3 
+    {
+        font-size: 2rem;
+        line-height : 2.2rem;
+    }
+
+    .domain__Frame2TxtContainer p {
+        font-size: 1.1rem;
+    }
+
+    .domain__Frame2CardsOne 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .domain__Frame3 
+    {
+        margin: 2rem 0rem 0rem;
+        padding: 2rem 2rem;
+    }
+
+    .domain__PriceListTxt h3 
+    {
+        font-size: 2rem;
+        line-height : 2.2rem;
+    }
+
+    .domain__PriceListTxt p 
+    {
+        width: 90%;
+    }
+
+    
+    .domain__PriceTagContainer 
+    {
+        flex-wrap : wrap;
+    }
+
+    .domain__Frame4TxtContainer 
+    {
+        flex-direction : column;
+    }
+
+    .domain__Frame4 {
+        padding : 1rem 2rem;
+    }
+
+    .domain__Frame4TxtContainer h3 
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .domain__Frame4TxtContainer p 
+    {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .domain__Frame4CardsContainer 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .support__FAQHeader h3 {
+        font-size: 2rem;
+        line-height : 2.2rem;
+    }
+}
+
+
+@media screen and (max-width : 425px)
+{
+
+    .domain__CheckerContainer h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .domain__CheckerContainer p {
+        font-size: 0.9rem;
+    }
+
+    .dom__InputContainer {
+        width: 40vw;
+    }
+
+    .dom__InputSelectContainer {
+        padding: 0.5rem;
+    }
+
+    .dom__BtnContainer button {
+        padding: 0.5rem 1rem;
+    }
+
+    .dom__InputContainer input 
+    {
+        font-size: 0.8rem;
+    }
+
+    .buy__now, select, textarea {
+        font-size: 0.8rem;
+    }
+
+    .dom__BtnContainer a 
+    {
+        font-size : 0.8rem;
+    }
+
+    .special__PriceListMenuTag 
+    {
+        width: 80vw;
+        padding: 1rem 1.5rem;
+    }
+
+    .normal__PriceListMenuTag 
+    {
+        width: 80vw;
+        padding: 1rem 1.5rem;
+    }
+
+    .special__PriceListMenuTag li {
+        font-size: 0.8rem;
+    }
+
+    .normal__PriceListMenuTag li 
+    {
+        font-size : 0.7rem;
+    }
+
+    .domain__Frame4TxtContainer h3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .domain__Frame4TxtContainer p {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+}
+
+
 
 
 
