@@ -3341,6 +3341,12 @@ footer
         line-height: 2.2rem;
     }
 
+    .hamburger 
+    {
+        width: 20px;
+        height: 25px;
+    }
+
     .header__Container 
     {
         padding: 1.75rem 1rem 1rem 1rem;
@@ -3364,6 +3370,32 @@ footer
 
     .header__ContainerImg img {
         width: 60%;
+    }
+
+    .mobile__Menu > ul > li > a 
+    {
+        padding : 10px 0;
+    }
+
+    .mobile-submenu 
+    {
+        margin: 0;
+    }
+
+    .mobile-submenu a 
+    {
+        font-size : 0.8rem;
+        padding: 6px 10px;
+    }
+
+    .mobile__Menu > ul > li > a > i 
+    {
+        font-size : 0.9rem;
+    }
+
+    .mobile__Menu 
+    {
+        padding: 40px 30px 30px;
     }
 
     /* media query for frame 2 */
@@ -3626,6 +3658,11 @@ footer
         width: 40px;
     }
 
+    footer 
+    {
+        padding-bottom : 2rem;
+    }
+
     .footer__SRowHeader {
         font-size: 1.2rem;
     }
@@ -3646,6 +3683,12 @@ footer
         font-size: 0.9rem;
     }
 
+
+    .footer__FiveRows 
+    {
+        padding-bottom : 2rem;
+    }
+
     .footer__ContactBox {
         width: 90%;
     }
@@ -3656,9 +3699,26 @@ footer
         height: 30px;
     }
 
+    .SocialTxt 
+    {
+        font-size: 1.2rem;
+    }
+
     .footer__ArrowIcon i 
     {
         font-size: 0.9rem;
+    }
+
+    .footer__SocialIcon__Container i 
+    {
+        font-size: 0.9rem;
+        border-radius: 0.3rem;
+    }
+
+    .footer__CopyRightTxt 
+    {
+        font-size: 0.9rem;
+        margin-top : 0;
     }
 
 }
