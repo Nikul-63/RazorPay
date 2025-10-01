@@ -797,6 +797,630 @@
 
 
 
+@media screen and (max-width : 525px)
+{
+    .about__SmTxtTag 
+    {
+        width: 30%;
+    }
+
+    .about__HeaderH3 
+    {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .about__HeaderSmTxt p 
+    {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .about__HeaderBtnContainers {
+        width: 60%;
+    }
+
+    .about__HeaderPlanBtn 
+    {
+        padding : 0.8rem 1rem;
+    }
+
+    .about__HeaderPlanBtn a,
+    .about__HeaderPlanBtn2 a  
+    {
+        font-size: 0.8rem;
+    }
+
+    .about__Frame2 
+    {
+        margin: 1rem 2rem;
+        padding: 1rem;
+    }
+
+    .about__secondBanner__SmallTxt p 
+    {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .about__secondBanner__Btn 
+    {
+        padding: 0.5rem 1rem;
+    }
+
+    .about__secondBanner__Btn a 
+    {
+        font-size: 0.9rem;
+    }
+
+    .about__Frame3 
+    {
+        padding : 2rem;
+    }
+
+    .about__Frame3TxtContainer h3 {
+        font-size: 2rem;
+        line-height : 2.2rem;
+    }
+
+    .about__Frame3TxtContainer p 
+    {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .about__Frame3TxtContainer p 
+    {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        margin: 0;
+    }
+
+    .about__Frame3ImgContainerOne 
+    {
+        height: 250px;
+        width: 250px;
+    }
+
+    .about__Frame3ImgContainerOne img 
+    {
+        width : 100%;
+        height : 100%;
+    }
+
+    .about__Frame3ImgContainerTwo {
+        width: 200px;
+        margin-top : 5rem;
+    }
+
+    .section6 
+    {
+        max-width: 500px;
+        padding: 1rem 1rem;
+    }
+
+    .section6__SmTxt {
+        width: 90%;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .about__Frame4 
+    {
+        padding: 3rem 1rem;
+    }
+
+    .about__NumbericBanner 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .about__Frame5 
+    {
+        margin: 3rem auto;
+        padding: 2rem;
+    }
+
+    .about__TeamHeader h3 {
+        font-size: 2rem;
+    }
+
+    .about__TeamHeader p 
+    {
+        max-width: 80%;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .about__TeamImgCardImg 
+    {
+        width: 350px;
+        height: 350px;
+    }
+
+    
+    .about__TeamImgCardTxt 
+    {
+        margin : 1rem auto;
+    }
+
+    .about__TeamImgCardTxt h3 
+    {
+        font-size: 1.7rem;
+    }
+
+    .about__TeamImgCardTxt p 
+    {
+        font-size: 1rem;
+    }
+
+    .about__ClientFeedBackTxtContainer h3 
+    {
+        font-size: 2rem;
+    }
+
+    .about__ClientFeedBackTxtContainer p 
+    {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .about__ClientFeedBackHeader 
+    {
+        margin-bottom: 1rem;
+    }
+
+    .about__ClientFeedBackCardContainer
+    {
+        margin : 2rem;
+    }
+
+    .about__ClientCardOne 
+    {
+        width : 100%;
+        min-width : 450px;
+        height : 350px;
+    }
+
+    .about__Frame7 
+    {
+        margin: 3rem auto;
+        padding: 2rem;
+    }
+
+    .about__smPlanHighLightTxt p 
+    {
+        font-size : 0.7rem;
+    }
+
+    .about__smPlanHighLightTxt h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .about__SmPlanBtnContainer
+    {
+        width : 40%;
+    }
+
+    .sec12__GetStart a 
+    {
+        font-size: 0.6rem;
+    }
+
+    .about__smPlanContainer 
+    {
+        gap : 2rem;
+    }
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .about__HeaderContainer 
+    {
+        margin: 2rem 2rem 3rem;
+    }
+
+    .about__HeaderH3 {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .about__HeaderSmTxt p 
+    {
+        font-size: 0.8rem;
+    }
+
+    .about__HeaderBtnContainers
+    {
+        width: 70%;
+    }
+
+    .about__HeaderPlanBtn 
+    {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .about__HeaderPlanBtn a, .about__HeaderPlanBtn2 a 
+    {
+        font-size: 0.7rem;
+    }
+
+    .about__secondBanner__H3 
+    {
+        font-size: 1.8rem;
+    }
+
+    .about__secondBanner__SmallTxt p 
+    {
+        font-size: 1rem;
+        line-height : 1.3rem;
+    }
+
+    .secondBanner__AbilityImg 
+    {
+        height : 50px;
+    }
+
+    .secondBanner__AbilityTxt h4 
+    {
+        font-size: 1rem;
+    }
+
+    .about__Frame3TxtContainer h3 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .about__Frame3TxtContainer p 
+    {
+        width : 100% !important;
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+    }
+
+    .about__Frame3SmFeatures 
+    {
+        margin-top: 2rem;
+    }
+
+    .about__Frame3ImgContainerOne 
+    {
+        height: 250px;
+        width: 180px;
+    }
+
+    .about__Frame3ImgContainerTwo {
+        width: 150px;
+        margin-top: 8rem;
+    }
+
+    .section6__SmTxt {
+        max-width : 90%;
+        margin: 2rem auto;
+        font-size : 0.8rem;
+        line-height : 1rem;
+    }
+
+    .about__ClientCardOne 
+    {
+        min-width: 350px;
+    }
+
+    .about__ClientCardSmTxt p 
+    {
+        font-size: 1rem;
+    }
+
+    .about__Frame6 
+    {
+        padding: 2rem 1rem;
+    }
+
+    .about__ClientProfileTxt h4 
+    {
+        font-size: 1.2rem;
+    }
+
+    .about__ClientProfileTxt span 
+    {
+        font-size : 0.9rem;
+    }
+
+    .about__Frame7
+    {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .about__smPlanContainer 
+    {
+        gap: 1rem;
+    }
+
+    .about__smPlanHighLightTxt p {
+        font-size: 0.6rem;
+    }
+
+    .about__smPlanHighLightTxt h3 
+    {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .about__SmPlanBtnContainer 
+    {
+        width: 50%;
+    }
+
+    .sec12__GetStart 
+    {
+        padding: 0.4rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width : 325px)
+{
+
+    .about__SmTxtTag 
+    {
+        width: 40%;
+    }
+
+    .about__HeaderH3 
+    {
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+
+    .about__HeaderBtnContainers 
+    {
+        width: 100%;
+    }
+
+    .about__HeaderPlanBtn 
+    {
+        padding: 0.2rem 0.5rem;
+    }
+
+    .about__Frame2 {
+        margin: 1rem auto;
+    }
+
+    .about__SecondBannerImg {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__SecondBannerImgOne 
+    {
+        width: 80%;
+        height : 250px;
+    }   
+
+    .about__SecondBannerImgTwo 
+    {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    .about__SecondBannerImgOne img,
+    .about__SecondBannerImgTwo img 
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__secondBanner__H3 
+    {
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .about__secondBanner__SmallTxt p 
+    {
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .secondBanner__Ability1 
+    {
+        flex-direction : column;
+        justify-content : center;
+    }
+
+    .secondBanner__AbilityImg 
+    {
+        height: 70px;
+    }
+
+    .about__secondBanner__Btn 
+    {
+        padding: 0.5rem 1rem;
+        margin: 1rem auto;
+        padding : 0.3rem 0.5rem;
+        display: flex;
+    }
+
+    .about__secondBanner__Btn a {
+        font-size: 0.7rem;
+    }
+
+    .about__Frame3 
+    {
+        text-align: center;
+    }
+
+    .secondBanner__AbilityTxt
+    {
+        text-align : center;
+    }
+
+    .about__Frame3TxtContainer h3 {
+        font-size: 1.6rem;
+        line-height: 1.7rem;
+    }
+
+    .about__Frame3SmFeatures 
+    {
+        flex-direction: column;
+        gap : 0rem;
+    }
+
+    .about__Frame3ImgContainerOne 
+    {
+        width: 250px;
+    }
+
+    .about__Frame3ImgContainerTwo 
+    {
+        width: 250px;
+        margin-top: 2rem;
+    }
+
+    .about__Frame3ImgContainer 
+    {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section6__H3 
+    {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+
+    .about__NumbericBanner 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about__TeamHeader h3 {
+        margin : 0.5rem auto;
+        text-align : center;
+        font-size: 1.8rem;
+    }
+
+    .about__TeamHeader p 
+    {
+        margin : 0.5rem 0rem;
+        max-width: 90%;
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+    }
+
+    .about__TeamImgCardImg 
+    {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about__TeamImgCardTxt 
+    {
+        margin: 0rem auto 1rem;
+    }
+
+    .about__TeamImgCardTxt h3 
+    {
+        font-size: 1.4rem;
+    }
+
+    .about__TeamImgCardTxt p 
+    {
+        font-size: 0.9rem;
+    }
+
+    .about__Frame5 {
+        margin: 3rem auto 0rem;
+    }
+
+    .about__ClientFeedBackHeader 
+    {
+        text-align: center;
+    }
+
+    .about__ClientFeedBackTxtContainer h3 {
+        font-size: 1.8rem;
+    }
+
+    .about__ClientFeedBackTxtContainer p 
+    {
+        width: 90%;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .about__ClientProfileTxt h4 {
+        font-size: 1rem;
+    }
+
+    .about__ClientProfileTxt span {
+        font-size: 0.7rem;
+    }
+
+    .about__ClientProfileImg{
+        width : 40px;
+        height : 40px;
+    }
+
+    .about__ClientCardSmTxt p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+
+    .about__ClientCardOne 
+    {
+        min-width: 250px;
+        height : 300px;
+        padding : 1rem;
+    }
+
+    .about__smPlanContainer 
+    {
+        flex-direction : column;
+        gap : 0rem;
+    }
+
+    .about__smPlanHighLightTxt p 
+    {
+        margin: 1rem auto;
+    }
+
+    .about__smPlanHighLightTxt h3 
+    {
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    .about__SmPlanBtnContainer 
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+
+
+
 
 
 
