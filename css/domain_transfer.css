@@ -201,6 +201,12 @@
 }
 
 /*============================ Design Third Frame ================================*/
+.domainTransfer__Frame3MainContainer
+{
+    
+    background-color : #f4f9ff;
+}
+
 .domainTransfer__Frame3
 {
     margin : 2rem 0rem;
@@ -210,7 +216,6 @@
     align-items : center;
     justify-content : center;
     gap : 1rem;
-    background : #f4f9ff;
 }
 
 .domainTransfer__Frame3 h3 
@@ -417,4 +422,243 @@
 .domainTransfer__Frame5Card:hover p 
 {
     color : #fff;
+}
+
+
+
+
+
+
+
+
+/*=================== MEDIA QUERY FOR MEDIUM SIZE DEVICES ===================*/
+@media screen and (max-width : 768px)
+{
+    .domainTransfer__Frame2Cards
+    {
+        display : grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .domainTransfer__Frame5 h3 
+    {
+        text-align: center;
+        line-height : 3.2rem;
+    }
+
+    .domainTransfer__Frame5 p 
+    {
+        font-size: 1.2rem;
+    }
+
+    .domainTransfer__Frame5Cards
+    {
+        display : grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/*======================== MEDIA QUERY FOR SMALLER DEVICES ===================*/
+@media screen and (max-width : 525px)
+{
+    .domaintransfer__Header h3,
+    .domainTransfer__Frame2 h3,
+    .domainTransfer__Frame3 h3  
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .domainTransfer__Frame2Cards 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .domainTransfer__Frame2 
+    {
+        margin: 3rem 0rem;
+        padding: 1rem 2rem;
+    }
+
+    .domainTransfer__Frame3Table
+    {
+        width : 100%;
+        margin : 2rem auto;
+        overflow-x : auto;
+        align-items : flex-start;
+        -webkit-overflow-scrolling : touch;
+    }
+
+    .domainTransfer__UL:nth-child(1), 
+    .domainTransfer__UL
+    {
+        width : 100%;
+        min-width: 600px; 
+    }
+
+    .domainTransfer__Frame5 h3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .domainTransfer__Frame5 p 
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .domainTransfer__Frame5Cards 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .domaintransfer__Header 
+    {
+        margin-top: 3rem 0rem;
+        padding: 3rem 2rem;
+    }
+
+    .domaintransfer__Header h3,
+    .domainTransfer__Frame2 h3,
+    .domainTransfer__Frame3 h3,
+    .domainTransfer__Frame5 h3  
+    {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .domaintransfer__Header p 
+    {
+        font-size: 0.9rem;
+    }
+
+    
+    .domain__SmFormContainer 
+    {
+        flex-direction: column;
+        gap : 2rem;
+    }
+
+    .domain__SmFormContainer input {
+        width: 100%;
+        padding : 0.5rem 0.8rem;
+        font-size : 0.9rem;
+    }
+
+    .domain__SmFormContainer button 
+    {
+        padding: 0.5rem 1rem;
+    }
+
+    .domain__HeaderSmLinks span,
+    .domain__HeaderSmLinks a 
+    {
+        font-size: 0.9rem;
+    }
+
+    .domainTransfer__LI 
+    {
+        font-size: 0.9rem;
+        padding : 0.5rem;
+    }
+
+    .domainTransfer__Frame5 p 
+    {
+        font-size: 0.9rem;
+    }
+
+    
+    .domainTransfer__Frame5Card 
+    {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .domainTransfer__Frame5Card h4
+    {
+        font-size: 1rem;
+    }
+
+    .domainTransfer__Frame5 p {
+        text-align: left;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================== media query for larger screen size =============================================*/
+@media screen and (min-width : 1024px)
+{
+    .domainTransfer__Frame2 
+    {
+        max-width : 1200px;
+        margin : 4rem auto;
+        padding : 6rem 4rem;
+    }
+
+    .domainTransfer__Frame2 h3 {
+        font-size : 2.4rem;
+        line-height : 2.8rem;
+        text-align : center;
+    }
+
+    .domainTransfer__Card {
+        height : 300px;
+    }
+
+    /* media query for section 3 */
+    .domainTransfer__Frame3 
+    {
+        max-width : 1200px;
+        padding : 4rem 2rem;
+        margin : 3rem auto;
+    }
+
+    .domainTransfer__Frame3 h3 
+    {
+        font-size : 2.5rem;
+        line-height : 3rem;
+    }
+
+    /* media query for section 5 */
+    .domainTransfer__Frame5 
+    {
+        margin : 4rem auto;
+        max-width : 1200px;
+    }
+}
+
+
+@media screen and (min-width : 1940px)
+{
+    .domain__SmFormContainer {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width : 3480px)
+{
+    .domain__SmFormContainer {
+        width: 50%;
+    }
 }
