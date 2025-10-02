@@ -9,3 +9,14 @@
 {
     text-transform : capitalize;
 }
+
+
+/*==================== MEDIA QUERY FOR SMALLER DEVICES ========================*/
+@media screen and (max-width : 525px)
+{
+    .signin__Terms 
+    {
+        width : 100%;
+        flex-direction: column;
+    }
+}
