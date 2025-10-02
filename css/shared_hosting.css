@@ -439,6 +439,91 @@
 }
 
 
+/*====================== MEDIA QUERY FOR SMALLER DEVICES ===================*/
+@media screen and (max-width : 525px)
+{
+    .sharedHosting__HeaderContainer 
+    {
+        margin-top : 2rem;
+        gap : 2rem;
+    }
+
+    .sharedHosting__SimpleHighlighter 
+    {
+        width : 35%;
+    }
+
+    .sharedHosting__SimpleHighlighter p 
+    {
+        font-size: 0.9rem;
+    }
+
+    .sharedHosting__H3,
+    .shareHosting__Frame2Txt h3,
+    .domain__Frame4TxtContainer h3   
+    {
+        font-size: 2rem;
+        line-height : 2.2rem;
+    }
+
+    .sharehHosting__Desc 
+    {
+        font-size: 1rem;
+    }
+
+    .sharedHosting__LooksImg 
+    {
+        min-width: 30px;
+        height: 30px;
+    }
+
+    .sharedHosting__LooksTxt h5 
+    {
+        font-size: 0.9rem;
+        line-height : 1.1rem;
+    }
+
+    .shareHosting__Frame2Cards 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width : 425px)
+{
+    .sharedHosting__SimpleHighlighter 
+    {
+        width: 45%;
+    }
+
+    .sharedHosting__HeaderImg 
+    {
+        width: 80%;
+    }
+
+    .sharedHosting__H3, .shareHosting__Frame2Txt h3, .domain__Frame4TxtContainer h3 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .sharedHosting__LooksContainer 
+    {
+        flex-direction : column;
+    }
+
+    .hosting__Cloud, 
+    .hosting__Wifi 
+    {
+        display : none;
+    }
+
+    .priceYear__SmImg 
+    {
+        display: none;
+    }
+}
+
+
 
 
 
