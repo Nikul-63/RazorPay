@@ -1,0 +1,92 @@
+.priceYear__SmImg
+{
+    position : relative;
+}
+
+.priceYear__SmImg img {
+    right: 8rem;
+    position: absolute;
+    left: auto;
+    bottom: 2rem;
+    width: 50%;
+}
+
+.shareHosting__Frame2Cards 
+{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.shareHosting__Frame2CardOne {
+    max-width: 400px;
+    width: 100%;
+    min-width: 350px;
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .shareHosting__Frame2CardOne 
+    {
+        max-width: 350px;
+        min-width: 300px;
+    }
+
+    .SharedHosting__cardHeader 
+    {
+        font-size : 1.1rem;
+    }
+
+    .shareHosting__smallP 
+    {
+        font-size: 0.8rem;
+    }
+
+    .shareHosting__DiscountSpan span 
+    {
+        font-size: 0.8rem;
+    }
+
+    .shareHosting__DiscountTag h5 
+    {
+        font-size: 0.8rem;
+    }
+
+    .shareHosting__PlanPrice h3 
+    {
+        font-size: 1.6rem;
+    }
+
+    .shareHosting__AddToCartBtn 
+    {
+        width: 50%;
+        padding: 0.3rem 0.5rem;
+    }
+
+    
+    .shareHosting__AddToCartBtn a 
+    {
+        font-size : 0.9rem;
+    }
+
+    .shareHosting__LITxt h4 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width : 325px)
+{
+    .priceYear__SmImg 
+    {
+        width: 100px;
+    }
+
+    .priceYear__SmImg img 
+    {
+        right: 4rem;
+    }
+
+    .shareHosting__Frame2Cards 
+    {
+        margin-top: 1rem;
+    }
+}
