@@ -166,6 +166,55 @@
 }
 
 
+/*====================== MEDIA QUERY FOR SMALLER DEVICES =========================*/
+@media screen and (max-width : 425px)
+{
+    .knowledgebase__ImgContainer img 
+    {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width : 325px)
+{
+    .payment__SmTxtTag 
+    {
+        width: 40%;
+    }
+
+    .about__SmTxtTag  p 
+    {
+        font-size : 0.8rem;
+    }
+
+    .knowledge__Tag1 
+    {
+        padding: 0.5rem;
+    }
+
+    .knowledge__LeftHeader 
+    {
+        font-size: 1.5rem;
+    }
+
+    .knowledge__Tag1Txt h3,
+    .knowledge__Tag1Num h3  
+    {
+        font-size: 0.9rem;
+    }
+
+    .knowledgeBigTagOne h3 
+    {
+        font-size: 1.1rem;
+    }
+
+    .knowledgeBigTagOne p 
+    {
+        margin: 1rem 0rem;
+        font-size: 0.9rem;
+    }
+}
 
 
 
