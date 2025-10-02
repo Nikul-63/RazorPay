@@ -47,3 +47,31 @@
     font-weight : 600;
     cursor : pointer;
 }
+
+
+
+/*==================== MEDIA QUERY FOR SMALLER DEVICES =====================*/
+@media screen and (max-width : 525px)
+{
+    .error__Container 
+    {
+        padding : 2rem;
+    }
+}
+
+@media screen and (max-width : 425px)
+{
+    .error__TxtContainer h4 
+    {
+        font-size: 2rem;
+        line-height : 2.2rem;
+    }
+
+    .error__TxtContainer p 
+    {
+        width: 100%;
+        margin : 1rem auto;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+}
