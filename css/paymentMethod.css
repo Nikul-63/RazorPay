@@ -504,6 +504,11 @@
 
 @media screen and (max-width : 425px)
 {
+    .payment__SmTxtTag 
+    {
+        width: 40%;
+    }
+    
     .about__HeaderH3 
     {
         margin : 1rem 0 1rem;
@@ -588,3 +593,4 @@
         padding : 5rem 2rem;
     }
 }
+
