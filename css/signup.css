@@ -1,3 +1,8 @@
+body 
+{
+    background : #f6f6f6;
+}
+
 .signupFrame1
 {
     margin : 1rem auto;
@@ -18,7 +23,6 @@
     align-items : center;
     justify-content : center;
     gap : 1rem;
-    background : #f6f6f6;
     border-radius : 10px;
 }
 
@@ -153,4 +157,25 @@ footer
     align-items : center;
     justify-content : center;
     margin : 1rem auto;
+}
+
+
+/*===================== MEDIA QUERY FOR SMALLER DEVICES =========================*/
+@media screen and (max-width : 425px)
+{
+    .signup__Container h3 {
+        font-size: 2rem;
+        line-height : 2.2rem;
+    }
+
+    .firstName input, .email input, .password input, .re-password input 
+    {
+        width: 100%;
+    }
+
+    .signup__Btn 
+    {
+        width: 100%;
+    }
+
 }
