@@ -665,6 +665,233 @@
     }
 }
 
+@media screen and (max-width : 525px)
+{
+    .affiliate__SmTxtTag 
+    {
+        width: 30%;
+    }
+
+    .about__HeaderH3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .affiliate__Frame2 
+    {
+        max-width: 500px;
+        margin: 1rem auto;
+    }
+
+    .affiliate__Boxes 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .affiliate__Box 
+    {
+        width: 350px;
+    }
+
+    .affiliate__Frame2SecTxtContainer h3 
+    {
+        font-size: 2rem;
+        line-height : 2.2rem;
+    }
+
+    .affiliate__Frame3 
+    {
+        margin: 1rem 0rem;
+        padding: 2rem;
+    }
+
+    .affiliate__Frame3TxtContainer h3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .affiliate__Frame3CardsContainer 
+    {    
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .affiliate__Frame4 
+    {
+        max-width : 450px;
+        padding : 1rem 2rem;
+    }
+
+    .affiliate__Frame4TxtContainer h3 
+    {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .affiliate__Frame4TxtContainer p {
+        font-size: 1rem;
+        width: 90%;
+        max-width : 100%;
+    }
+
+    .affiliate__StepsGuideContainer 
+    {
+        width: 100%;
+    }
+
+    .affiliate__StepsContent h4 {
+        font-size: 1.3rem;
+    }
+
+    .affiliate__StepsContent p 
+    {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .affiliate__StepsImg {
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .affiliate__Frame5 
+    {
+        margin: 3rem 0rem;
+        padding: 1rem 2rem;
+    }
+
+    .affiliate__Frame5ImgContainer, .affiliate__Frame5TxtContainer {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .affiliate__Frame5TxtContainer h3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .affiliate__Frame5TxtContainer p 
+    {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .affiliateFrame5__TagOne 
+    {
+        width: 100%;
+    }
+
+    .support__FrameTwo 
+    {
+        padding: 2rem 1rem;
+        margin: 2rem 0rem;
+    }
+
+    .support__FrameTwo__CardContainer 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width : 425px)
+{
+    .affiliate__SmTxtTag {
+        width: 40%;
+    }
+
+    .about__HeaderH3 
+    {
+        font-size: 1.8rem;
+    }
+
+    .affiliate__Frame2SecTxtContainer h3 
+    {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .affiliate__Frame2SecTxtContainer p 
+    {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .affiliate__Frame2SecTxt2Container {
+        height : 450px;
+    }
+
+    .tag1 
+    {
+        font-size : 0.7rem;
+    }
+
+    .affiliate__Frame2SecTagContainer 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .affiliate__Frame2SecBigTxtContainer 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .affiliate__Frame2SecBigTxtContainer p 
+    {
+        font-size : 0.8rem;
+    }
+
+    .affiliate__Frame3TxtContainer h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .affiliate__Frame3TxtContainer p 
+    {
+        font-size: 0.8rem;
+    }
+
+    .affiliate__Frame4TxtContainer h3 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .affiliate__StepsImg 
+    {
+        width : 100%;
+        max-width: 350px;
+        height: 300px;
+    }
+
+    .affiliate__Frame5ImgContainer, .affiliate__Frame5TxtContainer 
+    {
+        max-width: 350px;
+    }
+
+    .affiliate__Frame5TxtContainer h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .affiliate__Frame5TxtContainer p 
+    {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .frame5__TagOnTxt h4 
+    {
+        font-size: 1rem;
+    }
+}
+
 
 
 /*===================================   MEDIA QUERY FOR LARGER DEVICES =========================================*/
