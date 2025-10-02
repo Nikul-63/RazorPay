@@ -204,3 +204,124 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
+@media screen and (max-width : 525px)
+{
+    .shareHosting__Frame2Txt h3 
+    {
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+
+    .pricingPackage__Cards 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .shareHosting__Frame2Txt h3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .priceYear__TagOne 
+    {
+        padding: 0.3rem;
+    }
+
+    .dedicated_HostieTag h4 
+    {
+        padding: 0.2rem 0.5rem;
+        font-size : 0.7rem;
+    }
+
+    .priceYear__SmTagOne h4 
+    {
+        font-size: 0.7rem;
+    }
+
+    .priceYear__Comparasion 
+    {
+        gap: 0.3rem;
+    }
+
+    .priceYear__SmImg 
+    {
+        width: 180px;
+    }
+
+    .priceYear__PTag p 
+    {
+        font-size: 0.9rem;
+    }
+
+    .priceYear__SmImg img 
+    {
+        width: 40%;
+        height: 80%;        
+    }
+
+}
+
+
+@media screen and (max-width : 325px)
+{
+    .shareHosting__Frame2Txt h3 
+    {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .shareHosting__Frame2Txt p {
+        font-size: 0.9rem;
+    }
+
+    .priceYear__SmImg 
+    {
+        width: 130px;
+    }
+
+    .pricingPackage__Card h3 
+    {
+        font-size : 1.1rem;
+    }
+
+    .pricingPackage__Card .pricingCard__SmP 
+    {
+        line-height: 1.2rem;
+        margin-bottom: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .pricingPackage__TAGIcon 
+    {
+        width : 15px;
+        height : 15px;
+        display : flex;
+        flex-direction : row;
+        align-items : center;
+        justify-content : center;
+    }
+
+    .pricingPackage__TAGTXT p 
+    {
+        font-size: 0.7rem;
+    }
+
+    .pricingPackage__SmTagBtn 
+    {
+        width: 70%;
+        margin: 1rem auto;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .pricingPackage__SmTagBtn a 
+    {
+        font-size: 0.8rem;
+    }
+}
