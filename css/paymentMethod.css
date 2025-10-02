@@ -312,7 +312,7 @@
     transition : all 0.3s ease;
 }
 
-.Payment__SmBtnContainer a, i 
+.Payment__SmBtnContainer a
 {
     font-weight : 400;
     color : #fff;
@@ -408,6 +408,161 @@
 
 }
 
+/*==================================== MEDIA QUERY FOR SMALLER DEVICES =====================*/
+@media screen and (max-width : 525px)
+{
+    .payment__SmTxtTag 
+    {
+        width: 30%;
+    }
+
+    .about__HeaderPlanBtn 
+    {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .Payment__Frame1Header h3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .Payment__CreditTxt h3,
+    .Payment__EWalletTxtContainer h3,
+    .Crypto__ImgTxtContainer h3  
+    {
+        font-size : 1.5rem;
+    }
+
+    .Payment__CreditImg,
+    .Payment__EWalletImgContainer,
+    .Crypto__SmImgContainer  
+    {
+        margin-top: 1rem;
+    }
+
+    .Payment__Frame2 
+    {
+        padding : 1rem 2rem;
+    }
+
+    .Payment__Frame2TxtContainer,
+    .Payment__Frame2ImgContainer 
+    {
+        width: 80%;
+    }
+
+    .Payment__Frame2TxtContainer h3 
+    {
+        text-align: left;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .Payment__Frame2TxtContainer p 
+    {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        font-weight: 400;
+    }
+
+    .Payment__SmPOneI 
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Payment__SmPOneI i 
+    {
+        font-size: 0.6rem;
+    }
+
+    .Payment__SmPOneh4 
+    {
+        font-size: 1rem;
+    }
+
+    .Payment__SmBtnContainer 
+    {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .Payment__SmBtnContainer a 
+    {
+        font-size: 0.8rem;
+    }
+
+    .Payment__SmBtnContainer i 
+    {
+        color : #fff;
+        font-size : 0.7rem;
+    }
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .about__HeaderH3 
+    {
+        margin : 1rem 0 1rem;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .about__HeaderSmTxt p 
+    {
+        width : 80%;
+        font-size: 0.7rem;
+    }
+
+    .Payment__Frame1Header h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+
+    .Payment__Frame1Header p 
+    {
+        width : 80%;
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+
+    .Payment__CreditImgContainer,
+    .Payment__E__WalletContainer,
+    .Crypto__ImgContainer  
+    {
+        padding: 2rem 1rem;
+    }
+
+    .Payment__CreditTxt 
+    {
+        margin: 0.5rem auto;
+    }
+
+    .Payment__CreditTxt h3, .Payment__EWalletTxtContainer h3, .Crypto__ImgTxtContainer h3 {
+        font-size: 1.3rem;
+    }
+
+    .Payment__Frame2TxtContainer h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .Payment__Frame2TxtContainer p 
+    {
+        font-size : 0.8rem;
+        line-height : 1.1rem;
+    }
+
+    .Payment__SmPOneh4 {
+        font-size: 0.9rem;
+    }
+}
 
 
 
