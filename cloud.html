@@ -58,9 +58,15 @@
             </div>
         </div>
 
-        <div class="navBar__Container">
+        <div class="navBar__Container" id="navbar">
             <div class="navBar__Logo">
-                <img src="./img/home/logo-1.svg" alt="Site Logo">
+                <a href="./index.html">
+                    <img src="./img/home/logo-1.svg" alt="Site Logo" class="logo-img logo-light">
+                </a>
+
+                <a href="./index.html">
+                    <img src="./img/home/logo_dark.svg" alt="Site Logo" class="logo-img logo-dark">
+                </a>
             </div>
 
             <!-- Hamburger Icon -->
@@ -555,7 +561,8 @@
             <!---  Overlay  -->
             <div class="overlay" id="overlay"></div>
         </div>
-        <div class="blog__FrameTwo">
+
+        <div class="blog__FrameTwo hero-section">
             <div class="blog__FrameTwoTxtContainer">
                 <div class="blog__FrameSmTagTxt">
                     <p>Cloud Hosting</p>
@@ -1691,7 +1698,7 @@
                             <i class="fa-solid fa-circle-minus"></i>
                         </div>
                     </div>
-                    <div class="support__Ans1 support__Ans1Active">
+                    <div class="support__Ans1 active">
                         <p>
                             Above all else, we strive to deliver outstanding customer experiences. When you buy a domain name from hostie, we guarantee it will be handed over.
                         </p>
@@ -1932,5 +1939,7 @@
     <script src="./js/navmenu5.js"></script>
     <script src="./js/logintab.js"></script>
     <script src="./js/hamburger.js"></script>
+    <script src="./js/stickynav.js"></script>
+    <script src="./js/faq.js"></script>
 </body>
 </html>
