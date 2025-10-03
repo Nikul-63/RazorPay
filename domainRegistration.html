@@ -58,9 +58,15 @@
             </div>
         </div>
 
-        <div class="navBar__Container">
+        <div class="navBar__Container" id="navbar">
             <div class="navBar__Logo">
-                <img src="./img/home/logo-1.svg" alt="Site Logo">
+                <a href="./index.html">
+                    <img src="./img/home/logo-1.svg" alt="Site Logo" class="logo-img logo-light">
+                </a>
+
+                <a href="./index.html">
+                    <img src="./img/home/logo_dark.svg" alt="Site Logo" class="logo-img logo-dark">
+                </a>
             </div>
 
             <!-- Hamburger Icon -->
@@ -555,8 +561,7 @@
             <!---  Overlay  -->
             <div class="overlay" id="overlay"></div>
         </div>
-
-        <div class="domain__CheckerContainer">
+        <div class="domain__CheckerContainer hero-section">
             <h3>Register your domain</h3>
             <p>Enter the domain that you would like to transfer to Hostie</p>
 
@@ -699,7 +704,7 @@
                             <i class="fa-solid fa-circle-minus"></i>
                         </div>
                     </div>
-                    <div class="support__Ans1 support__Ans1Active">
+                    <div class="support__Ans1 active">
                         <p>
                             Above all else, we strive to deliver outstanding customer experiences. When you buy a domain name from hostie, we guarantee it will be handed over.
                         </p>
@@ -942,5 +947,7 @@
     <script src="./js/navmenu5.js"></script>
     <script src="./js/logintab.js"></script>
     <script src="./js/hamburger.js"></script>
+    <script src="./js/stickynav.js"></script>
+    <script src="./js/faq.js"></script>
 </body>
 </html>
