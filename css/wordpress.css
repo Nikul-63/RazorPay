@@ -308,6 +308,92 @@
 }
 
 
+/*=================== MEDIA QUERY FOR SMALLER DEVICES ========================*/
+@media screen and (max-width : 525px)
+{
+    .wordpress__SmTxtTag 
+    {
+        width: 35%;
+    }
+
+    .about__HeaderH3
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .about__HeaderSmTxt p {
+        font-size: 0.9rem;
+    }
+
+    .about__HeaderBtnContainers 
+    {
+        width: 80%;
+    }
+
+    .wordpress__Frame1Txt h3 
+    {
+        font-size: 2rem;    
+        line-height: 2.4rem;
+    }
+
+    .wordpress__Frame1Txt p 
+    {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .wordpressPluginContainerTxt h3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .wordpressPluginContainerTxt p {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width : 425px)
+{
+    .wordpress__SmTxtTag {
+        width: 45%;
+    }
+
+    .about__HeaderH3,
+    .wordpress__Frame1Txt h3,
+    .wordpressPluginContainerTxt h3   
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .wordpress__SmFeatures 
+    {
+        flex-direction : column;
+    }
+
+    .wordpress__SmFeaturesLeftContainer,
+    .wordpress__SmFeaturesRightContainer  
+    {
+        width: 100%;
+    }
+
+    .wordpressPluginContainerCards 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width : 325px)
+{
+    .wordpress__SmTxtTag {
+        width: 55%;
+    }
+}
+
 
 
 
