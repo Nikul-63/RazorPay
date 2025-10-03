@@ -766,6 +766,126 @@ td
 
 
 
+/*================ MEDIA QUERY FOR SMALLER DEVICES ====================*/
+@media screen and (max-width : 525px)
+{
+    .dedicated__SmTXTtag 
+    {
+        width: 35%;
+    }
+
+    .about__HeaderH3 
+    {
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .domainTransfer__Frame3 
+    {
+        width : 100%;
+        align-items : flex-start;
+        justify-content : flex-start;
+        overflow-x : auto;
+    }
+
+    .table 
+    {
+        width : 100%;
+        min-width : max-content;
+        border-collapse: collapse;
+        min-width : 1200px;
+    }
+
+    .dedicated__HostingFrame3__H3,
+    .dedicated__HostingFrame5Left h3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .dedicated__Frame3SmTags 
+    {
+        width: 100%;
+    }
+
+    .dedicated__Frame3SmTag1 
+    {
+        width: 100%;
+    }
+
+    .dedicated__MailContainer {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .dedicated__SmTXTtag {
+        width: 55%;
+    }
+
+    .about__HeaderH3 ,
+    .dedicated__HostingFrame3__H3,
+    .dedicated__HostingFrame5Left h3,
+    .shareHosting__Frame2Txt h3 
+    {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    
+    .dedicated__HostinFrame3Left h3 
+    {
+        font-size: 1.4rem;
+    }
+
+    .dedicated__HostingFrame3 
+    {
+        padding : 3rem 2rem;
+    }
+
+    .ded__HostFrame3__RightSmTag,
+    .ded__HostFrame3__RightSmTag2
+    {
+        display : none;
+    }
+
+    .dedicatedFrame2__Card img 
+    {
+        width : 40px;
+        height : 40px;
+    }
+
+    .dedicated__HostingFrame5Left p 
+    {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .dedicated__MailTxt h4 {
+        font-size : 1rem;
+    }
+
+    .dedicated__MailTxt p 
+    {
+        font-size: 0.8rem;  
+        margin: 1rem 0rem;
+    }
+
+    .dedicated__MailIcon 
+    {
+        width: 80px;
+        height: 30px;
+    }
+
+    .dedicated__MailIcon i 
+    {
+        font-size : 1rem;
+    }
+}
+
 
 
 
