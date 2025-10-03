@@ -141,7 +141,41 @@
     }
 }
 
+/*========================================== MEDIA QUERY FOR SMALLER DEVICES ============================================*/
+@media screen and (max-width : 525px)
+{
+    .frame1__CloudH3,
+    .cloud__Frame2Right h3 
+    {
+        font-size : 2rem !important;
+        line-height : 2.2rem;
+    }
 
+    .cloud__Frame2
+    {
+        max-width : 400px;
+    }
+}
+
+@media screen and (max-width : 425px)
+{
+    .frame1__CloudH3,
+    .cloud__Frame2Right h3 
+    {
+        font-size : 1.6rem !important;
+        line-height : 2rem;
+    }
+
+    .cloud__Frame2
+    {
+        max-width : 300px;
+    }
+
+    .reseller__HostingFeatureContainer 
+    {
+        padding : 1rem;
+    }
+}
 
 
 
