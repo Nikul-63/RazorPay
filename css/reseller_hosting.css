@@ -265,6 +265,104 @@
     }
 }
 
+/*============= MEDIA QUERY FOR SMALLER DEVICES ==================*/
+@media screen and (max-width : 565px)
+{
+    .reseller__SmTxtTag 
+    {
+        width: 32%;
+    }
+
+    .about__HeaderH3,
+    .reseller__HostingFeatureContainer h3 
+    {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .about__HeaderSmTxt p 
+    {
+        font-size: 0.9rem;
+    }
+
+    .reseller__HeaderImgContainer 
+    {
+        height: 350px;
+    }
+
+    .reseller__SmIconContainer3 {
+        width: 70px;
+        right: 45%;
+    }
+
+    .reseller__SmIconContainer {
+        left: 9%;
+    }
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .reseller__SmTxtTag 
+    {
+        width: 42%;
+    }
+
+    .about__HeaderH3,
+    .reseller__HostingFeatureContainer h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .about__HeaderSmTxt p 
+    {
+        font-size: 0.8rem;
+    }
+
+    .about__HeaderBtnContainers {
+        width: 80%;
+    }
+
+    .reseller__SmIconContainer {
+        left: 2%;
+    }
+
+    .reseller__SmIconContainer2 
+    {
+        top: 46px;
+        left: 20%;
+    }
+
+    .reseller__SmIcon1 
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width : 325px)
+{
+    .reseller__SmTxtTag {
+        width: 52%;
+    }
+    
+    .reseller__HostingCardOne h4 
+    {
+        font-size: 1.1rem;
+    }
+
+    .reseller__HostingCardOne 
+    {
+        padding: 1rem;
+    }
+
+    .reseller__HostingCardOne p 
+    {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+}
+
 
 
 
