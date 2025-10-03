@@ -185,6 +185,75 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    transition : all 0.3s ease;
+    background : transparent;
+    z-index : 1000;
+}
+
+.navBar__Container.sticky 
+{
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    color : #2d3c58;
+    background : #fff;
+    box-shadow : 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding : 1rem 5%;
+    animation : slideDown 0.5s ease;
+}
+
+@keyframes slidDown 
+{
+    from 
+    {
+        transform : translateY(-100%);
+        opacity : 0;
+    }
+
+    to 
+    {
+        transform : translate(0);
+        opacity : 1;
+    }
+}
+
+.logo-img 
+{
+    transition : opacity 0.4s ease;
+}
+
+.logo-light 
+{
+    opacity : 1;
+}
+
+.logo-dark 
+{
+    opacity : 0;
+    height : 0;
+}
+
+.sticky .logo-light
+{
+    opacity : 0;
+    height : 0;
+}
+
+.sticky .logo-dark 
+{
+    opacity : 1;
+    height : 100%;
+}
+
+.sticky .navBar__Button button 
+{
+    border: 1px solid #2d3c58;
+}
+
+.sticky .navBar__Button button:hover 
+{
+    border: none;
 }
 
 .navBar__UL
@@ -453,6 +522,11 @@
     height : 21px;
     cursor : pointer;
     z-index : 1000;
+}
+
+.sticky .hamburger span
+{
+    background-color : #2d3c58;
 }
 
 .hamburger span 
@@ -1860,6 +1934,7 @@ td.package__item {
     justify-content: flex-start;
     padding: 0.5rem 1rem;
     border-bottom: 1px solid #e1efff;
+    transition : all 0.3s ease;
 }
 
 .faq__Question
@@ -1870,6 +1945,7 @@ td.package__item {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 1rem;
+    cursor : pointer;
 }
 
 .faq__Question h4 
@@ -1889,16 +1965,19 @@ td.package__item {
     background: #fff;
     border: 1px solid #e1efff;
     border-radius: 50%;
+    transition : all 0.3s ease;
 }
 
 .faq__QuestionIcon i 
 {
     font-size: 0.8rem;
+    transition : transform 0.3s ease;
 }
 
 .faq__Answer 
 {
     display : none;
+    transition : max-height 0.5s ease, padding 0.3s ease;
 }
 
 .faq__Answer.active 
@@ -1912,6 +1991,18 @@ td.package__item {
     font-size: 1.1rem;
     padding-bottom: 1rem;
 }
+
+.faq__Card.active  .faq__QuestionIcon
+{
+    transform : rotate(180deg);
+}
+
+.faq__Card.active  .faq__QuestionIcon i
+{
+    transform : rotate(180deg);
+}
+
+
 
 /*======================= CSS FOR SECTION 12 =====================*/
 .section12
@@ -3325,6 +3416,23 @@ footer
     .sec12__LeftSide p {
         font-size : 0.9rem;
     }
+
+    .mobile-submenu 
+    {
+        margin: 0;
+    }
+
+    .mobile__Menu > ul > li > a 
+    {
+        padding : 10px 0;
+    }
+
+    .mobile-submenu a 
+    {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
 }
 
 @media screen and (max-width : 325px)
@@ -3343,7 +3451,7 @@ footer
 
     .hamburger 
     {
-        width: 20px;
+        width: 25px;
         height: 25px;
     }
 
@@ -3375,11 +3483,6 @@ footer
     .mobile__Menu > ul > li > a 
     {
         padding : 10px 0;
-    }
-
-    .mobile-submenu 
-    {
-        margin: 0;
     }
 
     .mobile-submenu a 
