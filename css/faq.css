@@ -66,3 +66,23 @@
     left : 7rem;
     z-index : -1;
 }
+
+.support__MsgTxt br 
+{
+    display : none;
+}
+
+
+@media screen and (max-width : 525px) 
+{
+    .support__MsgTxt br 
+    {
+        display : block;
+    }
+
+    .support__MsgTxt img 
+    {
+        top: -9%;
+        right: 25%;
+    }
+}
