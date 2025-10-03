@@ -271,6 +271,92 @@
 }
 
 
+/*========================== MEDIA QUERY FOR SMALLER DEVICES =======================*/
+@media screen and (max-width : 525px)
+{
+    .blog__FrameTwoTxtContainer h3 
+    {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .vpsFrame1__LeftContainer h3,
+    .vpsFrame2__RitContainer h3 
+    {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .vps__Frame1,
+    .vps__Frame2 
+    {
+        max-width: 400px;
+    }
+
+    .vpsFrame2__SMads 
+    {
+        width: 100%;
+    }
+
+    
+    .vpsFrame1__LeftContainer p 
+    {
+        width : 100%;
+    }
+
+    .vpsFrame1__TagLinks 
+    {
+        width: 100%;
+    }
+
+    .vpsFrame2__RitContainer 
+    {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width : 425px)
+{
+    .vps__Frame1, .vps__Frame2 
+    {
+        margin : 0rem auto;
+        padding : 2rem;
+        max-width: 300px;
+    }
+
+    .blog__FrameTwo 
+    {
+        padding : 2rem;
+    }
+
+    .blog__FrameTwoImgContainer {
+        width: 80%;
+    }
+
+    .tech__Earth 
+    {
+        left: 2rem;
+    }
+
+    .vpsFrame1__LeftContainer h3, 
+    .vpsFrame2__RitContainer h3 
+    {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .vpsFrame2__SMads 
+    {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .vpsFrame1__RightContainer img 
+    {
+        height : 80%;
+    }
+}
 
 
 
