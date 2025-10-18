@@ -1807,8 +1807,15 @@ td.package__item {
     margin-top: 4rem;
 }
 
+.carousel-track
+{
+    display : flex;
+    overflow : hidden;
+}
+
 .sec10__ReviewCard
 {
+    flex : 0 0 calc(100% / 3);
     width: 400px;
     padding: 2rem;
     border: 1px solid #eaefff;
@@ -4723,7 +4730,10 @@ footer
 
     .section10__ReviewsContainer
     {
-        max-width : 1300px;
+        max-width : 100%;
+        display : flex;
+        align-items : center;
+        justify-content : center;
         margin : 3rem auto;
     }
 
@@ -4793,6 +4803,13 @@ footer
     .header__Container 
     {
         max-width : 1600px;
+    }
+
+    .navBar__Container.sticky
+    {
+        max-width : 100%;
+        justify-content : center;
+        gap : 30rem;
     }
 
     .header__ContainerTxt
@@ -5573,12 +5590,6 @@ footer
         gap : 5rem;
     }
 
-    .sec8__H3 
-    {
-        font-size : 3.8rem;
-        line-height : 4.2rem;
-        margin : 4rem 0;
-    }
 
     .sec8__SmDesc 
     {
@@ -5614,6 +5625,7 @@ footer
 
     .sec8__ImgContainer 
     {
+        margin-top : 3rem;
         padding : 7rem 4rem;
         border-radius : 3.5rem;
     }
@@ -5701,6 +5713,11 @@ footer
     {
         max-width: 2000px;
         padding : 3rem 2rem 10rem;
+    }
+
+    .navBar__Container.sticky
+    {
+        max-width : 100%;
     }
 
     .sale__infoContainer
@@ -5831,7 +5848,6 @@ footer
 
     .section4h3 
     {
-        font-size : 4.2rem;
         max-width : 80%;
     }
 
@@ -5843,7 +5859,7 @@ footer
 
     .billBoard__Input input 
     {
-        font-size : 1.5rem;
+        font-size : 2.5rem;
     }
 
     .billBoard__Btn 
@@ -5998,12 +6014,6 @@ footer
         right: 22.5%;
     }
 
-    .section7 
-    {
-        max-width : 2000px;
-        padding : 7rem 6rem;
-    }
-
     .section7__SaleBanner 
     {
         max-width : 1900px;
@@ -6055,13 +6065,6 @@ footer
         font-size : 1.7rem;
     }
 
-    /* media query for section 8 */
-    .section8 
-    {
-        max-width : 2000px;
-        padding : 7rem 5rem;
-        gap : 6rem;
-    }
 
     .sec8__ImgContainer img 
     {
@@ -6321,8 +6324,8 @@ footer
     .hosting__Card 
     {
         width : 500px;
-        height : 700px;
-        padding : 3rem 4rem;
+        height : auto;
+        padding : 3rem 2rem;
         border-radius : 1.9rem;
         gap : 2.5rem;
     }
@@ -6358,154 +6361,12 @@ footer
         margin : 2rem auto;
     }
 
-    /*media query for section 3*/
-    .section3 
-    {
-        max-width : 2500px;
-        margin : 10rem auto;
-        padding : 0 4rem;
-        gap : 12rem;
-    }
-
-    .sectionH3 
-    {
-        font-size : 5rem;
-        line-height : 5.5rem;
-        max-width : 80%;
-        margin : 2rem 0;
-    }
-
-    .sectionP 
-    {
-        font-size : 2rem;
-        line-height: 2.5rem;
-        max-width : 60%;
-        margin : 3rem 0; 
-    }
-
-    .success__SmallDetail 
-    {
-        gap : 3rem;
-        margin-top : 4rem;
-    }
-
-    .section3__SmDesc 
-    {
-        gap : 4rem;
-    }
-
-    .section3__Icon1, 
-    .section3__Icon2 
-    {
-        padding : 1.3rem;
-        border-radius : 2rem;
-        transform : scale(1.5);
-    }
-
-    .section3__Icon1 img, 
-    .section3__Icon2 img 
-    {
-        width : 80px;
-        height : auto;
-    }
-
-    .SmDesc__Txt h4 
-    {
-        font-size : 3.5rem;
-        margin-bottom : 1.5rem;
-    }
-
-    .SmDesc__Txt h6 
-    {
-        font-size : 2rem;
-        line-height : 2.5rem;
-        max-width : 90%;
-    }
-
-    .successImg img 
-    {
-        transform : scale(1.7);
-    }
-
-    /* media query for section 4 */
-    .section4 
-    {
-        max-width : 2500px;
-        margin : 15rem auto;
-        padding : 13rem 0;
-        border-radius : 3rem;
-        gap : 8rem;
-    }
-
-    .section4h3 
-    {
-        font-size : 6rem;
-        max-width : 90%;
-        line-height : 8rem;
-    }
-
-    .billBoard__Input 
-    {
-        
-        border-radius : 6rem;
-    }
-
-    .billBoard__Input input 
-    {
-        font-size : 2.5rem;
-    }
-
-    .billBoard__Btn 
-    {
-        padding : 1.5rem 3rem;
-        border-radius : 3rem;
-    }
-
-    .billBoard__Btn a 
-    {
-        font-size : 1.8rem;
-    }
-
-    .billBoard__Txt 
-    {
-        width : 70%;
-        gap : 3rem;
-    }
-
-    .billBoard__Txt div 
-    {
-        font-size : 2.5rem;
-    }
-
-    .sm__Domain 
-    {
-        font-size : 1.8rem;
-    }
-
-    .smDom 
-    {
-        font-size : 2rem;
-    }
 
     /* media query for section 5 */
-    .section5 
-    {
-        max-width : 3500px;
-        margin : 15rem auto;
-        padding : 0 5rem;
-    }
-
-    .section5__H3 
-    {
-        font-size : 6rem;
-    }
 
     .section5__SmallP
     {
-        max-width : 40%;
-        font-size : 2.5rem;
-        line-height : 3.5rem;
-        margin : 4rem auto;
+       margin : 4rem auto;
     }
 
     .section5__CardContainer 
@@ -6536,8 +6397,9 @@ footer
 
     .hosting__CardH4 
     {
+        text-align : center;
         font-size : 2.5rem !important;
-        margin : 3rem 0;
+        margin : 3rem auto;
     }
 
     .hosting__CardP 
@@ -6557,25 +6419,9 @@ footer
         border-right : none;
     }
 
-    .section7 
-    {
-        max-width : 2500px;
-        margin : 12rem auto;
-        padding : 12rem 10rem;
-    }
-
     .section7__SaleBanner 
     {
         max-width : 2300px;
-        gap : 10rem;
-    }
-
-    /* media query for section 8 */
-    .section8 
-    {
-        max-width : 2600px;
-        margin : 12rem auto;
-        padding : 12rem 8rem;
         gap : 10rem;
     }
 
